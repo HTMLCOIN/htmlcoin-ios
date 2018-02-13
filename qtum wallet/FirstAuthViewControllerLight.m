@@ -31,7 +31,7 @@
     if ([ApplicationCoordinator sharedInstance].walletManager.isSignedIn) {
         
         self.loginButton.hidden = NO;
-        self.invitationTextLabel.text = NSLocalizedString(@"Login to QTUM \nDon't have a wallet yet?", @"");
+        self.invitationTextLabel.text = NSLocalizedString(@"Login to HTMLCOIN \nDon't have a wallet yet?", @"");
     } else {
 
         self.loginButton.hidden = YES;

@@ -12,11 +12,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="STYMIEL.ttf">
-            <string>StymieBT-Light</string>
-        </array>
-        <array key="StymieLtBTBold.ttf">
+        <array key="STYMIEB.ttf">
             <string>StymieBT-Bold</string>
+        </array>
+        <array key="StymieLtBTLight.ttf">
+            <string>StymieBT-Light</string>
         </array>
         <array key="euclidflexmedium.ttf">
             <string>euclidflexmedium</string>
@@ -51,11 +51,11 @@
                                 <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Z45-n1-5DC">
-                                <rect key="frame" x="130" y="117" width="115" height="100"/>
+                                <rect key="frame" x="130" y="109.5" width="115" height="115"/>
                                 <color key="tintColor" red="0.1803921568627451" green="0.60392156862745094" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KY1-s1-NTB">
-                                <rect key="frame" x="66.5" y="547" width="242" height="50"/>
+                                <rect key="frame" x="66.5" y="587" width="242" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="sJW-Q7-1Qh"/>
@@ -69,7 +69,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKx-bF-rYK">
-                                <rect key="frame" x="66.5" y="486" width="242" height="50"/>
+                                <rect key="frame" x="66.5" y="526" width="242" height="50"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0Nl-Vh-sJJ"/>
@@ -82,9 +82,9 @@
                                     <action selector="createNewButtonWasPressed:" destination="dBO-v0-fiZ" eventType="touchUpInside" id="kpZ-k2-KCT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a wallet or restore a previous wallet key." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApH-nQ-YF3">
-                                <rect key="frame" x="-56" y="369" width="488" height="29"/>
-                                <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie Lt BT" pointSize="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a wallet or restore a previous wallet key." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ApH-nQ-YF3">
+                                <rect key="frame" x="-15.5" y="344" width="407" height="24"/>
+                                <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie Lt BT" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -95,7 +95,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZ1-JG-7ln">
-                                <rect key="frame" x="66" y="425" width="242" height="50"/>
+                                <rect key="frame" x="66" y="465" width="242" height="50"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="USg-Sd-dQX"/>
@@ -119,13 +119,13 @@
                             <constraint firstItem="Z45-n1-5DC" firstAttribute="centerX" secondItem="7Yg-AK-IjQ" secondAttribute="centerX" id="OZ4-oP-oOd"/>
                             <constraint firstItem="Z45-n1-5DC" firstAttribute="centerY" secondItem="7Yg-AK-IjQ" secondAttribute="centerY" multiplier="1:2" id="QGi-OW-Jca"/>
                             <constraint firstItem="KY1-s1-NTB" firstAttribute="centerX" secondItem="7Yg-AK-IjQ" secondAttribute="centerX" id="Sjw-YK-sSR"/>
-                            <constraint firstItem="ApH-nQ-YF3" firstAttribute="centerY" secondItem="7Yg-AK-IjQ" secondAttribute="centerY" constant="50" id="ZIb-Z9-cSB"/>
                             <constraint firstItem="FKx-bF-rYK" firstAttribute="width" secondItem="bZ1-JG-7ln" secondAttribute="width" id="ZMC-mx-m6m"/>
                             <constraint firstItem="KY1-s1-NTB" firstAttribute="top" secondItem="FKx-bF-rYK" secondAttribute="bottom" constant="11" id="bUz-cN-UVa"/>
                             <constraint firstItem="FKx-bF-rYK" firstAttribute="centerX" secondItem="7Yg-AK-IjQ" secondAttribute="centerX" id="bZs-h5-l3G"/>
                             <constraint firstItem="CbP-bR-TcN" firstAttribute="centerY" secondItem="7Yg-AK-IjQ" secondAttribute="centerY" constant="-20" id="cea-P6-ArA"/>
                             <constraint firstItem="hPM-ST-poo" firstAttribute="width" secondItem="7Yg-AK-IjQ" secondAttribute="width" id="dx4-zN-cv5"/>
-                            <constraint firstItem="8FR-gb-fnp" firstAttribute="top" secondItem="KY1-s1-NTB" secondAttribute="bottom" constant="70" id="iqd-Xv-QcW"/>
+                            <constraint firstItem="ApH-nQ-YF3" firstAttribute="top" secondItem="CbP-bR-TcN" secondAttribute="bottom" constant="16" id="hXc-rz-98W"/>
+                            <constraint firstItem="8FR-gb-fnp" firstAttribute="top" secondItem="KY1-s1-NTB" secondAttribute="bottom" constant="30" id="iqd-Xv-QcW"/>
                             <constraint firstItem="bZ1-JG-7ln" firstAttribute="centerX" secondItem="7Yg-AK-IjQ" secondAttribute="centerX" id="j1O-3H-2Sm"/>
                             <constraint firstItem="hPM-ST-poo" firstAttribute="centerX" secondItem="7Yg-AK-IjQ" secondAttribute="centerX" id="jZE-7C-R85"/>
                             <constraint firstItem="KY1-s1-NTB" firstAttribute="width" secondItem="bZ1-JG-7ln" secondAttribute="width" id="uKc-46-ZhV"/>
@@ -1262,11 +1262,11 @@ using Touch ID</string>
                                 <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="f9k-If-i8y">
-                                <rect key="frame" x="130" y="117" width="115" height="100"/>
+                                <rect key="frame" x="130" y="109.5" width="115" height="115"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9l-hG-cKG">
-                                <rect key="frame" x="67.5" y="577" width="240" height="50"/>
+                                <rect key="frame" x="67.5" y="587" width="240" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="9hF-Qj-V2r"/>
@@ -1286,7 +1286,7 @@ using Touch ID</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ND-r5-3lE">
-                                <rect key="frame" x="67.5" y="516" width="240" height="50"/>
+                                <rect key="frame" x="67.5" y="526" width="240" height="50"/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.78431372549019607" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="D79-q7-bqz"/>
@@ -1306,8 +1306,8 @@ using Touch ID</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a wallet or restore a previous wallet key." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJ0-1t-5Er">
-                                <rect key="frame" x="-56" y="369" width="488" height="29"/>
-                                <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie Lt BT" pointSize="24"/>
+                                <rect key="frame" x="-15.5" y="344.5" width="407" height="24"/>
+                                <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie Lt BT" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1318,7 +1318,7 @@ using Touch ID</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Nw-dL-BwR">
-                                <rect key="frame" x="67" y="455" width="240" height="50"/>
+                                <rect key="frame" x="67" y="465" width="240" height="50"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="Bij-8P-MPP"/>
@@ -1341,10 +1341,9 @@ using Touch ID</string>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NOR-OR-MmD" firstAttribute="centerX" secondItem="5AC-9L-ICb" secondAttribute="centerX" id="05x-VD-wmD"/>
-                            <constraint firstItem="GJ0-1t-5Er" firstAttribute="centerY" secondItem="5AC-9L-ICb" secondAttribute="centerY" constant="50" id="1yq-ot-h8J"/>
                             <constraint firstItem="8ND-r5-3lE" firstAttribute="centerX" secondItem="5AC-9L-ICb" secondAttribute="centerX" id="2WG-Zx-Abm"/>
                             <constraint firstItem="9Nw-dL-BwR" firstAttribute="centerX" secondItem="5AC-9L-ICb" secondAttribute="centerX" id="3ek-BC-aJB"/>
-                            <constraint firstItem="328-Fo-JQh" firstAttribute="top" secondItem="H9l-hG-cKG" secondAttribute="bottom" constant="40" id="5mu-6N-hAB"/>
+                            <constraint firstItem="328-Fo-JQh" firstAttribute="top" secondItem="H9l-hG-cKG" secondAttribute="bottom" constant="30" id="5mu-6N-hAB"/>
                             <constraint firstItem="NOR-OR-MmD" firstAttribute="height" secondItem="5AC-9L-ICb" secondAttribute="height" id="Kif-1y-J1e"/>
                             <constraint firstItem="H9l-hG-cKG" firstAttribute="top" secondItem="8ND-r5-3lE" secondAttribute="bottom" constant="11" id="TBb-Mh-dFD"/>
                             <constraint firstItem="NOR-OR-MmD" firstAttribute="width" secondItem="5AC-9L-ICb" secondAttribute="width" id="VHR-yy-IoH"/>
@@ -1356,6 +1355,7 @@ using Touch ID</string>
                             <constraint firstItem="H9l-hG-cKG" firstAttribute="centerX" secondItem="5AC-9L-ICb" secondAttribute="centerX" id="h45-5s-o4D"/>
                             <constraint firstItem="5fa-wd-dBJ" firstAttribute="centerX" secondItem="5AC-9L-ICb" secondAttribute="centerX" id="hbG-aE-S6U"/>
                             <constraint firstItem="NOR-OR-MmD" firstAttribute="centerY" secondItem="5AC-9L-ICb" secondAttribute="centerY" id="sb1-1W-kbn"/>
+                            <constraint firstItem="GJ0-1t-5Er" firstAttribute="top" secondItem="5fa-wd-dBJ" secondAttribute="bottom" constant="16" id="wwd-0S-Wdw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fIu-oH-dIj"/>
@@ -2285,7 +2285,7 @@ using Touch ID</string>
     <resources>
         <image name="ic-fingerprint" width="106" height="106"/>
         <image name="ic-touch-auth-light" width="101" height="101"/>
-        <image name="logo" width="115" height="100"/>
+        <image name="logo" width="115" height="115"/>
         <image name="share" width="20" height="21"/>
         <image name="splasscreen" width="375" height="667"/>
         <image name="upload" width="25" height="21"/>

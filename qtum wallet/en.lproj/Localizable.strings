@@ -152,7 +152,7 @@
 "Login" = "Login";
 
 /* No comment provided by engineer. */
-"Login to QTUM \nDon't have a wallet yet?" = "Login to HTMLCOIN \nDon't have a wallet yet?";
+"Login to HTMLCOIN \nDon't have a wallet yet?" = "Login to HTMLCOIN \nDon't have a wallet yet?";
 
 /* No comment provided by engineer. */
 "My address: %@ and amount: %.3f" = "My address: %@ and amount: %.3f";

@@ -150,7 +150,7 @@
 "Login" = "登录";
 
 /* No comment provided by engineer. */
-"Login to QTUM \nDon't have a wallet yet?" = "登录到QTUM\n还没有钱包？";
+"Login to HTMLCOIN \nDon't have a wallet yet?" = "登录到HTMLCOIN\n还没有钱包？";
 
 /* No comment provided by engineer. */
 "My address: %@ and amount: %.3f" = "我的地址: %@ 及数量: %.3f";
