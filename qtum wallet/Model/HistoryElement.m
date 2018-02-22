@@ -82,7 +82,8 @@
 #pragma mark - Private Methods
 
 - (void)createAmountString{
-    self.amountString  = [NSString stringWithFormat:@"%0.3f %@", [self.amount floatValue], NSLocalizedString(@"htmlcoin", nil)];
+    QTUMBigNumber *amountFormatted = [QTUMBigNumber decimalWithString:[NSString stringWithFormat:@"%0.6f", [self.amount floatValue]]];
+    self.amountString  = [NSString stringWithFormat:@"%@ %@", amountFormatted, NSLocalizedString(@"HTML", nil)];
 }
 
 - (void)createDateString {

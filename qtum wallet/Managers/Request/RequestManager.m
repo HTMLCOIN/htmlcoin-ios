@@ -230,7 +230,7 @@
               withSuccessHandler:(void(^)(id responseObject))success
                andFailureHandler:(void(^)(NSString* message)) failure{
     
-    [self.networkService requestWithType:POST path:@"api/devicetoken/create" andParams:param withSuccessHandler:^(id  _Nonnull responseObject) {
+    [self.networkService requestWithType:POST path:@"notification/devicetoken/create" andParams:param withSuccessHandler:^(id  _Nonnull responseObject) {
         success(responseObject);
     } andFailureHandler:^(NSError * _Nonnull error, NSString *message) {
         failure(message);

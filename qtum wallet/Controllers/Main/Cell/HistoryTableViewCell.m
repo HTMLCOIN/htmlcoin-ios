@@ -23,7 +23,7 @@
     _historyElement = historyElement;
     
     self.addressLabel.text = historyElement.address;
-    self.amountLabel.text = self.symbolLabel ? [NSString stringWithFormat:@"%0.3f", [self.historyElement.amount floatValue]] : historyElement.amountString;
+    self.amountLabel.text = self.symbolLabel ? [NSString stringWithFormat:@"%@", [[QTUMBigNumber decimalWithString:[NSString stringWithFormat:@"%0.6f", [self.historyElement.amount floatValue]]] roundedNumberWithScale:6]]: historyElement.amountString;
     self.dateLabel.text = (historyElement.shortDateString && historyElement.shortDateString.length > 0) ? historyElement.shortDateString : NSLocalizedString(@"Unconfirmed", nil);
     
 //    if (historyElement.send) {

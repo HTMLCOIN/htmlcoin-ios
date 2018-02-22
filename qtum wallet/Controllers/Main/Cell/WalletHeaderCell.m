@@ -24,8 +24,8 @@
 - (void)setData:(Wallet *)wallet{
     self.adressLabel.text = ([wallet isKindOfClass:[Contract class]]) ? NSLocalizedString(@"Contract Address", "") : NSLocalizedString(@"HTMLCOIN Address", "");
     self.adressValueLabel.text = wallet.mainAddress;
-    self.valueLabel.text = [NSString stringWithFormat:@"%@",[wallet.balance roundedNumberWithScale:3]];
-    self.unconfirmedValue.text = [NSString stringWithFormat:@"%@",[wallet.unconfirmedBalance roundedNumberWithScale:3]];
+    self.valueLabel.text = [NSString stringWithFormat:@"%@",[wallet.balance roundedNumberWithScale:6]];
+    self.unconfirmedValue.text = [NSString stringWithFormat:@"%@",[wallet.unconfirmedBalance roundedNumberWithScale:6]];
     self.spendable = wallet;
     
     [self.pageControl setPagesCount:2];
