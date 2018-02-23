@@ -26,6 +26,12 @@
 		634BB07C203FCDC3005520C2 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07A203FCDC3005520C2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		634BB07F203FCDDF005520C2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07E203FCDDF005520C2 /* Realm.framework */; };
 		634BB080203FCDDF005520C2 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07E203FCDDF005520C2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		634BB08D203FFB37005520C2 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB08C203FFB37005520C2 /* DatabaseManager.m */; };
+		634BB08E203FFB37005520C2 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB08C203FFB37005520C2 /* DatabaseManager.m */; };
+		634BB08F203FFB37005520C2 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB08C203FFB37005520C2 /* DatabaseManager.m */; };
+		634BB09220400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
+		634BB09320400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
+		634BB09420400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
 		63B789B2201ED02D005E7848 /* tommath.c in Sources */ = {isa = PBXBuildFile; fileRef = B328054F1FA744FE00748E7E /* tommath.c */; };
 		63B789B3201ED02D005E7848 /* JKBigInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = B328054C1FA744E200748E7E /* JKBigInteger.m */; };
 		63B789B4201ED02D005E7848 /* JKBigDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = B328054D1FA744E200748E7E /* JKBigDecimal.m */; };
@@ -1877,6 +1883,10 @@
 		6344181620105036000262AC /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		634BB07A203FCDC3005520C2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		634BB07E203FCDDF005520C2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		634BB08B203FFB37005520C2 /* DatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		634BB08C203FFB37005520C2 /* DatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		634BB09020400DA7005520C2 /* HistoryElementRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryElementRealm.h; sourceTree = "<group>"; };
+		634BB09120400DA7005520C2 /* HistoryElementRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryElementRealm.m; sourceTree = "<group>"; };
 		63B78BF2201ED02E005E7848 /* htmlcoin wallet dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B78BF3201ED02E005E7848 /* qtum wallet testnet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "qtum wallet testnet-Info.plist"; path = "/Users/longpham/Projects/R3/htmlcoin-ios/qtum wallet testnet-Info.plist"; sourceTree = "<absolute>"; };
 		63B78E37201ED5B3005E7848 /* htmlcoin wallet staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3291,6 +3301,15 @@
 				6344181520105036000262AC /* qtum wallet-Bridging-Header.h */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		634BB08A203FFAF6005520C2 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				634BB08B203FFB37005520C2 /* DatabaseManager.h */,
+				634BB08C203FFB37005520C2 /* DatabaseManager.m */,
+			);
+			path = Caching;
 			sourceTree = "<group>";
 		};
 		63D032332015D8BB00470705 /* Custom Views */ = {
@@ -5937,6 +5956,7 @@
 		E7FD363A1DC4D07E00748177 /* qtum wallet */ = {
 			isa = PBXGroup;
 			children = (
+				634BB08A203FFAF6005520C2 /* Caching */,
 				B33EAF241E5DB039006125F3 /* qtum wallet.entitlements */,
 				B3F5797E1F0D297900A13571 /* Services */,
 				B3EE936F1F04E0D700550C60 /* Security Flow */,
@@ -5994,6 +6014,8 @@
 				B32B32C71ECCC1F90081260A /* InterfaceInputFormModel.m */,
 				E739104D1DE2E165008145A8 /* HistoryElement.h */,
 				E739104E1DE2E165008145A8 /* HistoryElement.m */,
+				634BB09020400DA7005520C2 /* HistoryElementRealm.h */,
+				634BB09120400DA7005520C2 /* HistoryElementRealm.m */,
 				B351305F1E49C9930048A28C /* NewsCellModel.h */,
 				B35130601E49C9930048A28C /* NewsCellModel.m */,
 				B3487A1F1E8D2B2B00BC66F1 /* HistoryDataStorage.h */,
@@ -7295,6 +7317,7 @@
 				63B78AFC201ED02D005E7848 /* ChoiseSmartContractCellDark.m in Sources */,
 				63B78AFD201ED02D005E7848 /* BorderedLabel.m in Sources */,
 				63B78AFE201ED02D005E7848 /* HistoryDataStorage.m in Sources */,
+				634BB09320400DA8005520C2 /* HistoryElementRealm.m in Sources */,
 				63B78AFF201ED02D005E7848 /* QTUMFeedItem.m in Sources */,
 				63B78B00201ED02D005E7848 /* Appearance.m in Sources */,
 				63B78B01201ED02D005E7848 /* TokenDetailTableViewLight.m in Sources */,
@@ -7327,6 +7350,7 @@
 				63B78B1C201ED02D005E7848 /* PinViewControllerLight.m in Sources */,
 				63B78B1D201ED02D005E7848 /* NetworkingService.m in Sources */,
 				63B78B1E201ED02D005E7848 /* QTUMTagsAttribute.m in Sources */,
+				634BB08E203FFB37005520C2 /* DatabaseManager.m in Sources */,
 				63B78B1F201ED02D005E7848 /* AbiParameterTypeFixedArrayBytes.m in Sources */,
 				63B78B20201ED02D005E7848 /* AbiinterfaceEntries.m in Sources */,
 				63B78B21201ED02D005E7848 /* ExportWalletBrandKeyViewController.m in Sources */,
@@ -7804,6 +7828,7 @@
 				63B78D41201ED5B3005E7848 /* ChoiseSmartContractCellDark.m in Sources */,
 				63B78D42201ED5B3005E7848 /* BorderedLabel.m in Sources */,
 				63B78D43201ED5B3005E7848 /* HistoryDataStorage.m in Sources */,
+				634BB09420400DA8005520C2 /* HistoryElementRealm.m in Sources */,
 				63B78D44201ED5B3005E7848 /* QTUMFeedItem.m in Sources */,
 				63B78D45201ED5B3005E7848 /* Appearance.m in Sources */,
 				63B78D46201ED5B3005E7848 /* TokenDetailTableViewLight.m in Sources */,
@@ -7836,6 +7861,7 @@
 				63B78D61201ED5B3005E7848 /* PinViewControllerLight.m in Sources */,
 				63B78D62201ED5B3005E7848 /* NetworkingService.m in Sources */,
 				63B78D63201ED5B3005E7848 /* QTUMTagsAttribute.m in Sources */,
+				634BB08F203FFB37005520C2 /* DatabaseManager.m in Sources */,
 				63B78D64201ED5B3005E7848 /* AbiParameterTypeFixedArrayBytes.m in Sources */,
 				63B78D65201ED5B3005E7848 /* AbiinterfaceEntries.m in Sources */,
 				63B78D66201ED5B3005E7848 /* ExportWalletBrandKeyViewController.m in Sources */,
@@ -8358,6 +8384,7 @@
 				B3CBDF231F2B2C0500C80D4E /* ChoiseSmartContractCellDark.m in Sources */,
 				B321E8871E0D07A000DC7DE5 /* BorderedLabel.m in Sources */,
 				B3487A211E8D2B2B00BC66F1 /* HistoryDataStorage.m in Sources */,
+				634BB09220400DA8005520C2 /* HistoryElementRealm.m in Sources */,
 				B3C8FAEA1F98922A000168AB /* QTUMFeedItem.m in Sources */,
 				B3210D261E0030DB00365FB6 /* Appearance.m in Sources */,
 				B35DF6491F27329E00316953 /* TokenDetailTableViewLight.m in Sources */,
@@ -8390,6 +8417,7 @@
 				B32BC4AE1F28C70600C2417C /* PinViewControllerLight.m in Sources */,
 				B35572CA1F90EFDE001AE34A /* NetworkingService.m in Sources */,
 				B3C8FAFA1F98A6E1000168AB /* QTUMTagsAttribute.m in Sources */,
+				634BB08D203FFB37005520C2 /* DatabaseManager.m in Sources */,
 				B3D5FE8C1F57F72B006A2BF2 /* AbiParameterTypeFixedArrayBytes.m in Sources */,
 				B32B32D71ECCC2AC0081260A /* AbiinterfaceEntries.m in Sources */,
 				B33EAF231E5D6955006125F3 /* ExportWalletBrandKeyViewController.m in Sources */,

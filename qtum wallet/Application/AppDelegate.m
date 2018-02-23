@@ -17,6 +17,7 @@
 #import "ServiceLocator.h"
 #import "NewsDataProvider.h"
 #import "BTCBigNumber.h"
+#import "DatabaseManager.h"
 @import FirebaseMessaging;
 
 @interface AppDelegate ()
@@ -34,6 +35,7 @@
     [ServiceLocator sharedInstance];
     [[AppSettings sharedInstance] setup];
     [Appearance setUp];
+    [DatabaseManager setUp];
 
     [[ApplicationCoordinator sharedInstance] startSplashScreen];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
