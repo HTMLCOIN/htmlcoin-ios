@@ -19,7 +19,13 @@
 		6309EA4C201089CC0068AD3E /* StymieLtBTLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6309EA4B201089CB0068AD3E /* StymieLtBTLight.ttf */; };
 		6309EA4F20108DA00068AD3E /* UIColor+fromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309EA4E20108DA00068AD3E /* UIColor+fromHex.m */; };
 		6309EA542010A7490068AD3E /* UIView+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309EA532010A7480068AD3E /* UIView+RoundedCorner.m */; };
+		6310656E203FCAFE0086A866 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6310656D203FCAFE0086A866 /* Realm.framework */; };
+		6310656F203FCB110086A866 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6310656D203FCAFE0086A866 /* Realm.framework */; };
 		6344181720105036000262AC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344181620105036000262AC /* UIColor+Extension.swift */; };
+		634BB07B203FCDC3005520C2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07A203FCDC3005520C2 /* Realm.framework */; };
+		634BB07C203FCDC3005520C2 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07A203FCDC3005520C2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		634BB07F203FCDDF005520C2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07E203FCDDF005520C2 /* Realm.framework */; };
+		634BB080203FCDDF005520C2 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07E203FCDDF005520C2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		63B789B2201ED02D005E7848 /* tommath.c in Sources */ = {isa = PBXBuildFile; fileRef = B328054F1FA744FE00748E7E /* tommath.c */; };
 		63B789B3201ED02D005E7848 /* JKBigInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = B328054C1FA744E200748E7E /* JKBigInteger.m */; };
 		63B789B4201ED02D005E7848 /* JKBigDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = B328054D1FA744E200748E7E /* JKBigDecimal.m */; };
@@ -1779,6 +1785,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		634BB07D203FCDC3005520C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				634BB07C203FCDC3005520C2 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634BB081203FCDDF005520C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				634BB080203FCDDF005520C2 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63B78BEE201ED02D005E7848 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1844,8 +1872,11 @@
 		6309EA4E20108DA00068AD3E /* UIColor+fromHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+fromHex.m"; sourceTree = "<group>"; };
 		6309EA522010A7480068AD3E /* UIView+RoundedCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundedCorner.h"; sourceTree = "<group>"; };
 		6309EA532010A7480068AD3E /* UIView+RoundedCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorner.m"; sourceTree = "<group>"; };
+		6310656D203FCAFE0086A866 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		6344181520105036000262AC /* qtum wallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "qtum wallet-Bridging-Header.h"; sourceTree = "<group>"; };
 		6344181620105036000262AC /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		634BB07A203FCDC3005520C2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		634BB07E203FCDDF005520C2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		63B78BF2201ED02E005E7848 /* htmlcoin wallet dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B78BF3201ED02E005E7848 /* qtum wallet testnet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "qtum wallet testnet-Info.plist"; path = "/Users/longpham/Projects/R3/htmlcoin-ios/qtum wallet testnet-Info.plist"; sourceTree = "<absolute>"; };
 		63B78E37201ED5B3005E7848 /* htmlcoin wallet staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3177,6 +3208,8 @@
 				63B78DED201ED5B3005E7848 /* libxml2.tbd in Frameworks */,
 				63B78DEE201ED5B3005E7848 /* Security.framework in Frameworks */,
 				AA02EC51675EF0D61CD260D4 /* libPods-htmlcoin wallet staging.a in Frameworks */,
+				6310656E203FCAFE0086A866 /* Realm.framework in Frameworks */,
+				634BB07F203FCDDF005520C2 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3209,7 +3242,9 @@
 			files = (
 				B35733341F97B3A700C64AAE /* libxml2.tbd in Frameworks */,
 				E7FD365C1DC7360400748177 /* Security.framework in Frameworks */,
+				6310656F203FCB110086A866 /* Realm.framework in Frameworks */,
 				12213378F7D9F231C86C3D80 /* libPods-htmlcoin wallet prod.a in Frameworks */,
+				634BB07B203FCDC3005520C2 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5865,6 +5900,8 @@
 		E7FD362F1DC4D07E00748177 = {
 			isa = PBXGroup;
 			children = (
+				634BB07A203FCDC3005520C2 /* Realm.framework */,
+				634BB07E203FCDDF005520C2 /* Realm.framework */,
 				63D8E49620202893000BA4BD /* htmlcoin wallet staging.entitlements */,
 				63D8E4952020284B000BA4BD /* htmlcoin wallet prod.entitlements */,
 				B357332F1F97AF6600C64AAE /* libxml2.dylib */,
@@ -6093,6 +6130,7 @@
 		F94C279886F936AB7B4DA6F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6310656D203FCAFE0086A866 /* Realm.framework */,
 				B35733331F97B3A700C64AAE /* libxml2.tbd */,
 				B3C4553D1E89596A00420D7C /* SocketIO.framework */,
 				E71AF24C1E0178C50068595B /* libCoreBitcoin.a */,
@@ -6148,6 +6186,7 @@
 				63B78E33201ED5B3005E7848 /* Embed Watch Content */,
 				73E4FDB8D5301FB444270EA7 /* [CP] Embed Pods Frameworks */,
 				6125C679502525B295A16D81 /* [CP] Copy Pods Resources */,
+				634BB081203FCDDF005520C2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -6244,6 +6283,7 @@
 				B3C4553C1E8958D900420D7C /* ShellScript */,
 				E78D0C9A1ED2F02800CB91FF /* ShellScript */,
 				E730AB801EE6A5D200132711 /* Embed Watch Content */,
+				634BB07D203FCDC3005520C2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
