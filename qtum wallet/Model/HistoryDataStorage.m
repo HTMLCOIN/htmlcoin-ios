@@ -7,6 +7,7 @@
 //
 
 #import "HistoryDataStorage.h"
+#import "DatabaseManager.h"
 
 NSString *const HistoryUpdateEvent = @"HistoryUpdateEvent";
 
@@ -29,6 +30,7 @@ NSString *const HistoryUpdateEvent = @"HistoryUpdateEvent";
 
 - (void)setHistory:(NSArray<HistoryElement*>*) history{
     self.historyPrivate = [[history reverseObjectEnumerator] allObjects].mutableCopy;
+    [[DatabaseManager sharedInstance] storeTransactionHistory:history];
     [self notificateChangeHistory];
 }
 

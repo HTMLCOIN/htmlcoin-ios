@@ -12,10 +12,10 @@
 @interface HistoryElementRealm : RLMObject
 
 @property (nonatomic, copy) NSString *address;
-@property (nonatomic, copy) NSNumber *amount;
+@property (nonatomic, copy) NSNumber<RLMDouble> *amount;
 @property (nonatomic, copy) NSString *amountString;
 @property (nonatomic, copy) NSString *txHash;
-@property (nonatomic) NSNumber *dateNumber;
+@property (nonatomic) NSNumber<RLMDouble> *dateNumber;
 @property (nonatomic, copy) NSString *shortDateString;
 @property (nonatomic, copy) NSString *fullDateString;
 @property (nonatomic) BOOL send;
