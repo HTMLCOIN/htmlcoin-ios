@@ -34,6 +34,13 @@ NSString *const HistoryUpdateEvent = @"HistoryUpdateEvent";
     [self notificateChangeHistory];
 }
 
+- (NSArray<HistoryElement*>*)getHistory {
+    if(_historyPrivate.count == 0)
+        _historyPrivate = [[DatabaseManager sharedInstance] loadHistory];
+    
+    return _historyPrivate;
+}
+
 - (NSArray<HistoryElement*>*)history{
     return [_historyPrivate copy];
 }

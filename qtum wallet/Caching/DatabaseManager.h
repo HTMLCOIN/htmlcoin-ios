@@ -14,5 +14,5 @@
 + (void) setUp;
 
 - (void) storeTransactionHistory: (NSArray<HistoryElement*>*)transactions;
-- (NSArray<HistoryElement*>*) loadHistory;
+- (NSMutableArray<HistoryElement*>*) loadHistory;
 @end

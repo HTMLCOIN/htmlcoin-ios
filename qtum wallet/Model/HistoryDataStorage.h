@@ -15,7 +15,6 @@ extern NSString *const HistoryUpdateEvent;
 
 @interface HistoryDataStorage : NSObject
 
-@property (strong, nonatomic,readonly) NSMutableArray<HistoryElement*>* historyPrivate;
 @property (assign, nonatomic) NSInteger pageIndex;
 @property (weak, nonatomic) id <Spendable> spendableOwner;
 
@@ -24,5 +23,6 @@ extern NSString *const HistoryUpdateEvent;
 - (void)deleteHistoryItem:(HistoryElement*) item;
 - (HistoryElement*)updateHistoryItem:(HistoryElement*) item;
 - (void)setHistory:(NSArray<HistoryElement*>*) history;
+- (NSArray<HistoryElement*>*)getHistory;
 
 @end

@@ -143,7 +143,7 @@ NSString *kErrorKey = @"error";
                         
                         NSNumber *availableBalance = wallet.balance;
                         NSNumber *unconfirmedBalance = wallet.unconfirmedBalance;
-                        NSArray *history = wallet.historyStorage.historyPrivate;
+                        NSArray *history = [wallet.historyStorage getHistory];
                         NSMutableArray *historyDictionary = [NSMutableArray new];
                         for (HistoryElement *element in history) {
                             [historyDictionary addObject:[element dictionaryFromElementForWatch]];
@@ -190,7 +190,7 @@ NSString *kErrorKey = @"error";
     
     NSNumber *availableBalance = wallet.balance;
     NSNumber *unconfirmedBalance = wallet.unconfirmedBalance;
-    NSArray *history = wallet.historyStorage.historyPrivate;
+    NSArray *history = [wallet.historyStorage getHistory];
     NSMutableArray *historyDictionary = [NSMutableArray new];
     
     for (HistoryElement *element in history) {

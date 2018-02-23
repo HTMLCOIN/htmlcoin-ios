@@ -38,6 +38,12 @@
     for (HistoryElement *history in transactions) {
         HistoryElementRealm * historyRealm = [[HistoryElementRealm alloc] init];
         historyRealm.txHash = history.txHash;
+        historyRealm.amount = history.amount;
+        historyRealm.dateNumber = history.dateNumber;
+        historyRealm.confirmed = history.confirmed;
+        historyRealm.isSmartContractCreater = history.isSmartContractCreater;
+        historyRealm.address = history.address;
+        historyRealm.send = history.send;
         [realm transactionWithBlock:^{
             [realm addOrUpdateObject:historyRealm];
         }];
@@ -45,20 +51,19 @@
     
 }
 
-- (NSArray<HistoryElement *> *)loadHistory {
+- (NSMutableArray<HistoryElement *> *)loadHistory {
     RLMResults<HistoryElementRealm *> *historyRealms = [HistoryElementRealm allObjects];
     
     NSMutableArray<HistoryElement*> * results = [NSMutableArray new];
     for (HistoryElementRealm * historyRealm in historyRealms) {
         HistoryElement *history = [HistoryElement new];
         history.txHash = historyRealm.txHash;
-//        history.
-//        self.dateNumber = ![object[@"blocktime"] isKindOfClass:[NSNull class]] ? object[@"blocktime"] : nil;
-//        self.address = object[@"address"];
-//        self.confirmed = [object[@"blockheight"] floatValue] > 0;
-//        self.txHash = object[@"txid"];
-//        self.isSmartContractCreater = [object[@"contract_has_been_created"] boolValue];
-//        [self calcAmountAndAdresses:object];
+        history.amount = historyRealm.amount;
+        history.dateNumber = historyRealm.dateNumber;
+        history.address = historyRealm.address;
+        history.send = historyRealm.send;
+        history.isSmartContractCreater = historyRealm.isSmartContractCreater;
+        history.confirmed = historyRealm.confirmed;
         [results addObject:history];
     }
     

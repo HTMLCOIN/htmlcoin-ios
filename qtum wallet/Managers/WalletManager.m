@@ -320,7 +320,7 @@ NSString const *kIsLongPin = @"kIsLongPin";
 -(void)updateHistoryOfSpendableObject:(Wallet <Spendable>*) object withHandler:(void(^)(BOOL success)) complete andPage:(NSInteger) page{
     //__weak __typeof(self)weakSelf = self;
     static NSInteger batch = 25;
-    NSInteger totals =  [[[object historyStorage] historyPrivate] count];
+    NSInteger totals =  [[[object historyStorage] getHistory] count];
     if (page == 0) totals = 0;
     
     [self.requestAdapter getHistoryForAddresses:[object allKeysAdreeses] andParam:@{@"limit" : @(batch), @"offset" : @(totals)} withSuccessHandler:^(NSArray <HistoryElement*> *history) {

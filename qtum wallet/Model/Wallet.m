@@ -122,7 +122,7 @@ NSInteger const USERS_KEYS_COUNT = 10;
 
 
 -(NSArray <HistoryElementProtocol>*)historyArray{
-    return [self.historyStorage.historyPrivate copy];
+    return [[self.historyStorage getHistory] copy];
 }
 
 -(NSString *)mainAddress {

@@ -38,7 +38,7 @@ static NSInteger countOfSections = 2;
     if (section == 0) {
         return 1;
     } else {
-        return  self.wallet.historyStorage.historyPrivate.count;
+        return  [self.wallet.historyStorage getHistory].count;
     }
 }
 
@@ -136,7 +136,8 @@ static NSInteger countOfSections = 2;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.section) {
-        [self.delegate didSelectHistoryItemIndexPath:indexPath withItem:self.wallet.historyStorage.historyPrivate[indexPath.row]];
+        [self.delegate didSelectHistoryItemIndexPath:indexPath withItem:[self.wallet.historyStorage
+                                                                          getHistory][indexPath.row]];
     }
 }
 
@@ -201,7 +202,7 @@ static NSInteger countOfSections = 2;
 
 - (void)updateEmptyPlaceholderView {
     
-    self.emptyPlacehodlerView.hidden = self.wallet.historyStorage.historyPrivate.count;
+    self.emptyPlacehodlerView.hidden = [self.wallet.historyStorage getHistory].count;
 }
 
 @end

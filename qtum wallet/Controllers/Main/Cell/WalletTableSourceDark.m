@@ -49,7 +49,7 @@
     } else {
         HistoryTableViewCellDark *cell = [tableView dequeueReusableCellWithIdentifier:@"HistoryTableViewCellDark"];
         
-        HistoryElement *element = self.wallet.historyStorage.historyPrivate[indexPath.row];
+        HistoryElement *element = [self.wallet.historyStorage getHistory][indexPath.row];
         cell.historyElement = element;
         [cell changeHighlight:NO];
         
