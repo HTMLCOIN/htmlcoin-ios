@@ -51,6 +51,18 @@
     
 }
 
+-(void)deleteTransactionHistory:(NSArray<HistoryElement *> *)transactions {
+    RLMRealm *realm = [RLMRealm defaultRealm];
+    
+    NSMutableArray<NSString*> * txHashPredicates = [NSMutableArray new];
+    for (HistoryElement *history in transactions) {
+        [txHashPredicates addObject:[NSString stringWithFormat:@"txHash == %@", history.txHash]];
+    }
+    
+    RLMResults<HistoryElementRealm *> *historyRealms = [HistoryElementRealm objectsWhere:txHashPredicates];
+    [realm deleteObjects:historyRealms];
+}
+
 - (NSMutableArray<HistoryElement *> *)loadHistory {
     RLMResults<HistoryElementRealm *> *historyRealms = [HistoryElementRealm allObjects];
     
@@ -68,5 +80,10 @@
     }
     
     return results;
+}
+
+-(void)clear {
+    RLMRealm * realm = [RLMRealm defaultRealm];
+    [realm deleteAllObjects];
 }
 @end

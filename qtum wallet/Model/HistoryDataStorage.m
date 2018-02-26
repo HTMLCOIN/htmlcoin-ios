@@ -58,11 +58,15 @@ NSString *const HistoryUpdateEvent = @"HistoryUpdateEvent";
     } else {
         [self.historyPrivate insertObject:item atIndex:0];
     }
+    
+    [[DatabaseManager sharedInstance] storeTransactionHistory:[NSArray arrayWithObject:item]];
     [self notificateChangeHistory];
 }
 
 - (void)deleteHistoryItem:(HistoryElement*) item{
     [self.historyPrivate removeObject:item];
+    
+    [[DatabaseManager sharedInstance] deleteTransactionHistory:[NSArray arrayWithObject:item]];
     [self notificateChangeHistory];
 }
 
@@ -71,6 +75,8 @@ NSString *const HistoryUpdateEvent = @"HistoryUpdateEvent";
     if ([self.historyPrivate containsObject:item]) {
         
     }
+    
+    [[DatabaseManager sharedInstance] storeTransactionHistory:[NSArray arrayWithObject:item]];
     [self notificateChangeHistory];
     return nil;
 }
@@ -78,6 +84,8 @@ NSString *const HistoryUpdateEvent = @"HistoryUpdateEvent";
 - (void)addHistoryElements:(NSArray<HistoryElement*>*) elements{
     
     [self.historyPrivate addObjectsFromArray:[[elements reverseObjectEnumerator] allObjects]];
+    
+    [[DatabaseManager sharedInstance] storeTransactionHistory:elements];
     [self notificateChangeHistory];
 }
 

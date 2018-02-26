@@ -30,6 +30,7 @@
 #import "SplashScreenOutput.h"
 #import "QStoreManager.h"
 #import "ServiceLocator.h"
+#import "DatabaseManager.h"
 @import Firebase;
 @import FirebaseMessaging;
 
@@ -225,6 +226,7 @@
     [SLocator.templateManager clear];
     [[QStoreManager sharedInstance] clear];
     [[AppSettings sharedInstance] clear];
+    [[DatabaseManager sharedInstance] clear];
 }
 
 - (void)startConfirmPinFlowWithHandler:(void(^)(BOOL)) handler {
