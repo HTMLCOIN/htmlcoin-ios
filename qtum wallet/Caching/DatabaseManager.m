@@ -127,18 +127,26 @@
     AddressBalanceRealm* balanceRealm = [[AddressBalanceRealm allObjects] firstObject];
     if (!balanceRealm) {
         balanceRealm = [[AddressBalanceRealm alloc] init];
+        balanceRealm.balance = [NSString stringWithFormat:@"%@", wallet.balance];
+        balanceRealm.unconfirmedBalance = [NSString stringWithFormat:@"%@", wallet.unconfirmedBalance];
+        [realm transactionWithBlock:^{
+            [realm addObject:balanceRealm];
+        }];
+    }else {
+        [realm transactionWithBlock:^{
+            balanceRealm.balance = [NSString stringWithFormat:@"%@", wallet.balance];
+            balanceRealm.unconfirmedBalance = [NSString stringWithFormat:@"%@", wallet.unconfirmedBalance];
+        }];
     }
     
-    balanceRealm.balance = [NSString stringWithFormat:@"%@", wallet.balance];
-    balanceRealm.unconfirmedBalance = [NSString stringWithFormat:@"%@", wallet.unconfirmedBalance];
-    
-    [realm transactionWithBlock:^{
-        [realm addOrUpdateObject:balanceRealm];
-    }];
 }
 
--(AddressBalanceRealm *)loadAddressBalance {
+- (Wallet* )loadWalletInfoForWallet: (Wallet*)wallet {
     AddressBalanceRealm* balance = [[AddressBalanceRealm allObjects] firstObject];
-    return balance;
+    if (balance) {
+        wallet.balance = [QTUMBigNumber decimalWithString:balance.balance];
+        wallet.unconfirmedBalance = [QTUMBigNumber decimalWithString:balance.unconfirmedBalance];
+    }
+    return wallet;
 }
 @end
