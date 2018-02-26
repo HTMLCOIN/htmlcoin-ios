@@ -32,6 +32,9 @@
 		634BB09220400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
 		634BB09320400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
 		634BB09420400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
+		63898A612043FA06000887AA /* AddressBalanceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63898A5F2043FA05000887AA /* AddressBalanceRealm.m */; };
+		63898A622043FA06000887AA /* AddressBalanceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63898A5F2043FA05000887AA /* AddressBalanceRealm.m */; };
+		63898A632043FA06000887AA /* AddressBalanceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63898A5F2043FA05000887AA /* AddressBalanceRealm.m */; };
 		63B789B2201ED02D005E7848 /* tommath.c in Sources */ = {isa = PBXBuildFile; fileRef = B328054F1FA744FE00748E7E /* tommath.c */; };
 		63B789B3201ED02D005E7848 /* JKBigInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = B328054C1FA744E200748E7E /* JKBigInteger.m */; };
 		63B789B4201ED02D005E7848 /* JKBigDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = B328054D1FA744E200748E7E /* JKBigDecimal.m */; };
@@ -1887,6 +1890,8 @@
 		634BB08C203FFB37005520C2 /* DatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 		634BB09020400DA7005520C2 /* HistoryElementRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryElementRealm.h; sourceTree = "<group>"; };
 		634BB09120400DA7005520C2 /* HistoryElementRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryElementRealm.m; sourceTree = "<group>"; };
+		63898A5F2043FA05000887AA /* AddressBalanceRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBalanceRealm.m; sourceTree = "<group>"; };
+		63898A602043FA06000887AA /* AddressBalanceRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBalanceRealm.h; sourceTree = "<group>"; };
 		63B78BF2201ED02E005E7848 /* htmlcoin wallet dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B78BF3201ED02E005E7848 /* qtum wallet testnet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "qtum wallet testnet-Info.plist"; path = "/Users/longpham/Projects/R3/htmlcoin-ios/qtum wallet testnet-Info.plist"; sourceTree = "<absolute>"; };
 		63B78E37201ED5B3005E7848 /* htmlcoin wallet staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6028,6 +6033,8 @@
 				B3E090211FAB0C83003F3B54 /* ContractPretendent.m */,
 				EC2B604A2021A3E900F163C3 /* AddressBalance.h */,
 				EC2B604B2021A3E900F163C3 /* AddressBalance.m */,
+				63898A602043FA06000887AA /* AddressBalanceRealm.h */,
+				63898A5F2043FA05000887AA /* AddressBalanceRealm.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -7403,6 +7410,7 @@
 				63B78B50201ED02D005E7848 /* HistoryTableViewCellLight.m in Sources */,
 				63B78B51201ED02D005E7848 /* WalletHeaderCellDark.m in Sources */,
 				63B78B52201ED02D005E7848 /* WalletNameViewControllerLight.m in Sources */,
+				63898A622043FA06000887AA /* AddressBalanceRealm.m in Sources */,
 				63B78B53201ED02D005E7848 /* AddressControlCellDark.m in Sources */,
 				63B78B54201ED02D005E7848 /* ErrorPopUpViewControllerLight.m in Sources */,
 				63B78B55201ED02D005E7848 /* ContentInsetLabel.m in Sources */,
@@ -7914,6 +7922,7 @@
 				63B78D95201ED5B3005E7848 /* HistoryTableViewCellLight.m in Sources */,
 				63B78D96201ED5B3005E7848 /* WalletHeaderCellDark.m in Sources */,
 				63B78D97201ED5B3005E7848 /* WalletNameViewControllerLight.m in Sources */,
+				63898A632043FA06000887AA /* AddressBalanceRealm.m in Sources */,
 				63B78D98201ED5B3005E7848 /* AddressControlCellDark.m in Sources */,
 				63B78D99201ED5B3005E7848 /* ErrorPopUpViewControllerLight.m in Sources */,
 				63B78D9A201ED5B3005E7848 /* ContentInsetLabel.m in Sources */,
@@ -8470,6 +8479,7 @@
 				E798462D1F0D1E50002A516A /* HistoryTableViewCellLight.m in Sources */,
 				E79846361F0D23CB002A516A /* WalletHeaderCellDark.m in Sources */,
 				B365058C1F14B12E00521603 /* WalletNameViewControllerLight.m in Sources */,
+				63898A612043FA06000887AA /* AddressBalanceRealm.m in Sources */,
 				B3DC9D181F31BF2B006B2E07 /* AddressControlCellDark.m in Sources */,
 				B36EBC3B1F2F1B5A00F4E2F2 /* ErrorPopUpViewControllerLight.m in Sources */,
 				63D032362015D8E200470705 /* ContentInsetLabel.m in Sources */,

@@ -10,6 +10,8 @@
 #import <Realm/Realm.h>
 #import "HistoryElement.h"
 #import "HistoryElementRealm.h"
+#import "AddressBalanceRealm.h"
+#import "Wallet.h"
 
 @implementation DatabaseManager
 
@@ -60,7 +62,10 @@
     }
     
     RLMResults<HistoryElementRealm *> *historyRealms = [HistoryElementRealm objectsWhere:txHashPredicates];
+    
+    [realm beginWriteTransaction];
     [realm deleteObjects:historyRealms];
+    [realm commitWriteTransaction];
 }
 
 - (NSMutableArray<HistoryElement *> *)loadHistory {
@@ -85,5 +90,27 @@
 -(void)clear {
     RLMRealm * realm = [RLMRealm defaultRealm];
     [realm deleteAllObjects];
+}
+
+#pragma mark - Wallet balance
+-(void)storeWalletInfo:(Wallet *)wallet {
+    // Store balance & unconfirmed balance
+    RLMRealm * realm = [RLMRealm defaultRealm];
+    AddressBalanceRealm* balanceRealm = [[AddressBalanceRealm allObjects] firstObject];
+    if (!balanceRealm) {
+        balanceRealm = [[AddressBalanceRealm alloc] init];
+    }
+    
+    balanceRealm.balance = [NSString stringWithFormat:@"%@", wallet.balance];
+    balanceRealm.unconfirmedBalance = [NSString stringWithFormat:@"%@", wallet.unconfirmedBalance];
+    
+    [realm transactionWithBlock:^{
+        [realm addOrUpdateObject:balanceRealm];
+    }];
+}
+
+-(AddressBalanceRealm *)loadAddressBalance {
+    AddressBalanceRealm* balance = [[AddressBalanceRealm allObjects] firstObject];
+    return balance;
 }
 @end

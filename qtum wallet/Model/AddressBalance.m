@@ -23,6 +23,10 @@
 
 -(NSNumber* )getBalance {
     double value = [self.balance doubleValue]/100000000;
+    if (value == 0) {
+        // Try to load from database
+        
+    }
     return [[NSNumber alloc] initWithDouble:value];
 }
 

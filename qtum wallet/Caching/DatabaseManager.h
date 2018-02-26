@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 @class HistoryElement;
+@class AddressBalanceRealm;
 
 @interface DatabaseManager : NSObject
 + (instancetype)sharedInstance;
@@ -17,4 +18,8 @@
 - (void) deleteTransactionHistory: (NSArray<HistoryElement*>*)transactions;
 - (NSMutableArray<HistoryElement*>*) loadHistory;
 - (void) clear;
+
+// Balance
+- (void)storeWalletInfo: (Wallet *)wallet;
+- (AddressBalanceRealm* )loadWalletInfoForWallet: (Wallet*)wallet;
 @end
