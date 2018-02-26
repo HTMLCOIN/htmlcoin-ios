@@ -1774,6 +1774,9 @@
 		EC2B604C2021A3E900F163C3 /* AddressBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B604B2021A3E900F163C3 /* AddressBalance.m */; };
 		EC2B604D2021A3E900F163C3 /* AddressBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B604B2021A3E900F163C3 /* AddressBalance.m */; };
 		EC2B604E2021A3E900F163C3 /* AddressBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B604B2021A3E900F163C3 /* AddressBalance.m */; };
+		EC7C9F3B204402640098553D /* HistoryElementValueRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */; };
+		EC7C9F3C204402640098553D /* HistoryElementValueRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */; };
+		EC7C9F3D204402640098553D /* HistoryElementValueRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -3194,6 +3197,8 @@
 		E7FD36651DC76EBC00748177 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
 		EC2B604A2021A3E900F163C3 /* AddressBalance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBalance.h; sourceTree = "<group>"; };
 		EC2B604B2021A3E900F163C3 /* AddressBalance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBalance.m; sourceTree = "<group>"; };
+		EC7C9F39204402630098553D /* HistoryElementValueRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryElementValueRealm.h; sourceTree = "<group>"; };
+		EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryElementValueRealm.m; sourceTree = "<group>"; };
 		EF612F4F200C37400E745D72 /* Pods-htmlcoin wallet dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet dev/Pods-htmlcoin wallet dev.debug.xcconfig"; sourceTree = "<group>"; };
 		EFD6F69206DD5B607F1D756C /* libPods-htmlcoin wallet staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-htmlcoin wallet staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -6035,6 +6040,8 @@
 				EC2B604B2021A3E900F163C3 /* AddressBalance.m */,
 				63898A602043FA06000887AA /* AddressBalanceRealm.h */,
 				63898A5F2043FA05000887AA /* AddressBalanceRealm.m */,
+				EC7C9F39204402630098553D /* HistoryElementValueRealm.h */,
+				EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -7236,6 +7243,7 @@
 				63B78AA4201ED02D005E7848 /* NewsDetailCellBuilder.m in Sources */,
 				63B78AA5201ED02D005E7848 /* InnerShadowView.m in Sources */,
 				63B78AA6201ED02D005E7848 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				EC7C9F3C204402640098553D /* HistoryElementValueRealm.m in Sources */,
 				63B78AA7201ED02D005E7848 /* QStoreListTableViewCellDark.m in Sources */,
 				63B78AA8201ED02D005E7848 /* NewsViewControllerLight.m in Sources */,
 				63B78AA9201ED02D005E7848 /* LoginViewController.m in Sources */,
@@ -7748,6 +7756,7 @@
 				63B78CE9201ED5B3005E7848 /* NewsDetailCellBuilder.m in Sources */,
 				63B78CEA201ED5B3005E7848 /* InnerShadowView.m in Sources */,
 				63B78CEB201ED5B3005E7848 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				EC7C9F3D204402640098553D /* HistoryElementValueRealm.m in Sources */,
 				63B78CEC201ED5B3005E7848 /* QStoreListTableViewCellDark.m in Sources */,
 				63B78CED201ED5B3005E7848 /* NewsViewControllerLight.m in Sources */,
 				63B78CEE201ED5B3005E7848 /* LoginViewController.m in Sources */,
@@ -8305,6 +8314,7 @@
 				B39220561F98E72A00E8F7D9 /* NewsDetailCellBuilder.m in Sources */,
 				E7C101BB1F14B5DB00848526 /* InnerShadowView.m in Sources */,
 				E7D7C09E1F1D0893009EBC04 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				EC7C9F3B204402640098553D /* HistoryElementValueRealm.m in Sources */,
 				B3EA53171F47318C002FD201 /* QStoreListTableViewCellDark.m in Sources */,
 				E745BA241F21FC3600B2E216 /* NewsViewControllerLight.m in Sources */,
 				B33EAF131E5C70EF006125F3 /* LoginViewController.m in Sources */,

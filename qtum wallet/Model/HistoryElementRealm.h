@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Realm/Realm.h>
+#import "HistoryElementValueRealm.h"
 
 @interface HistoryElementRealm : RLMObject
 
@@ -21,6 +22,6 @@
 @property (nonatomic) BOOL send;
 @property (assign, nonatomic) BOOL confirmed;
 @property (assign, nonatomic) BOOL isSmartContractCreater;
-//@property (strong, nonatomic) NSMutableArray *fromAddreses;
-//@property (strong, nonatomic) NSMutableArray *toAddresses;
+@property (strong, nonatomic) RLMArray<HistoryElementValueRealm*><HistoryElementValueRealm> *fromAddreses;
+@property (strong, nonatomic) RLMArray<HistoryElementValueRealm*><HistoryElementValueRealm> *toAddresses;
 @end

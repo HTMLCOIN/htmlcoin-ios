@@ -46,6 +46,19 @@
         historyRealm.isSmartContractCreater = history.isSmartContractCreater;
         historyRealm.address = history.address;
         historyRealm.send = history.send;
+        for (NSDictionary * dic in history.fromAddreses) {
+            HistoryElementValueRealm * historyValue = [HistoryElementValueRealm new];
+            historyValue.address = dic[@"address"];
+            historyValue.value = [NSString stringWithFormat:@"%@", dic[@"value"]];
+            [historyRealm.fromAddreses addObject:historyValue];
+        }
+        
+        for (NSDictionary * dic in history.toAddresses) {
+            HistoryElementValueRealm * historyValue = [HistoryElementValueRealm new];
+            historyValue.address = dic[@"address"];
+            historyValue.value = [NSString stringWithFormat:@"%@", dic[@"value"]];
+            [historyRealm.toAddresses addObject:historyValue];
+        }
         [realm transactionWithBlock:^{
             [realm addOrUpdateObject:historyRealm];
         }];
@@ -81,6 +94,18 @@
         history.send = historyRealm.send;
         history.isSmartContractCreater = historyRealm.isSmartContractCreater;
         history.confirmed = historyRealm.confirmed;
+        
+        history.fromAddreses = [NSMutableArray new];
+        history.toAddresses = [NSMutableArray new];
+        for (HistoryElementValueRealm * hValue in historyRealm.fromAddreses) {
+            [history.fromAddreses addObject:@{@"address":hValue.address,
+                                           @"value":hValue.value}];
+        }
+        
+        for (HistoryElementValueRealm * hValue in historyRealm.toAddresses) {
+            [history.toAddresses addObject:@{@"address":hValue.address,
+                                              @"value":hValue.value}];
+        }
         [results addObject:history];
     }
     
