@@ -317,7 +317,9 @@ NSString const *kIsLongPin = @"kIsLongPin";
     } andFailureHandler:^(NSError *error, NSString *message) {
         // Try to load balance from database
         [[DatabaseManager sharedInstance] loadWalletInfoForWallet:object];
-        
+        if (complete) {
+            complete(YES);
+        }
     }];
 }
 

@@ -257,7 +257,9 @@
     __weak __typeof(self)weakSelf = self;
     dispatch_async(_requestQueue, ^{        
         [weakSelf.wallet updateBalanceWalletWithHandler:^(BOOL success) {
-        
+            if (success) {
+                [weakSelf.walletViewController reloadTableView];
+            }
         }];
     });
 }
