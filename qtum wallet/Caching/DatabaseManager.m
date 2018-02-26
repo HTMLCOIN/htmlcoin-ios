@@ -82,7 +82,7 @@
 }
 
 - (NSMutableArray<HistoryElement *> *)loadHistory {
-    RLMResults<HistoryElementRealm *> *historyRealms = [HistoryElementRealm allObjects];
+    RLMResults<HistoryElementRealm *> *historyRealms = [[HistoryElementRealm allObjects] sortedResultsUsingKeyPath:@"dateNumber" ascending:NO];
     
     NSMutableArray<HistoryElement*> * results = [NSMutableArray new];
     for (HistoryElementRealm * historyRealm in historyRealms) {
