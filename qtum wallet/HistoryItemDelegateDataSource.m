@@ -35,8 +35,9 @@
         element = self.item.toAddresses[indexPath.row];
     }
     
+    NSString *value = [NSString stringWithFormat:@"%@", [element objectForKey:@"value"]];
     cell.addressLabel.text = [element objectForKey:@"address"];
-    cell.valueLabel.text = [NSString stringWithFormat:@"%@", [element objectForKey:@"value"]];
+    cell.valueLabel.text = [NSString stringWithFormat:@"%@",[[QTUMBigNumber decimalWithString:value] roundedNumberWithScale:6]];
     if (!cell.currencyLabel) {
         cell.valueLabel.text = [NSString stringWithFormat:@"%@", cell.valueLabel.text, NSLocalizedString(@"htmlcoin", nil)];
     }
