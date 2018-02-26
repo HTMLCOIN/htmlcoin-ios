@@ -6320,6 +6320,7 @@
 				E78D0C9A1ED2F02800CB91FF /* ShellScript */,
 				E730AB801EE6A5D200132711 /* Embed Watch Content */,
 				634BB07D203FCDC3005520C2 /* Embed Frameworks */,
+				639DE71320442BA600704C13 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -6807,6 +6808,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet staging/Pods-htmlcoin wallet staging-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		639DE71320442BA600704C13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ]; then\necho Do something really release-like\nbash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\nfi";
 		};
 		63B78BEC201ED02D005E7848 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
