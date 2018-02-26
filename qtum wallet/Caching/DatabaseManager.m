@@ -89,7 +89,10 @@
 
 -(void)clear {
     RLMRealm * realm = [RLMRealm defaultRealm];
-    [realm deleteAllObjects];
+    [realm transactionWithBlock:^{
+        [realm deleteAllObjects];
+    }];
+    
 }
 
 #pragma mark - Wallet balance
