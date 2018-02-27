@@ -8941,7 +8941,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/qtum wallet testnet-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htmlcoin.wallet.app.staging.testnet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8997,7 +8997,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/qtum wallet testnet-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htmlcoin.wallet.app.staging.testnet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -9063,7 +9063,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/qtum wallet regtest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htmlcoin.wallet.app.staging;
@@ -9131,7 +9131,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/qtum wallet regtest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htmlcoin.wallet.app.staging;
@@ -9470,7 +9470,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "qtum wallet/Application/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htmlcoin.wallet.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -9537,7 +9537,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "qtum wallet/Application/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htmlcoin.wallet.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
