@@ -645,7 +645,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x47-bK-YZo" customClass="GradientView">
-                                <rect key="frame" x="0.0" y="-24" width="375" height="88"/>
+                                <rect key="frame" x="0.0" y="-24" width="375" height="84"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kTW-mO-z1Q">
                                         <rect key="frame" x="0.0" y="40" width="375" height="44"/>
@@ -880,7 +880,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byI-KK-pNT" customClass="GradientView">
-                                <rect key="frame" x="0.0" y="-24" width="375" height="88"/>
+                                <rect key="frame" x="0.0" y="-24" width="375" height="84"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TFa-Ev-p0o">
                                         <rect key="frame" x="0.0" y="40" width="375" height="44"/>
@@ -1006,10 +1006,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VL2-DD-yjX" customClass="GradientView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <rect key="frame" x="0.0" y="-24" width="375" height="88"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEj-ba-MUa">
-                                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqM-55-rfe">
                                                 <rect key="frame" x="3" y="0.0" width="40" height="44"/>
@@ -1065,7 +1065,7 @@
                                     <constraint firstItem="zEj-ba-MUa" firstAttribute="leading" secondItem="VL2-DD-yjX" secondAttribute="leading" id="7ke-Ra-8dL"/>
                                     <constraint firstAttribute="trailing" secondItem="zEj-ba-MUa" secondAttribute="trailing" id="Nvx-VP-aYU"/>
                                     <constraint firstAttribute="bottom" secondItem="zEj-ba-MUa" secondAttribute="bottom" id="s9e-ZN-bhK"/>
-                                    <constraint firstAttribute="height" constant="64" id="wiZ-kd-Aat"/>
+                                    <constraint firstAttribute="height" constant="88" id="wiZ-kd-Aat"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" asdasd asdasd asdasd asfd asdf gsdf hgja aqt rejdf цуквапы" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUA-BL-gt5" customClass="BorderedLabelLight">
@@ -1107,9 +1107,9 @@
                             <constraint firstItem="yha-Mh-aFb" firstAttribute="right" secondItem="sUA-BL-gt5" secondAttribute="right" constant="44" id="0VU-Pu-pTB"/>
                             <constraint firstItem="VL2-DD-yjX" firstAttribute="leading" secondItem="yha-Mh-aFb" secondAttribute="leading" id="DpD-KN-rcz"/>
                             <constraint firstItem="sUA-BL-gt5" firstAttribute="top" secondItem="zEj-ba-MUa" secondAttribute="bottom" constant="44" id="EGs-IP-asD"/>
-                            <constraint firstItem="VL2-DD-yjX" firstAttribute="top" secondItem="x6S-AS-mFN" secondAttribute="top" id="Ha2-e8-hf0"/>
+                            <constraint firstItem="VL2-DD-yjX" firstAttribute="top" secondItem="yha-Mh-aFb" secondAttribute="top" constant="-44" id="Ha2-e8-hf0"/>
                             <constraint firstItem="yha-Mh-aFb" firstAttribute="trailing" secondItem="VL2-DD-yjX" secondAttribute="trailing" id="Ojp-9U-rxQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="YdA-B1-Hci" secondAttribute="trailing" constant="20" id="Q3b-XM-Ova"/>
+                            <constraint firstItem="yha-Mh-aFb" firstAttribute="trailing" secondItem="YdA-B1-Hci" secondAttribute="trailing" constant="36" id="Q3b-XM-Ova"/>
                             <constraint firstItem="sUA-BL-gt5" firstAttribute="leading" secondItem="yha-Mh-aFb" secondAttribute="leading" constant="44" id="XyS-fd-SRA"/>
                             <constraint firstItem="A9w-TB-oOB" firstAttribute="top" secondItem="sUA-BL-gt5" secondAttribute="bottom" constant="100" id="fK1-qX-ok3"/>
                             <constraint firstItem="YdA-B1-Hci" firstAttribute="centerX" secondItem="yha-Mh-aFb" secondAttribute="centerX" id="fX3-JA-2Mh"/>
@@ -1564,7 +1564,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDi-dt-5Cz" customClass="GradientView">
-                                <rect key="frame" x="0.0" y="-24" width="375" height="88"/>
+                                <rect key="frame" x="0.0" y="-24" width="375" height="84"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c0Q-hM-93R">
                                         <rect key="frame" x="0.0" y="40" width="375" height="44"/>
