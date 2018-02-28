@@ -127,7 +127,7 @@
 - (void)didPressedLogout {
     
     PopUpContent *content = [PopUpContentGenerator contentForOupsPopUp];
-    content.messageString = NSLocalizedString(@"You are about to exit your account. All account data will be erased from the device. Please make sure you have saved back-ups of your Passphrase and required Contracts", nil);
+    content.messageString = NSLocalizedString(@"logout_message", nil);
     content.titleString = NSLocalizedString(@"Warning", nil);
     content.cancelButtonTitle = NSLocalizedString(@"Logout", nil);
     content.okButtonTitle = NSLocalizedString(@"Cancel", nil);

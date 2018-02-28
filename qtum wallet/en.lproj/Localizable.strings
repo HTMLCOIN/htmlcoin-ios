@@ -330,3 +330,4 @@
 "Create a first one or restore the previous wallet key" = "Create a first one or restore \n the previous wallet key.";
 "In blockchain we trust" = "In blockchain we trust";
 
+"logout_message" = "You are about to logout your account. All account data will be erased from the device. Please make sure you have saved back-ups of your Passphrase and required Contracts";
