@@ -27,9 +27,15 @@
 
 +(void) setUp {
     RLMRealmConfiguration *config = [RLMRealmConfiguration defaultConfiguration];
-    config.schemaVersion = 2;
+    config.schemaVersion = 3;
     config.migrationBlock = ^(RLMMigration *migration, uint64_t oldSchemaVersion) {
         // potentially lengthy data migration
+        if (oldSchemaVersion < 3) {
+            [migration enumerateObjects:HistoryElementValueRealm.className
+                                  block:^(RLMObject *oldObject, RLMObject *newObject) {
+                                      newObject[@"spentTxId"] = NULL;
+                                  }];
+        }
     };
     [RLMRealmConfiguration setDefaultConfiguration:config];
 }
@@ -57,6 +63,7 @@
             HistoryElementValueRealm * historyValue = [HistoryElementValueRealm new];
             historyValue.address = dic[@"address"];
             historyValue.value = [NSString stringWithFormat:@"%@", dic[@"value"]];
+            historyValue.spentTxId = dic[@"spentTxId"];
             [historyRealm.toAddresses addObject:historyValue];
         }
         [realm transactionWithBlock:^{
@@ -118,6 +125,19 @@
         [realm deleteAllObjects];
     }];
     
+}
+
+-(BOOL)checkUnspentOutputWithTx: (NSString*) txId andAddress:(NSString*) addr {
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"txHash = %@",txId];
+    HistoryElementRealm* historyRealm = [[HistoryElementRealm objectsWithPredicate:pred] firstObject];
+    if (historyRealm != nil) {
+        for (HistoryElementValueRealm * hValue in historyRealm.toAddresses) {
+            if ([hValue.address isEqualToString:addr] && hValue.spentTxId != NULL) {
+                return true;
+            }
+        }
+    }
+    return false;
 }
 
 #pragma mark - Wallet balance
