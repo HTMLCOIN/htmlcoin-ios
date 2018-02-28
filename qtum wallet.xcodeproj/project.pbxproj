@@ -6024,6 +6024,8 @@
 				B32B32C71ECCC1F90081260A /* InterfaceInputFormModel.m */,
 				E739104D1DE2E165008145A8 /* HistoryElement.h */,
 				E739104E1DE2E165008145A8 /* HistoryElement.m */,
+				EC7C9F39204402630098553D /* HistoryElementValueRealm.h */,
+				EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */,
 				634BB09020400DA7005520C2 /* HistoryElementRealm.h */,
 				634BB09120400DA7005520C2 /* HistoryElementRealm.m */,
 				B351305F1E49C9930048A28C /* NewsCellModel.h */,
@@ -6040,8 +6042,6 @@
 				EC2B604B2021A3E900F163C3 /* AddressBalance.m */,
 				63898A602043FA06000887AA /* AddressBalanceRealm.h */,
 				63898A5F2043FA05000887AA /* AddressBalanceRealm.m */,
-				EC7C9F39204402630098553D /* HistoryElementValueRealm.h */,
-				EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";

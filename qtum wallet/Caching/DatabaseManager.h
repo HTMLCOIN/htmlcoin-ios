@@ -17,6 +17,7 @@
 - (void) deleteTransactionHistory: (NSArray<HistoryElement*>*)transactions;
 - (NSMutableArray<HistoryElement*>*) loadHistory;
 - (void) clear;
+-(BOOL) checkUnspentOutputWithTx: (NSString*) txId andAddress:(NSString*) addr;
 
 // Balance
 - (void)storeWalletInfo: (Wallet *)wallet;

@@ -38,7 +38,9 @@
         }
         
         [self.toAddresses addObject:@{@"address":addressString,
-                                       @"value":outObject[@"value"]}];
+                                       @"value":outObject[@"value"],
+                                      @"spentTxId":outObject[@"spentTxId"]
+                                      }];
         
         BOOL address = [hashTableAdresses.allKeys containsObject:addressString];
         if (address) {

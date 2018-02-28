@@ -11,6 +11,7 @@
 @interface HistoryElementValueRealm : RLMObject
 @property (strong, nonatomic) NSString* address;
 @property (strong, nonatomic) NSString* value;
+@property (strong, nonatomic) NSString* spentTxId;
 @end
 
 RLM_ARRAY_TYPE(HistoryElementValueRealm)

@@ -9,6 +9,7 @@
 #import "TransactionBuilder.h"
 #import "BTCTransactionInput+Extension.h"
 #import "BTCTransactionOutput+Address.h"
+#import "DatabaseManager.h"
 
 @interface TransactionBuilder ()
 
@@ -54,6 +55,10 @@
         NSInteger total = 0;
         
         for (BTCTransactionOutput* txout in utxos) {
+            // check txout.transactionHash in local database
+            if([[DatabaseManager sharedInstance] checkUnspentOutputWithTx:txout.transactionID andAddress:txout.runTimeAddress]) {
+                continue;
+            }
             
             if ([txout.script isPayToPublicKeyHashScript]) {
                 [txouts addObject:txout];
