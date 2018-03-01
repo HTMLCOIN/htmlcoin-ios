@@ -23,7 +23,13 @@
     _historyElement = historyElement;
     
     self.addressLabel.text = historyElement.address;
-    self.amountLabel.text = self.symbolLabel ? [NSString stringWithFormat:@"%@", [[QTUMBigNumber decimalWithString:[NSString stringWithFormat:@"%0.6f", [self.historyElement.amount floatValue]]] roundedNumberWithScale:6]]: historyElement.amountString;
+    
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    formatter.numberStyle = NSNumberFormatterDecimalStyle;
+    formatter.maximumFractionDigits = 8;
+    
+    NSString *result = [formatter stringFromNumber:[NSNumber numberWithDouble:[self.historyElement.amount floatValue]]];
+    self.amountLabel.text = self.symbolLabel ? result : historyElement.amountString;
     self.dateLabel.text = (historyElement.shortDateString && historyElement.shortDateString.length > 0) ? historyElement.shortDateString : NSLocalizedString(@"Unconfirmed", nil);
     
 //    if (historyElement.send) {

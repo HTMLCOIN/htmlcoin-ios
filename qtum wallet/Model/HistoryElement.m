@@ -84,8 +84,12 @@
 #pragma mark - Private Methods
 
 - (void)createAmountString{
-    QTUMBigNumber *amountFormatted = [QTUMBigNumber decimalWithString:[NSString stringWithFormat:@"%0.6f", [self.amount floatValue]]];
-    self.amountString  = [NSString stringWithFormat:@"%@ %@", amountFormatted, NSLocalizedString(@"HTML", nil)];
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    formatter.numberStyle = NSNumberFormatterDecimalStyle;
+    formatter.maximumFractionDigits = 8;
+    
+    NSString *result = [formatter stringFromNumber:self.amount];
+    self.amountString  = [NSString stringWithFormat:@"%@ %@", result, NSLocalizedString(@"HTML", nil)];
 }
 
 - (void)createDateString {

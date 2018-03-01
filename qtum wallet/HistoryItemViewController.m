@@ -72,8 +72,13 @@
 - (void)configWithItem {
     
 //    self.balanceLabel.text = [NSString stringWithFormat:@"%0.6f", self.item.amount.doubleValue];
-    self.balanceLabel.text = [NSString stringWithFormat:@"%@",[[QTUMBigNumber decimalWithString:[NSString stringWithFormat:@"%0.6f", self.item.amount.doubleValue]] roundedNumberWithScale:6]];
+//    self.balanceLabel.text = [NSString stringWithFormat:@"%@",[[QTUMBigNumber decimalWithString:[NSString stringWithFormat:@"%0.6f", self.item.amount.doubleValue]] roundedNumberWithScale:6]];
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    formatter.numberStyle = NSNumberFormatterDecimalStyle;
+    formatter.maximumFractionDigits = 8;
     
+    NSString *result = [formatter stringFromNumber:self.item.amount];
+    self.balanceLabel.text = result;
     self.receivedTimeLabel.text = self.item.fullDateString ?: NSLocalizedString(@"Unconfirmed", nil);
 }
 
