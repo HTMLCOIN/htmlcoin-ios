@@ -32,6 +32,581 @@
 		634BB09220400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
 		634BB09320400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
 		634BB09420400DA8005520C2 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
+		636EFBD62046C1F20013C110 /* tommath.c in Sources */ = {isa = PBXBuildFile; fileRef = B328054F1FA744FE00748E7E /* tommath.c */; };
+		636EFBD72046C1F20013C110 /* JKBigInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = B328054C1FA744E200748E7E /* JKBigInteger.m */; };
+		636EFBD82046C1F20013C110 /* JKBigDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = B328054D1FA744E200748E7E /* JKBigDecimal.m */; };
+		636EFBD92046C1F20013C110 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B357332C1F97ACCD00C64AAE /* TFHppleElement.m */; };
+		636EFBDA2046C1F20013C110 /* JKBigDecimal+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = B328055E1FA7555000748E7E /* JKBigDecimal+Comparison.m */; };
+		636EFBDB2046C1F20013C110 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B357332E1F97ACCF00C64AAE /* XPathQuery.m */; };
+		636EFBDC2046C1F20013C110 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B35733291F97ACCD00C64AAE /* TFHpple.m */; };
+		636EFBDD2046C1F20013C110 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D9C8C1ECB19D000A09CFE /* SplashViewController.m */; };
+		636EFBDE2046C1F20013C110 /* QTUMAddressTokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E789035C1EDC674C004243F0 /* QTUMAddressTokenView.m */; };
+		636EFBDF2046C1F20013C110 /* SmartContractListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D555EA1EDE00F900CBDFCF /* SmartContractListItemCell.m */; };
+		636EFBE02046C1F20013C110 /* SplashViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B33579491F348F8F001A0275 /* SplashViewControllerLight.m */; };
+		636EFBE12046C1F20013C110 /* UIView+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309EA532010A7480068AD3E /* UIView+RoundedCorner.m */; };
+		636EFBE22046C1F20013C110 /* QRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D241D81DE6D6B1003E507B /* QRCodeManager.m */; };
+		636EFBE32046C1F20013C110 /* TokenListViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F4991F0F89610056D042 /* TokenListViewControllerDark.m */; };
+		636EFBE42046C1F20013C110 /* TransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DD00E91DC9BF9D00FD5335 /* TransactionManager.m */; };
+		636EFBE52046C1F20013C110 /* SmartContractMenuViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF181F2B16FC00C80D4E /* SmartContractMenuViewControllerLight.m */; };
+		636EFBE62046C1F20013C110 /* WordsArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E71AF2501E017D250068595B /* WordsArray.m */; };
+		636EFBE72046C1F20013C110 /* QRCodeViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F4D1F13767900131823 /* QRCodeViewControllerLight.m */; };
+		636EFBE82046C1F20013C110 /* AddressTransferPopupViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D261F31E9BB006B2E07 /* AddressTransferPopupViewControllerLight.m */; };
+		636EFBE92046C1F20013C110 /* ChooseTokenPaymentCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F411F136FAA00131823 /* ChooseTokenPaymentCellLight.m */; };
+		636EFBEA2046C1F20013C110 /* AbiParameterTypeDynamicArrayBool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE791F56F3B6006A2BF2 /* AbiParameterTypeDynamicArrayBool.m */; };
+		636EFBEB2046C1F20013C110 /* SendCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3054E2F1F0B9EE4001B1F63 /* SendCoordinator.m */; };
+		636EFBEC2046C1F20013C110 /* TokenListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3827DDF1ECF292E00E500DE /* TokenListViewController.m */; };
+		636EFBED2046C1F20013C110 /* AbiParameterTypeString.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE4B1F56AEEB006A2BF2 /* AbiParameterTypeString.m */; };
+		636EFBEE2046C1F20013C110 /* TokenAddressLibraryCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D2A1F331D37006B2E07 /* TokenAddressLibraryCoordinator.m */; };
+		636EFBEF2046C1F20013C110 /* TextFieldWithLineDarkPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D1C1F31E712006B2E07 /* TextFieldWithLineDarkPopup.m */; };
+		636EFBF02046C1F20013C110 /* TokensFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B365CA781EA77D490040A163 /* TokensFactory.m */; };
+		636EFBF12046C1F20013C110 /* TokenDetailsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78D0C981ED2DF2E00CB91FF /* TokenDetailsTableView.m */; };
+		636EFBF22046C1F20013C110 /* ChooseAddressReciveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CD78E11F4DD44400D79363 /* ChooseAddressReciveCell.m */; };
+		636EFBF32046C1F20013C110 /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7396AF71DDF0C970002CD47 /* HistoryTableViewCell.m */; };
+		636EFBF42046C1F20013C110 /* SmartContractMenuViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF1B1F2B170800C80D4E /* SmartContractMenuViewControllerDark.m */; };
+		636EFBF52046C1F20013C110 /* AddressControlListViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D091F31B6CF006B2E07 /* AddressControlListViewControllerDark.m */; };
+		636EFBF62046C1F20013C110 /* QStoreTableViewCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA53091F46D9DA002FD201 /* QStoreTableViewCellLight.m */; };
+		636EFBF72046C1F20013C110 /* AbiParameterTypeDynamicArrayString.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE731F56F37B006A2BF2 /* AbiParameterTypeDynamicArrayString.m */; };
+		636EFBF82046C1F20013C110 /* LoaderPopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E3B1F2F55A500AA408F /* LoaderPopUpViewControllerLight.m */; };
+		636EFBF92046C1F20013C110 /* NSObject+Associating.m in Sources */ = {isa = PBXBuildFile; fileRef = B371D8821E3A1D3B00A13EA3 /* NSObject+Associating.m */; };
+		636EFBFA2046C1F20013C110 /* ChooseReciveAddressViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CD78D91F4DC1F400D79363 /* ChooseReciveAddressViewControllerDark.m */; };
+		636EFBFB2046C1F20013C110 /* AddressListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7396AEF1DDEF8030002CD47 /* AddressListViewController.m */; };
+		636EFBFC2046C1F20013C110 /* ExportWalletBrandKeyViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF6281F1F638E00316953 /* ExportWalletBrandKeyViewControllerLight.m */; };
+		636EFBFD2046C1F20013C110 /* ChangePinCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4A71F28B49C00C2417C /* ChangePinCoordinator.m */; };
+		636EFBFE2046C1F20013C110 /* TokenTemplateCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF401F2B496A00C80D4E /* TokenTemplateCellDark.m */; };
+		636EFBFF2046C1F20013C110 /* CreatePinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34253FE1E164B4C00288CF6 /* CreatePinViewController.m */; };
+		636EFC002046C1F20013C110 /* EnableFingerprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B381CBE11F02872000142252 /* EnableFingerprintViewController.m */; };
+		636EFC012046C1F20013C110 /* QStoreListTableSourceLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA531D1F473843002FD201 /* QStoreListTableSourceLight.m */; };
+		636EFC022046C1F20013C110 /* RestoreContractsPopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E451F2F6D7600AA408F /* RestoreContractsPopUpViewControllerLight.m */; };
+		636EFC032046C1F20013C110 /* QStoreViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA52F91F45E1A1002FD201 /* QStoreViewControllerDark.m */; };
+		636EFC042046C1F20013C110 /* AbiParameterTypeFixedBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE571F56AF31006A2BF2 /* AbiParameterTypeFixedBytes.m */; };
+		636EFC052046C1F20013C110 /* RecieveViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C101CB1F1529EC00848526 /* RecieveViewControllerDark.m */; };
+		636EFC062046C1F20013C110 /* NoInternetConnectionPopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC2F1F2F12FC00F4E2F2 /* NoInternetConnectionPopUpViewControllerLight.m */; };
+		636EFC072046C1F20013C110 /* QStoreListViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA52FF1F45E1F1002FD201 /* QStoreListViewControllerDark.m */; };
+		636EFC082046C1F20013C110 /* SpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E71271911EE9925600A130A0 /* SpinnerView.m */; };
+		636EFC092046C1F20013C110 /* ContractInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32CD1ECCC2330081260A /* ContractInterfaceManager.m */; };
+		636EFC0A2046C1F20013C110 /* FavouriteTemplateCollectionViewCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E561F2F9A8B00AA408F /* FavouriteTemplateCollectionViewCellDark.m */; };
+		636EFC0B2046C1F20013C110 /* WatchContractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B387AB391EEAD8C5001D2FF1 /* WatchContractViewController.m */; };
+		636EFC0C2046C1F20013C110 /* LibraryTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F1C791F1C9B0200961B19 /* LibraryTableSource.m */; };
+		636EFC0D2046C1F20013C110 /* BTCTransactionInput+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B365CA591EA4D8E30040A163 /* BTCTransactionInput+Extension.m */; };
+		636EFC0E2046C1F20013C110 /* AddressTransferPopupViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D231F31E9A8006B2E07 /* AddressTransferPopupViewControllerDark.m */; };
+		636EFC0F2046C1F20013C110 /* LanguageTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EA2CBD1ED42DE100AFD5D0 /* LanguageTableSource.m */; };
+		636EFC102046C1F20013C110 /* SubscribeTokenDataDisplayManagerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4B81F29C2C200C2417C /* SubscribeTokenDataDisplayManagerLight.m */; };
+		636EFC112046C1F20013C110 /* RepeateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF1C1E5C9020006125F3 /* RepeateViewController.m */; };
+		636EFC122046C1F20013C110 /* AbiInterfaceOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32D61ECCC2AC0081260A /* AbiInterfaceOutput.m */; };
+		636EFC132046C1F20013C110 /* PageControlDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE59921F0E882A006E0E1B /* PageControlDark.m */; };
+		636EFC142046C1F20013C110 /* BorderedLabelDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C101B41F13CBBE00848526 /* BorderedLabelDark.m */; };
+		636EFC152046C1F20013C110 /* ExportBrainKeyViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36505A61F16015A00521603 /* ExportBrainKeyViewControllerDark.m */; };
+		636EFC162046C1F20013C110 /* ShareTokenPopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9CF11F30D428006B2E07 /* ShareTokenPopUpViewControllerDark.m */; };
+		636EFC172046C1F20013C110 /* NewsViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E745BA261F21FC4800B2E216 /* NewsViewControllerDark.m */; };
+		636EFC182046C1F20013C110 /* QStoreSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CE636A1F029EEF00C147B9 /* QStoreSearchTableViewCell.m */; };
+		636EFC192046C1F20013C110 /* InputTextViewLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF6221F1F56A700316953 /* InputTextViewLight.m */; };
+		636EFC1A2046C1F20013C110 /* AbiParameterTypeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE471F56AE83006A2BF2 /* AbiParameterTypeArray.m */; };
+		636EFC1B2046C1F20013C110 /* QStoreListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E703530E1F03AC41004ECCC9 /* QStoreListViewController.m */; };
+		636EFC1C2046C1F20013C110 /* AuthNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF1F1E5C9FC0006125F3 /* AuthNavigationController.m */; };
+		636EFC1D2046C1F20013C110 /* RestoreContractsPopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E421F2F6D6700AA408F /* RestoreContractsPopUpViewControllerDark.m */; };
+		636EFC1E2046C1F20013C110 /* CreateTokenFinishViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3141E621F30AD5F0095E3DF /* CreateTokenFinishViewControllerDark.m */; };
+		636EFC1F2046C1F20013C110 /* LanguageTableViewCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E748579B1F13C02600DCF9A6 /* LanguageTableViewCellLight.m */; };
+		636EFC202046C1F20013C110 /* HistoryItemAddressCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B336017C1E963A4B00243A21 /* HistoryItemAddressCellTableViewCell.m */; };
+		636EFC212046C1F20013C110 /* AboutOutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3427FC91F54093B00182E95 /* AboutOutputViewController.m */; };
+		636EFC222046C1F20013C110 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7396AE01DDDEA2E0002CD47 /* GradientView.m */; };
+		636EFC232046C1F20013C110 /* NSUserDefaults+Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E3A1681E8505EC002A488F /* NSUserDefaults+Settings.m */; };
+		636EFC242046C1F20013C110 /* ViewWithAnimatedLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E789036B1EDDA980004243F0 /* ViewWithAnimatedLine.m */; };
+		636EFC252046C1F20013C110 /* SmartContractListItemCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF391F2B48B000C80D4E /* SmartContractListItemCellDark.m */; };
+		636EFC262046C1F20013C110 /* SubscribeTokenDataDisplayManagerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F06D091E6993AC006341F7 /* SubscribeTokenDataDisplayManagerDark.m */; };
+		636EFC272046C1F20013C110 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3CEC1E1120C50094C82C /* NSObject+Extension.m */; };
+		636EFC282046C1F20013C110 /* ChooseAddressReciveCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CD78E41F4DD45700D79363 /* ChooseAddressReciveCellDark.m */; };
+		636EFC292046C1F20013C110 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E3A18A1E852F27002A488F /* SocketManager.m */; };
+		636EFC2A2046C1F20013C110 /* TransactionScriptBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B342DB641F60443B0052A367 /* TransactionScriptBuilder.m */; };
+		636EFC2B2046C1F20013C110 /* PinController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32EBFED1E1E4380003AA578 /* PinController.m */; };
+		636EFC2C2046C1F20013C110 /* LanguageViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E74857951F13BA5300DCF9A6 /* LanguageViewControllerLight.m */; };
+		636EFC2D2046C1F20013C110 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3CEF1E11220E0094C82C /* UIViewController+Extension.m */; };
+		636EFC2E2046C1F20013C110 /* WatchTokensViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3014D681F2A1BCC007EAE7A /* WatchTokensViewControllerDark.m */; };
+		636EFC2F2046C1F20013C110 /* AbiParameterTypeDynamicArrayInt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE691F56F2B2006A2BF2 /* AbiParameterTypeDynamicArrayInt.m */; };
+		636EFC302046C1F20013C110 /* AddressControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D101F31BEE8006B2E07 /* AddressControlCell.m */; };
+		636EFC312046C1F20013C110 /* NewsTableCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E745BA1F1F21E79B00B2E216 /* NewsTableCellLight.m */; };
+		636EFC322046C1F20013C110 /* AbiParameterTypeDynamicElementaryArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B369DF341F5D61A4008B81CB /* AbiParameterTypeDynamicElementaryArray.m */; };
+		636EFC332046C1F20013C110 /* SmartContractListItemCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF3C1F2B48C300C80D4E /* SmartContractListItemCellLight.m */; };
+		636EFC342046C1F20013C110 /* ConfirmPinForExportViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B30355321F163E2800E64E46 /* ConfirmPinForExportViewControllerLight.m */; };
+		636EFC352046C1F20013C110 /* RestoreWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF191E5C84DF006125F3 /* RestoreWalletViewController.m */; };
+		636EFC362046C1F20013C110 /* TokenCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F4A61F0F8F930056D042 /* TokenCellLight.m */; };
+		636EFC372046C1F20013C110 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3597DFD1E81517200EBF094 /* NotificationManager.m */; };
+		636EFC382046C1F20013C110 /* AddNewTokensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E159211ED6B1A200D70A87 /* AddNewTokensViewController.m */; };
+		636EFC392046C1F20013C110 /* BorderedLabelLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C101B71F13CBC700848526 /* BorderedLabelLight.m */; };
+		636EFC3A2046C1F20013C110 /* QStoreListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E70353141F03AC6D004ECCC9 /* QStoreListTableViewCell.m */; };
+		636EFC3B2046C1F20013C110 /* FirstAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF161E5C7D45006125F3 /* FirstAuthViewController.m */; };
+		636EFC3C2046C1F20013C110 /* NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B351305C1E49BF6D0048A28C /* NewsController.m */; };
+		636EFC3D2046C1F20013C110 /* RestoreContractsViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E4D1F2F706800AA408F /* RestoreContractsViewControllerLight.m */; };
+		636EFC3E2046C1F20013C110 /* CopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F83981F7BB2DB002F3098 /* CopyLabel.m */; };
+		636EFC3F2046C1F20013C110 /* PhotoLibraryPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FA0CBD1ECD9F2F00702C4E /* PhotoLibraryPopUpViewController.m */; };
+		636EFC402046C1F20013C110 /* TabBarCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD27531E68025200BB0635 /* TabBarCoordinator.m */; };
+		636EFC412046C1F20013C110 /* AnimatedLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E78903681EDD57D2004243F0 /* AnimatedLabelTableViewCell.m */; };
+		636EFC422046C1F20013C110 /* TokenAddressControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D391F331FD6006B2E07 /* TokenAddressControlViewController.m */; };
+		636EFC432046C1F20013C110 /* FinishInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32E81ECCC4A20081260A /* FinishInputCell.m */; };
+		636EFC442046C1F20013C110 /* WalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7396AEB1DDEF7E30002CD47 /* WalletViewController.m */; };
+		636EFC452046C1F20013C110 /* HistoryItemDelegateDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B33601881E96546C00243A21 /* HistoryItemDelegateDataSource.m */; };
+		636EFC462046C1F20013C110 /* ContractArgumentsInterpretator.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32EB1ECD7B240081260A /* ContractArgumentsInterpretator.m */; };
+		636EFC472046C1F20013C110 /* FirstAuthViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F731F13C4C400131823 /* FirstAuthViewControllerLight.m */; };
+		636EFC482046C1F20013C110 /* PopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FA0CB21ECD80AF00702C4E /* PopUpViewController.m */; };
+		636EFC492046C1F20013C110 /* TokenAddressControlViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D401F3323BC006B2E07 /* TokenAddressControlViewControllerLight.m */; };
+		636EFC4A2046C1F20013C110 /* CustomSearchBarDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA530D1F46DDF0002FD201 /* CustomSearchBarDark.m */; };
+		636EFC4B2046C1F20013C110 /* PhotoLibraryPopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC361F2F15DD00F4E2F2 /* PhotoLibraryPopUpViewControllerLight.m */; };
+		636EFC4C2046C1F20013C110 /* NewsDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B35572C61F90E886001AE34A /* NewsDataProvider.m */; };
+		636EFC4D2046C1F20013C110 /* UIColor+fromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309EA4E20108DA00068AD3E /* UIColor+fromHex.m */; };
+		636EFC4E2046C1F20013C110 /* TokenPropertyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C08B241ED467DA00713B15 /* TokenPropertyCell.m */; };
+		636EFC4F2046C1F20013C110 /* HistoryItemViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C101C31F15074A00848526 /* HistoryItemViewControllerLight.m */; };
+		636EFC502046C1F20013C110 /* TokenCellSubscribe.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F06D021E699244006341F7 /* TokenCellSubscribe.m */; };
+		636EFC512046C1F20013C110 /* AbiParameterTypeFixedArrayInt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE6C1F56F2C3006A2BF2 /* AbiParameterTypeFixedArrayInt.m */; };
+		636EFC522046C1F20013C110 /* TextFieldParameterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72631291EEAAC5B005AED8F /* TextFieldParameterView.m */; };
+		636EFC532046C1F20013C110 /* PaymentValuesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D059BE7A1F84E4A70045ABA0 /* PaymentValuesManager.m */; };
+		636EFC542046C1F20013C110 /* RestoreContractsViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E4A1F2F705700AA408F /* RestoreContractsViewControllerDark.m */; };
+		636EFC552046C1F20013C110 /* QTUMImageTagCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B315D0311F9F43B000C7F4E4 /* QTUMImageTagCellLight.m */; };
+		636EFC562046C1F20013C110 /* ConstructorFromAbiViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3076F311F3085AD00FB7D5A /* ConstructorFromAbiViewControllerLight.m */; };
+		636EFC572046C1F20013C110 /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E3A1641E850572002A488F /* AppSettings.m */; };
+		636EFC582046C1F20013C110 /* RecieveViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C101CE1F1529F700848526 /* RecieveViewControllerLight.m */; };
+		636EFC592046C1F20013C110 /* SmartContractsListViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF2C1F2B41EB00C80D4E /* SmartContractsListViewControllerLight.m */; };
+		636EFC5A2046C1F20013C110 /* QTUMFeedParcer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C8FAED1F98937A000168AB /* QTUMFeedParcer.m */; };
+		636EFC5B2046C1F20013C110 /* NSNumber+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = B342DB771F61808E0052A367 /* NSNumber+Format.m */; };
+		636EFC5C2046C1F20013C110 /* FirstAuthViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F701F13C4B400131823 /* FirstAuthViewControllerDark.m */; };
+		636EFC5D2046C1F20013C110 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = B366CA211F1D0AC700EF3273 /* NSData+AES256.m */; };
+		636EFC5E2046C1F20013C110 /* SendNavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3D011E112A7F0094C82C /* SendNavigationCoordinator.m */; };
+		636EFC5F2046C1F20013C110 /* QStoreContractElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E73357081F3D897700EE0D8B /* QStoreContractElement.m */; };
+		636EFC602046C1F20013C110 /* QTUMDefaultTagCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B315D02E1F9F439E00C7F4E4 /* QTUMDefaultTagCellLight.m */; };
+		636EFC612046C1F20013C110 /* LanguageViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E74857921F13BA4100DCF9A6 /* LanguageViewControllerDark.m */; };
+		636EFC622046C1F20013C110 /* NewsCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD27591E681A7A00BB0635 /* NewsCoordinator.m */; };
+		636EFC632046C1F20013C110 /* SecurityPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B381CBE41F0291CB00142252 /* SecurityPopupViewController.m */; };
+		636EFC642046C1F20013C110 /* ContractManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B30BAE2D1E9E3AA600CA795F /* ContractManager.m */; };
+		636EFC652046C1F20013C110 /* PageControlItemLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B72EF1F0E9137004BECEA /* PageControlItemLight.m */; };
+		636EFC662046C1F20013C110 /* ControllersFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3CF51E1129270094C82C /* ControllersFactory.m */; };
+		636EFC672046C1F20013C110 /* LanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EA2CB71ED42DB500AFD5D0 /* LanguageViewController.m */; };
+		636EFC682046C1F20013C110 /* CreatePinViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36505911F14B3A900521603 /* CreatePinViewControllerDark.m */; };
+		636EFC692046C1F20013C110 /* TokenAddressContolCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D331F331F13006B2E07 /* TokenAddressContolCellLight.m */; };
+		636EFC6A2046C1F20013C110 /* NoInternetConnectionPopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC2C1F2F12DB00F4E2F2 /* NoInternetConnectionPopUpViewControllerDark.m */; };
+		636EFC6B2046C1F20013C110 /* ConstructorFromAbiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32E11ECCC2D50081260A /* ConstructorFromAbiViewController.m */; };
+		636EFC6C2046C1F20013C110 /* QStoreTemplateDetailViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E60011F4EE818003B4FA5 /* QStoreTemplateDetailViewControllerLight.m */; };
+		636EFC6D2046C1F20013C110 /* OpenURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F5797A1F0D251C00A13571 /* OpenURLManager.m */; };
+		636EFC6E2046C1F20013C110 /* PageControlItemDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE598F1F0E8562006E0E1B /* PageControlItemDark.m */; };
+		636EFC6F2046C1F20013C110 /* QStoreListTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E70353111F03AC59004ECCC9 /* QStoreListTableSource.m */; };
+		636EFC702046C1F20013C110 /* ContractNameTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B3141E591F3099110095E3DF /* ContractNameTextField.m */; };
+		636EFC712046C1F20013C110 /* RecieveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70550CC1DF96E4100B48DC1 /* RecieveViewController.m */; };
+		636EFC722046C1F20013C110 /* AbiParameterTypeFixedArrayFixedBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE7C1F56F3F0006A2BF2 /* AbiParameterTypeFixedArrayFixedBytes.m */; };
+		636EFC732046C1F20013C110 /* ChoseTokenPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E159241ED6E2C200D70A87 /* ChoseTokenPaymentViewController.m */; };
+		636EFC742046C1F20013C110 /* SubscribeTokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F06D051E699303006341F7 /* SubscribeTokenViewController.m */; };
+		636EFC752046C1F20013C110 /* TabBarControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F2A1F0E10AB00131823 /* TabBarControllerDark.m */; };
+		636EFC762046C1F20013C110 /* HistoryTableViewCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E79846291F0D1E40002A516A /* HistoryTableViewCellDark.m */; };
+		636EFC772046C1F20013C110 /* TemplateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F76A751EDD6F6400108DE9 /* TemplateModel.m */; };
+		636EFC782046C1F20013C110 /* ShareTokenPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7360EC01F18EBED003ED21D /* ShareTokenPopUpViewController.m */; };
+		636EFC792046C1F20013C110 /* ConfirmPurchasePopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E8B7911F4B2AD300DD7904 /* ConfirmPurchasePopUpViewControllerDark.m */; };
+		636EFC7A2046C1F20013C110 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F76A7C1EDDABBE00108DE9 /* NSDate+Extension.m */; };
+		636EFC7B2046C1F20013C110 /* AbiParameterTypeBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE5A1F56AF3D006A2BF2 /* AbiParameterTypeBytes.m */; };
+		636EFC7C2046C1F20013C110 /* TokenDetailsTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D37061ECF19CC009173BD /* TokenDetailsTableSource.m */; };
+		636EFC7D2046C1F20013C110 /* WalletHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3487A261E92234B00BC66F1 /* WalletHeaderCell.m */; };
+		636EFC7E2046C1F20013C110 /* SmartContractMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F76A6F1EDD667D00108DE9 /* SmartContractMenuViewController.m */; };
+		636EFC7F2046C1F20013C110 /* RestoreContractsPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E713A4851EEEB70100A2FA40 /* RestoreContractsPopUpViewController.m */; };
+		636EFC802046C1F20013C110 /* QStoreContractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70353181F03C30E004ECCC9 /* QStoreContractViewController.m */; };
+		636EFC812046C1F20013C110 /* QStoreCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F839B1F7BF308002F3098 /* QStoreCategory.m */; };
+		636EFC822046C1F20013C110 /* TokenDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D36F01ECF14CE009173BD /* TokenDetailsViewController.m */; };
+		636EFC832046C1F20013C110 /* NewPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7396AF31DDEF8260002CD47 /* NewPaymentViewController.m */; };
+		636EFC842046C1F20013C110 /* TokenFunctionDetailViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9CE11F30C7EE006B2E07 /* TokenFunctionDetailViewControllerDark.m */; };
+		636EFC852046C1F20013C110 /* QStoreViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA52FC1F45E1C8002FD201 /* QStoreViewControllerLight.m */; };
+		636EFC862046C1F20013C110 /* NewPaymentLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7881B731F0BC63C00BD6AB2 /* NewPaymentLightViewController.m */; };
+		636EFC872046C1F20013C110 /* ContractFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32DC1ECCC2C70081260A /* ContractFileManager.m */; };
+		636EFC882046C1F20013C110 /* TokenFunctionViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9CEA1F30CB56006B2E07 /* TokenFunctionViewControllerDark.m */; };
+		636EFC892046C1F20013C110 /* BTCTransactionOutput+Address.m in Sources */ = {isa = PBXBuildFile; fileRef = B365CA5F1EA4DBC10040A163 /* BTCTransactionOutput+Address.m */; };
+		636EFC8A2046C1F20013C110 /* ServerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3597DFA1E811D6500EBF094 /* ServerAdapter.m */; };
+		636EFC8B2046C1F20013C110 /* BottomShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B321E8831E0C3B1300DC7DE5 /* BottomShadowView.m */; };
+		636EFC8C2046C1F20013C110 /* ChoseTokenPaymentViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F471F13708500131823 /* ChoseTokenPaymentViewControllerDark.m */; };
+		636EFC8D2046C1F20013C110 /* WalletNameViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B365058E1F14B17300521603 /* WalletNameViewControllerDark.m */; };
+		636EFC8E2046C1F20013C110 /* AbiParameterTypeUInt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE511F56AF0B006A2BF2 /* AbiParameterTypeUInt.m */; };
+		636EFC8F2046C1F20013C110 /* RepeateViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B365059A1F14B51000521603 /* RepeateViewControllerLight.m */; };
+		636EFC902046C1F20013C110 /* CreateTokenFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32DF1ECCC2D50081260A /* CreateTokenFinishViewController.m */; };
+		636EFC912046C1F20013C110 /* Contract.m in Sources */ = {isa = PBXBuildFile; fileRef = B365CA621EA4ED540040A163 /* Contract.m */; };
+		636EFC922046C1F20013C110 /* SubscribeTokenViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4C01F29C9B600C2417C /* SubscribeTokenViewControllerLight.m */; };
+		636EFC932046C1F20013C110 /* AddressControlCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D141F31BF1D006B2E07 /* AddressControlCellLight.m */; };
+		636EFC942046C1F20013C110 /* TokenDetailLightDisplayDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF63E1F262EB100316953 /* TokenDetailLightDisplayDataManager.m */; };
+		636EFC952046C1F20013C110 /* InformationPopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC481F2F4F8C00F4E2F2 /* InformationPopUpViewControllerDark.m */; };
+		636EFC962046C1F20013C110 /* AbiinterfaceInput.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32D21ECCC2AC0081260A /* AbiinterfaceInput.m */; };
+		636EFC972046C1F20013C110 /* CustomSearchBarLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA53101F46DE00002FD201 /* CustomSearchBarLight.m */; };
+		636EFC982046C1F20013C110 /* AbiParameterTypeDynamicArrayFixedBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE7F1F56F400006A2BF2 /* AbiParameterTypeDynamicArrayFixedBytes.m */; };
+		636EFC992046C1F20013C110 /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E752204A1F0E70E60028D152 /* PageControl.m */; };
+		636EFC9A2046C1F20013C110 /* CreateTokenFinishViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3141E651F30AD740095E3DF /* CreateTokenFinishViewControllerLight.m */; };
+		636EFC9B2046C1F20013C110 /* BTCTransaction+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E73910561DE424DD008145A8 /* BTCTransaction+Extensions.m */; };
+		636EFC9C2046C1F20013C110 /* SliderFeeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B342288A1F73CF6400C4C381 /* SliderFeeView.m */; };
+		636EFC9D2046C1F20013C110 /* ApplicationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3210D221E002E2900365FB6 /* ApplicationCoordinator.m */; };
+		636EFC9E2046C1F20013C110 /* ChoiseSmartContractCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF1F1F2B2BD700C80D4E /* ChoiseSmartContractCellLight.m */; };
+		636EFC9F2046C1F20013C110 /* QStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7847F7F1F3B315C004A2333 /* QStoreManager.m */; };
+		636EFCA02046C1F20013C110 /* TokenCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F4A31F0F8F890056D042 /* TokenCellDark.m */; };
+		636EFCA12046C1F20013C110 /* LoaderPopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E3E1F2F55BC00AA408F /* LoaderPopUpViewControllerDark.m */; };
+		636EFCA22046C1F20013C110 /* TextFieldWithLineLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E748578D1F13B26E00DCF9A6 /* TextFieldWithLineLight.m */; };
+		636EFCA32046C1F20013C110 /* AbiParameterTypeDynamicArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE881F57014B006A2BF2 /* AbiParameterTypeDynamicArray.m */; };
+		636EFCA42046C1F20013C110 /* SmartContractsListViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF291F2B41D900C80D4E /* SmartContractsListViewControllerDark.m */; };
+		636EFCA52046C1F20013C110 /* SubscribeTokenDataDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF061F2A3E4A00C80D4E /* SubscribeTokenDataDisplayManager.m */; };
+		636EFCA62046C1F20013C110 /* QStoreContractViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA52F31F45E087002FD201 /* QStoreContractViewControllerDark.m */; };
+		636EFCA72046C1F20013C110 /* ChooseTokenPaymentDelegateDataSourceLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F331F1352AA00131823 /* ChooseTokenPaymentDelegateDataSourceLight.m */; };
+		636EFCA82046C1F20013C110 /* PageControlLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B72F21F0E9263004BECEA /* PageControlLight.m */; };
+		636EFCA92046C1F20013C110 /* NSNull+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = B371D8801E3A1D3B00A13EA3 /* NSNull+Catch.m */; };
+		636EFCAA2046C1F20013C110 /* QStoreSearchTableViewCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F1492E1F489BC60032FC63 /* QStoreSearchTableViewCellLight.m */; };
+		636EFCAB2046C1F20013C110 /* TokenFunctionViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9CED1F30CB7E006B2E07 /* TokenFunctionViewControllerLight.m */; };
+		636EFCAC2046C1F20013C110 /* SourceCodePopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E8B7871F4AC5D300DD7904 /* SourceCodePopUpViewControllerLight.m */; };
+		636EFCAD2046C1F20013C110 /* AddressTransferPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D201F31E8CD006B2E07 /* AddressTransferPopupViewController.m */; };
+		636EFCAE2046C1F20013C110 /* BackupContractsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B758521EEFDB32004AF200 /* BackupContractsViewController.m */; };
+		636EFCAF2046C1F20013C110 /* QStoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E7847F741F3B16A7004A2333 /* QStoreDataProvider.m */; };
+		636EFCB02046C1F20013C110 /* CreateTokenNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B385B5A11E6D640E003BB96C /* CreateTokenNavigationController.m */; };
+		636EFCB12046C1F20013C110 /* WatchContractViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3014D621F2A1B9E007EAE7A /* WatchContractViewControllerLight.m */; };
+		636EFCB22046C1F20013C110 /* SubscribeTokenViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4BD1F29C99000C2417C /* SubscribeTokenViewControllerDark.m */; };
+		636EFCB32046C1F20013C110 /* CreatePinRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32EBFF01E1E4711003AA578 /* CreatePinRootController.m */; };
+		636EFCB42046C1F20013C110 /* NubersTokenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D36FA1ECF161E009173BD /* NubersTokenTableViewCell.m */; };
+		636EFCB52046C1F20013C110 /* SecurityPopupViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC411F2F1E1600F4E2F2 /* SecurityPopupViewControllerDark.m */; };
+		636EFCB62046C1F20013C110 /* BackupContractsViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E611F306CFB00AA408F /* BackupContractsViewControllerLight.m */; };
+		636EFCB72046C1F20013C110 /* QStoreTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E784F8C41F023C4F00A513BF /* QStoreTableSource.m */; };
+		636EFCB82046C1F20013C110 /* QTUMNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C8FAF61F98A247000168AB /* QTUMNewsItem.m */; };
+		636EFCB92046C1F20013C110 /* CheckboxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E713A47D1EEE98E900A2FA40 /* CheckboxButton.m */; };
+		636EFCBA2046C1F20013C110 /* AboutOutputViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3427FCC1F54095400182E95 /* AboutOutputViewControllerDark.m */; };
+		636EFCBB2046C1F20013C110 /* AbiinterfaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32D41ECCC2AC0081260A /* AbiinterfaceItem.m */; };
+		636EFCBC2046C1F20013C110 /* WalletNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386F5ED1E16403B004D231B /* WalletNameViewController.m */; };
+		636EFCBD2046C1F20013C110 /* InputTextViewDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF61F1F1F569800316953 /* InputTextViewDark.m */; };
+		636EFCBE2046C1F20013C110 /* NewPaymentDarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7881B761F0BC6E200BD6AB2 /* NewPaymentDarkViewController.m */; };
+		636EFCBF2046C1F20013C110 /* CustomPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B34B69631EC5993A006BE3B0 /* CustomPageControl.m */; };
+		636EFCC02046C1F20013C110 /* AddressesTokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78903621EDC678C004243F0 /* AddressesTokenView.m */; };
+		636EFCC12046C1F20013C110 /* TokenFunctionDetailViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9CE41F30C803006B2E07 /* TokenFunctionDetailViewControllerLight.m */; };
+		636EFCC22046C1F20013C110 /* QStoreListViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA53021F45E200002FD201 /* QStoreListViewControllerLight.m */; };
+		636EFCC32046C1F20013C110 /* WatchTokensViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3014D651F2A1BBB007EAE7A /* WatchTokensViewControllerLight.m */; };
+		636EFCC42046C1F20013C110 /* PopUpContentGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E73CF6D31EE2E1230044DF78 /* PopUpContentGenerator.m */; };
+		636EFCC52046C1F20013C110 /* TokenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3827DD81ECF28EE00E500DE /* TokenCell.m */; };
+		636EFCC62046C1F20013C110 /* AbiParameterTypeFixedArrayAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = B369DF2E1F5D5F0E008B81CB /* AbiParameterTypeFixedArrayAddress.m */; };
+		636EFCC72046C1F20013C110 /* ServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = B35733261F97A69A00C64AAE /* ServiceLocator.m */; };
+		636EFCC82046C1F20013C110 /* NewsDetailCellBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B39220551F98E72A00E8F7D9 /* NewsDetailCellBuilder.m */; };
+		636EFCC92046C1F20013C110 /* InnerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C101BA1F14B5DB00848526 /* InnerShadowView.m */; };
+		636EFCCA2046C1F20013C110 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D7C09C1F1D0893009EBC04 /* UICollectionViewLeftAlignedLayout.m */; };
+		636EFCCB2046C1F20013C110 /* HistoryElementValueRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */; };
+		636EFCCC2046C1F20013C110 /* QStoreListTableViewCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA53161F47318C002FD201 /* QStoreListTableViewCellDark.m */; };
+		636EFCCD2046C1F20013C110 /* NewsViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E745BA231F21FC3600B2E216 /* NewsViewControllerLight.m */; };
+		636EFCCE2046C1F20013C110 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF121E5C70EF006125F3 /* LoginViewController.m */; };
+		636EFCCF2046C1F20013C110 /* NSNumber+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A4EA4E1F502C2D008115D1 /* NSNumber+Comparison.m */; };
+		636EFCD02046C1F20013C110 /* ConfirmPinForExportViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B303552F1F163E1900E64E46 /* ConfirmPinForExportViewControllerDark.m */; };
+		636EFCD12046C1F20013C110 /* BackupContractsViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E5E1F306CEA00AA408F /* BackupContractsViewControllerDark.m */; };
+		636EFCD22046C1F20013C110 /* ExportWalletBrandKeyViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF6251F1F637D00316953 /* ExportWalletBrandKeyViewControllerDark.m */; };
+		636EFCD32046C1F20013C110 /* PopUpContent.m in Sources */ = {isa = PBXBuildFile; fileRef = E73CF6D01EE2D6FC0044DF78 /* PopUpContent.m */; };
+		636EFCD42046C1F20013C110 /* BalancePageViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F4931F0F6DA80056D042 /* BalancePageViewControllerLight.m */; };
+		636EFCD52046C1F20013C110 /* BalancePageViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F4901F0F6D8B0056D042 /* BalancePageViewControllerDark.m */; };
+		636EFCD62046C1F20013C110 /* FavouriteTemplatesCollectionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F1C831F1CD68A00961B19 /* FavouriteTemplatesCollectionSource.m */; };
+		636EFCD72046C1F20013C110 /* AbiParameterTypeAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE4E1F56AEF7006A2BF2 /* AbiParameterTypeAddress.m */; };
+		636EFCD82046C1F20013C110 /* ErrorPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73CF6C71EE2CF970044DF78 /* ErrorPopUpViewController.m */; };
+		636EFCD92046C1F20013C110 /* AddressesTokenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D36FD1ECF1636009173BD /* AddressesTokenTableViewCell.m */; };
+		636EFCDA2046C1F20013C110 /* NSString+AbiRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE3E1F569FEB006A2BF2 /* NSString+AbiRegex.m */; };
+		636EFCDB2046C1F20013C110 /* JKBigDecimal+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = B328055B1FA74CDA00748E7E /* JKBigDecimal+Format.m */; };
+		636EFCDC2046C1F20013C110 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD36651DC76EBC00748177 /* RequestManager.m */; };
+		636EFCDD2046C1F20013C110 /* TextFieldWithLineLightSend.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4B01F28D5BC00C2417C /* TextFieldWithLineLightSend.m */; };
+		636EFCDE2046C1F20013C110 /* SwitchParameterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72631261EEAA9A7005AED8F /* SwitchParameterView.m */; };
+		636EFCDF2046C1F20013C110 /* TokenFunctionCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9CF71F31AE1B006B2E07 /* TokenFunctionCellLight.m */; };
+		636EFCE02046C1F20013C110 /* FavouriteTemplateCollectionViewCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E591F2F9AA300AA408F /* FavouriteTemplateCollectionViewCellLight.m */; };
+		636EFCE12046C1F20013C110 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = B366CA241F1D0C1200EF3273 /* NSString+AES256.m */; };
+		636EFCE22046C1F20013C110 /* ProfileNavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3CF81E112A1A0094C82C /* ProfileNavigationCoordinator.m */; };
+		636EFCE32046C1F20013C110 /* LoaderPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71271961EE9ADAB00A130A0 /* LoaderPopUpViewController.m */; };
+		636EFCE42046C1F20013C110 /* AbiParameterTypeDynamicArrayUInt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE631F56F292006A2BF2 /* AbiParameterTypeDynamicArrayUInt.m */; };
+		636EFCE52046C1F20013C110 /* AbiParameterTypeFixedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE851F57013A006A2BF2 /* AbiParameterTypeFixedArray.m */; };
+		636EFCE62046C1F20013C110 /* TokenDetailsViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF6381F262B7200316953 /* TokenDetailsViewControllerDark.m */; };
+		636EFCE72046C1F20013C110 /* WalletTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B385B5A41E6D829C003BB96C /* WalletTableSource.m */; };
+		636EFCE82046C1F20013C110 /* SourceCodePopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E8B78A1F4AC5E300DD7904 /* SourceCodePopUpViewControllerDark.m */; };
+		636EFCE92046C1F20013C110 /* HistoryItemViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C101C01F15073800848526 /* HistoryItemViewControllerDark.m */; };
+		636EFCEA2046C1F20013C110 /* AbiParameterTypeFixedArrayBool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE761F56F399006A2BF2 /* AbiParameterTypeFixedArrayBool.m */; };
+		636EFCEB2046C1F20013C110 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B33BD5561EBCA6890076B0C1 /* UIImage+Extension.m */; };
+		636EFCEC2046C1F20013C110 /* SelectSearchTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CE63671F028E8F00C147B9 /* SelectSearchTypeView.m */; };
+		636EFCED2046C1F20013C110 /* TemplateTokenViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF351F2B471A00C80D4E /* TemplateTokenViewControllerLight.m */; };
+		636EFCEE2046C1F20013C110 /* InterfaceInputFormModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32C71ECCC1F90081260A /* InterfaceInputFormModel.m */; };
+		636EFCEF2046C1F20013C110 /* TokenAddressContolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D301F331EC5006B2E07 /* TokenAddressContolCell.m */; };
+		636EFCF02046C1F20013C110 /* CreatePinViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B36505941F14B3BA00521603 /* CreatePinViewControllerLight.m */; };
+		636EFCF12046C1F20013C110 /* GradientViewWithAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3255C4B1E1CDD6500CD610B /* GradientViewWithAnimation.m */; };
+		636EFCF22046C1F20013C110 /* KeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E739105E1DE5E131008145A8 /* KeyViewController.m */; };
+		636EFCF32046C1F20013C110 /* LoginViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F501F13B4CE00131823 /* LoginViewControllerDark.m */; };
+		636EFCF42046C1F20013C110 /* SecurityPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = B381CBE91F029CB200142252 /* SecurityPinView.m */; };
+		636EFCF52046C1F20013C110 /* WalletsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B365CA7B1EA77D590040A163 /* WalletsFactory.m */; };
+		636EFCF62046C1F20013C110 /* ConfirmPinCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B346AE1D1EFD57BC00241C61 /* ConfirmPinCoordinator.m */; };
+		636EFCF72046C1F20013C110 /* PinViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4AA1F28C6F600C2417C /* PinViewControllerDark.m */; };
+		636EFCF82046C1F20013C110 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E739105A1DE45398008145A8 /* BaseViewController.m */; };
+		636EFCF92046C1F20013C110 /* LibraryTableViewCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF121F2A47F900C80D4E /* LibraryTableViewCellDark.m */; };
+		636EFCFA2046C1F20013C110 /* AddressControlListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D031F31B6A3006B2E07 /* AddressControlListViewController.m */; };
+		636EFCFB2046C1F20013C110 /* BalanceTokenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D36F41ECF15D1009173BD /* BalanceTokenTableViewCell.m */; };
+		636EFCFC2046C1F20013C110 /* WatchTokensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B387AB3D1EEE85D2001D2FF1 /* WatchTokensViewController.m */; };
+		636EFCFD2046C1F20013C110 /* GradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3210D131E00052900365FB6 /* GradientLayer.m */; };
+		636EFCFE2046C1F20013C110 /* CircleGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7396AE71DDEDEEC0002CD47 /* CircleGradientView.m */; };
+		636EFCFF2046C1F20013C110 /* ContractPretendent.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E090211FAB0C83003F3B54 /* ContractPretendent.m */; };
+		636EFD002046C1F20013C110 /* QTUMSwipableCellWithButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E0901E1FA9E097003F3B54 /* QTUMSwipableCellWithButtons.m */; };
+		636EFD012046C1F20013C110 /* SendInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E74003C11F1E2AC7002CC587 /* SendInfoItem.m */; };
+		636EFD022046C1F20013C110 /* ChooseTokenPaymentDelegateDataSourceDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F301F13529600131823 /* ChooseTokenPaymentDelegateDataSourceDark.m */; };
+		636EFD032046C1F20013C110 /* SourceCodePopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E784F8C91F025DDB00A513BF /* SourceCodePopUpViewController.m */; };
+		636EFD042046C1F20013C110 /* AbiTextFieldWithLineLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3141E551F3090A60095E3DF /* AbiTextFieldWithLineLight.m */; };
+		636EFD052046C1F20013C110 /* AbiParameterTypeElementaryArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B369DF371F5D672E008B81CB /* AbiParameterTypeElementaryArray.m */; };
+		636EFD062046C1F20013C110 /* QTUMParagrafTagCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B315D0341F9F43BF00C7F4E4 /* QTUMParagrafTagCellLight.m */; };
+		636EFD072046C1F20013C110 /* AbiParameterTypeFixedElementaryArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B369DF311F5D6187008B81CB /* AbiParameterTypeFixedElementaryArray.m */; };
+		636EFD082046C1F20013C110 /* NSData+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B365CA6E1EA600F30040A163 /* NSData+Extension.m */; };
+		636EFD092046C1F20013C110 /* AuthCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF061E5C5D9A006125F3 /* AuthCoordinator.m */; };
+		636EFD0A2046C1F20013C110 /* BalanceTokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78903591EDC66D0004243F0 /* BalanceTokenView.m */; };
+		636EFD0B2046C1F20013C110 /* ConfirmPopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C9FADF1F7908E0005D08AD /* ConfirmPopUpViewControllerLight.m */; };
+		636EFD0C2046C1F20013C110 /* TokenAddressContolCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D361F331F8D006B2E07 /* TokenAddressContolCellDark.m */; };
+		636EFD0D2046C1F20013C110 /* TouchIDService.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF62B1F2084CA00316953 /* TouchIDService.m */; };
+		636EFD0E2046C1F20013C110 /* BalancePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CB56AD1ECEE8B300B23AE9 /* BalancePageViewController.m */; };
+		636EFD0F2046C1F20013C110 /* TokenFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3827DE61ECF673900E500DE /* TokenFunctionViewController.m */; };
+		636EFD102046C1F20013C110 /* NewsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3CFE1E112A470094C82C /* NewsNavigationController.m */; };
+		636EFD112046C1F20013C110 /* LibraryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F1C7E1F1CA1E400961B19 /* LibraryTableViewCell.m */; };
+		636EFD122046C1F20013C110 /* QTUMContractLableWithMargins.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E090241FAB4DD1003F3B54 /* QTUMContractLableWithMargins.m */; };
+		636EFD132046C1F20013C110 /* ViewWithGradientPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = B3210D191E00142100365FB6 /* ViewWithGradientPoints.m */; };
+		636EFD142046C1F20013C110 /* TokenFunctionCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9CFC1F31AE54006B2E07 /* TokenFunctionCellDark.m */; };
+		636EFD152046C1F20013C110 /* LibraryTableViewCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF0F1F2A47E000C80D4E /* LibraryTableViewCellLight.m */; };
+		636EFD162046C1F20013C110 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B386F5B01E1395E5004D231B /* ProfileViewController.m */; };
+		636EFD172046C1F20013C110 /* ShareTokenPopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9CF41F30D43B006B2E07 /* ShareTokenPopUpViewControllerLight.m */; };
+		636EFD182046C1F20013C110 /* ContractCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F06CF61E69879D006341F7 /* ContractCoordinator.m */; };
+		636EFD192046C1F20013C110 /* QStoreCollectionViewSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E784F8BA1F015C4C00A513BF /* QStoreCollectionViewSource.m */; };
+		636EFD1A2046C1F20013C110 /* AnimatedLogoImageVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D9C8F1ECB1A0600A09CFE /* AnimatedLogoImageVIew.m */; };
+		636EFD1B2046C1F20013C110 /* ProfileViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F4B01F0FAB930056D042 /* ProfileViewControllerDark.m */; };
+		636EFD1C2046C1F20013C110 /* AbiParameterTypeFixedArrayString.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE701F56F365006A2BF2 /* AbiParameterTypeFixedArrayString.m */; };
+		636EFD1D2046C1F20013C110 /* QStoreTemplateFunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E60071F4EF101003B4FA5 /* QStoreTemplateFunctionCell.m */; };
+		636EFD1E2046C1F20013C110 /* InputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B321E8801E0C2C0F00DC7DE5 /* InputTextView.m */; };
+		636EFD1F2046C1F20013C110 /* QStoreRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EFEAD11F4C0CBD003BA930 /* QStoreRequestManager.m */; };
+		636EFD202046C1F20013C110 /* LanguageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EA2CBA1ED42DCB00AFD5D0 /* LanguageTableViewCell.m */; };
+		636EFD212046C1F20013C110 /* ChoiseSmartContractCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF221F2B2C0500C80D4E /* ChoiseSmartContractCellDark.m */; };
+		636EFD222046C1F20013C110 /* BorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B321E8861E0D07A000DC7DE5 /* BorderedLabel.m */; };
+		636EFD232046C1F20013C110 /* HistoryDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B3487A201E8D2B2B00BC66F1 /* HistoryDataStorage.m */; };
+		636EFD242046C1F20013C110 /* HistoryElementRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB09120400DA7005520C2 /* HistoryElementRealm.m */; };
+		636EFD252046C1F20013C110 /* QTUMFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C8FAE91F98922A000168AB /* QTUMFeedItem.m */; };
+		636EFD262046C1F20013C110 /* Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = B3210D251E0030DB00365FB6 /* Appearance.m */; };
+		636EFD272046C1F20013C110 /* TokenDetailTableViewLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF6481F27329E00316953 /* TokenDetailTableViewLight.m */; };
+		636EFD282046C1F20013C110 /* ExportBrainKeyViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B36505A91F16017300521603 /* ExportBrainKeyViewControllerLight.m */; };
+		636EFD292046C1F20013C110 /* LoginViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F531F13B4DF00131823 /* LoginViewControllerLight.m */; };
+		636EFD2A2046C1F20013C110 /* AbiParameterTypeDynamicArrayBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE8E1F57F742006A2BF2 /* AbiParameterTypeDynamicArrayBytes.m */; };
+		636EFD2B2046C1F20013C110 /* AddressControlListViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D061F31B6B7006B2E07 /* AddressControlListViewControllerLight.m */; };
+		636EFD2C2046C1F20013C110 /* ConfirmPinForExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B303552C1F163C4D00E64E46 /* ConfirmPinForExportViewController.m */; };
+		636EFD2D2046C1F20013C110 /* QTUMParagrafTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B315D02B1F9E100100C7F4E4 /* QTUMParagrafTagCell.m */; };
+		636EFD2E2046C1F20013C110 /* TemplateTokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C08B171ED44DD900713B15 /* TemplateTokenViewController.m */; };
+		636EFD2F2046C1F20013C110 /* AbiParameterTypeInt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE541F56AF1E006A2BF2 /* AbiParameterTypeInt.m */; };
+		636EFD302046C1F20013C110 /* RestoreWalletViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF61B1F1F4A7400316953 /* RestoreWalletViewControllerLight.m */; };
+		636EFD312046C1F20013C110 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3210D1F1E001EC200365FB6 /* PinViewController.m */; };
+		636EFD322046C1F20013C110 /* NewsDetailViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B39220661F99D9B300E8F7D9 /* NewsDetailViewControllerLight.m */; };
+		636EFD332046C1F20013C110 /* HistoryHeaderVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = B3487A2C1E92392000BC66F1 /* HistoryHeaderVIew.m */; };
+		636EFD342046C1F20013C110 /* QStoreSearchTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E70353091F039297004ECCC9 /* QStoreSearchTableSource.m */; };
+		636EFD352046C1F20013C110 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B392205C1F99D82800E8F7D9 /* NewsDetailViewController.m */; };
+		636EFD362046C1F20013C110 /* TableSourcesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E798463F1F0D2F57002A516A /* TableSourcesFactory.m */; };
+		636EFD372046C1F20013C110 /* QTUMAddressTokenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D37031ECF1771009173BD /* QTUMAddressTokenTableViewCell.m */; };
+		636EFD382046C1F20013C110 /* AbiParameterTypeFixedArrayUInt.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE661F56F2A0006A2BF2 /* AbiParameterTypeFixedArrayUInt.m */; };
+		636EFD392046C1F20013C110 /* AnimatedLogoImageVIewLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B335794F1F34B5E5001A0275 /* AnimatedLogoImageVIewLight.m */; };
+		636EFD3A2046C1F20013C110 /* TokenTemplateCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF431F2B497A00C80D4E /* TokenTemplateCellLight.m */; };
+		636EFD3B2046C1F20013C110 /* SubscribeTokenCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F06CFD1E69883D006341F7 /* SubscribeTokenCoordinator.m */; };
+		636EFD3C2046C1F20013C110 /* AddressLibruaryCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D001F31B449006B2E07 /* AddressLibruaryCoordinator.m */; };
+		636EFD3D2046C1F20013C110 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B384F3DB1EB9BF4A0075F1E8 /* LanguageManager.m */; };
+		636EFD3E2046C1F20013C110 /* ChooseTokenPaymentDelegateDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E718FA271F17A7CA00C8076A /* ChooseTokenPaymentDelegateDataSource.m */; };
+		636EFD3F2046C1F20013C110 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E74636851DCB300800A13318 /* Utils.m */; };
+		636EFD402046C1F20013C110 /* ExportBrainKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B321E87D1E0BE39B00DC7DE5 /* ExportBrainKeyViewController.m */; };
+		636EFD412046C1F20013C110 /* TokenTemplateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C08B1A1ED44E4200713B15 /* TokenTemplateCell.m */; };
+		636EFD422046C1F20013C110 /* PinViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4AD1F28C70600C2417C /* PinViewControllerLight.m */; };
+		636EFD432046C1F20013C110 /* NetworkingService.m in Sources */ = {isa = PBXBuildFile; fileRef = B35572C91F90EFDE001AE34A /* NetworkingService.m */; };
+		636EFD442046C1F20013C110 /* QTUMTagsAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C8FAF91F98A6E1000168AB /* QTUMTagsAttribute.m */; };
+		636EFD452046C1F20013C110 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 634BB08C203FFB37005520C2 /* DatabaseManager.m */; };
+		636EFD462046C1F20013C110 /* AbiParameterTypeFixedArrayBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE8B1F57F72B006A2BF2 /* AbiParameterTypeFixedArrayBytes.m */; };
+		636EFD472046C1F20013C110 /* AbiinterfaceEntries.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32D01ECCC2AC0081260A /* AbiinterfaceEntries.m */; };
+		636EFD482046C1F20013C110 /* ExportWalletBrandKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF221E5D6955006125F3 /* ExportWalletBrandKeyViewController.m */; };
+		636EFD492046C1F20013C110 /* ChoseTokenPaymentViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F3B1F136A9A00131823 /* ChoseTokenPaymentViewControllerLight.m */; };
+		636EFD4A2046C1F20013C110 /* PhotoLibraryPopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC331F2F15CC00F4E2F2 /* PhotoLibraryPopUpViewControllerDark.m */; };
+		636EFD4B2046C1F20013C110 /* UIAlertController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3846DD51DFEFA6500D6872C /* UIAlertController+Extensions.m */; };
+		636EFD4C2046C1F20013C110 /* QTUMHtmlParcer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C8FAF01F989DF3000168AB /* QTUMHtmlParcer.m */; };
+		636EFD4D2046C1F20013C110 /* LibraryViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF091F2A461D00C80D4E /* LibraryViewControllerDark.m */; };
+		636EFD4E2046C1F20013C110 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B321428C1E0153F000489BB1 /* CustomTextField.m */; };
+		636EFD4F2046C1F20013C110 /* NewsTableCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E745BA1C1F21E78E00B2E216 /* NewsTableCellDark.m */; };
+		636EFD502046C1F20013C110 /* QTUMDefaultTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B39220601F99D92E00E8F7D9 /* QTUMDefaultTagCell.m */; };
+		636EFD512046C1F20013C110 /* QStoreBuyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E733570B1F3DA90900EE0D8B /* QStoreBuyRequest.m */; };
+		636EFD522046C1F20013C110 /* WalletViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E79846261F0D0068002A516A /* WalletViewControllerLight.m */; };
+		636EFD532046C1F20013C110 /* ActivityTokenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E73D37001ECF1684009173BD /* ActivityTokenTableViewCell.m */; };
+		636EFD542046C1F20013C110 /* SplashViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B33579461F348F7E001A0275 /* SplashViewControllerDark.m */; };
+		636EFD552046C1F20013C110 /* QStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E784F8B71F015B7100A513BF /* QStoreViewController.m */; };
+		636EFD562046C1F20013C110 /* ExportBrandKeyCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B36505A31F15F6C700521603 /* ExportBrandKeyCoordinator.m */; };
+		636EFD572046C1F20013C110 /* ChoseTokenPaymentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E159281ED6E3C500D70A87 /* ChoseTokenPaymentCell.m */; };
+		636EFD582046C1F20013C110 /* NSString+SHA3.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C08B0B1ED2FE3000713B15 /* NSString+SHA3.m */; };
+		636EFD592046C1F20013C110 /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = B3C08B141ED3382300713B15 /* keccak.c */; };
+		636EFD5A2046C1F20013C110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD363F1DC4D07E00748177 /* AppDelegate.m */; };
+		636EFD5B2046C1F20013C110 /* SmartContractsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D555E71EDE00BE00CBDFCF /* SmartContractsListViewController.m */; };
+		636EFD5C2046C1F20013C110 /* iOSSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E730AB871EE6ACCA00132711 /* iOSSessionManager.m */; };
+		636EFD5D2046C1F20013C110 /* PopUpsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FA0CB81ECD914200702C4E /* PopUpsManager.m */; };
+		636EFD5E2046C1F20013C110 /* NSError+NoInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = E73CF6D61EE2F0D90044DF78 /* NSError+NoInternet.m */; };
+		636EFD5F2046C1F20013C110 /* QStoreTemplateDetailViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E5FFE1F4EE806003B4FA5 /* QStoreTemplateDetailViewControllerDark.m */; };
+		636EFD602046C1F20013C110 /* CustomSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CE63611F027EC200C147B9 /* CustomSearchBar.m */; };
+		636EFD612046C1F20013C110 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = E727F1771E02749D0080E79D /* Wallet.m */; };
+		636EFD622046C1F20013C110 /* ChoiseSmartContractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F76A721EDD671D00108DE9 /* ChoiseSmartContractCell.m */; };
+		636EFD632046C1F20013C110 /* QStoreCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = E74C16561F3B09C3003D2D9C /* QStoreCoordinator.m */; };
+		636EFD642046C1F20013C110 /* LoginCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF0C1E5C6CD2006125F3 /* LoginCoordinator.m */; };
+		636EFD652046C1F20013C110 /* NoInternetConnectionPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FA0CB51ECD80E200702C4E /* NoInternetConnectionPopUpViewController.m */; };
+		636EFD662046C1F20013C110 /* LightBlueGrayBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF6451F263CD500316953 /* LightBlueGrayBorderView.m */; };
+		636EFD672046C1F20013C110 /* ConstructorFromAbiViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3076F2E1F30859C00FB7D5A /* ConstructorFromAbiViewControllerDark.m */; };
+		636EFD682046C1F20013C110 /* BTCAddress+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E777786B1EF3E54E00948682 /* BTCAddress+Extension.m */; };
+		636EFD692046C1F20013C110 /* QStoreContractDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EFEAD41F4C0CD4003BA930 /* QStoreContractDownloadManager.m */; };
+		636EFD6A2046C1F20013C110 /* WalletTableSourceDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E79846391F0D2899002A516A /* WalletTableSourceDark.m */; };
+		636EFD6B2046C1F20013C110 /* TextFieldWithLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E7396AFE1DDF394C0002CD47 /* TextFieldWithLine.m */; };
+		636EFD6C2046C1F20013C110 /* ChoseTokenPaymentCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F3E1F136F6200131823 /* ChoseTokenPaymentCellDark.m */; };
+		636EFD6D2046C1F20013C110 /* RepeateViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36505971F14B50000521603 /* RepeateViewControllerDark.m */; };
+		636EFD6E2046C1F20013C110 /* FavouriteTemplateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E71F1C891F1CEBA400961B19 /* FavouriteTemplateCollectionViewCell.m */; };
+		636EFD6F2046C1F20013C110 /* WalletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E71AF2541E018F6A0068595B /* WalletManager.m */; };
+		636EFD702046C1F20013C110 /* ChooseReciveAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CD78D61F4DC1E100D79363 /* ChooseReciveAddressViewController.m */; };
+		636EFD712046C1F20013C110 /* ConfirmPopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C9FAE21F7908ED005D08AD /* ConfirmPopUpViewControllerDark.m */; };
+		636EFD722046C1F20013C110 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = B384F3DD1EB9BF4A0075F1E8 /* NSBundle+Language.m */; };
+		636EFD732046C1F20013C110 /* HistoryElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E739104E1DE2E165008145A8 /* HistoryElement.m */; };
+		636EFD742046C1F20013C110 /* QStoreTemplateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31E5FFB1F4EE7F6003B4FA5 /* QStoreTemplateDetailViewController.m */; };
+		636EFD752046C1F20013C110 /* EnableFingerprintViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B365059D1F14B63600521603 /* EnableFingerprintViewControllerDark.m */; };
+		636EFD762046C1F20013C110 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344181620105036000262AC /* UIColor+Extension.swift */; };
+		636EFD772046C1F20013C110 /* HistoryTableViewCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E798462C1F0D1E50002A516A /* HistoryTableViewCellLight.m */; };
+		636EFD782046C1F20013C110 /* WalletHeaderCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E79846351F0D23CB002A516A /* WalletHeaderCellDark.m */; };
+		636EFD792046C1F20013C110 /* WalletNameViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B365058B1F14B12E00521603 /* WalletNameViewControllerLight.m */; };
+		636EFD7A2046C1F20013C110 /* AddressBalanceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63898A5F2043FA05000887AA /* AddressBalanceRealm.m */; };
+		636EFD7B2046C1F20013C110 /* AddressControlCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D171F31BF2B006B2E07 /* AddressControlCellDark.m */; };
+		636EFD7C2046C1F20013C110 /* ErrorPopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC3A1F2F1B5A00F4E2F2 /* ErrorPopUpViewControllerLight.m */; };
+		636EFD7D2046C1F20013C110 /* ContentInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D032352015D8E200470705 /* ContentInsetLabel.m */; };
+		636EFD7E2046C1F20013C110 /* CheckboxButtonLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E501F2F7A5200AA408F /* CheckboxButtonLight.m */; };
+		636EFD7F2046C1F20013C110 /* NewsDetailViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B39220631F99D9A800E8F7D9 /* NewsDetailViewControllerDark.m */; };
+		636EFD802046C1F20013C110 /* WalletTableSourceLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E798463C1F0D28A3002A516A /* WalletTableSourceLight.m */; };
+		636EFD812046C1F20013C110 /* SecurityPopupViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC441F2F1E2D00F4E2F2 /* SecurityPopupViewControllerLight.m */; };
+		636EFD822046C1F20013C110 /* NSDecimalNumber+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A4EA511F502C40008115D1 /* NSDecimalNumber+Comparison.m */; };
+		636EFD832046C1F20013C110 /* DiagramView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3255C471E1CD3FC00CD610B /* DiagramView.m */; };
+		636EFD842046C1F20013C110 /* AbiTextFieldWithLine.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32E51ECCC2FF0081260A /* AbiTextFieldWithLine.m */; };
+		636EFD852046C1F20013C110 /* WalletCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD275F1E681AA500BB0635 /* WalletCoordinator.m */; };
+		636EFD862046C1F20013C110 /* ConfirmPurchasePopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E8B78E1F4B2AC400DD7904 /* ConfirmPurchasePopUpViewControllerLight.m */; };
+		636EFD872046C1F20013C110 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3CF21E1126200094C82C /* TabBarController.m */; };
+		636EFD882046C1F20013C110 /* TemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B387AB431EF04911001D2FF1 /* TemplateManager.m */; };
+		636EFD892046C1F20013C110 /* SecurityCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE93711F04E19100550C60 /* SecurityCoordinator.m */; };
+		636EFD8A2046C1F20013C110 /* TabBarControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F271F0E109300131823 /* TabBarControllerLight.m */; };
+		636EFD8B2046C1F20013C110 /* HistoryItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33601851E963EC800243A21 /* HistoryItemViewController.m */; };
+		636EFD8C2046C1F20013C110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD363C1DC4D07E00748177 /* main.m */; };
+		636EFD8D2046C1F20013C110 /* WalletManagerRequestAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B365CA811EA8AA070040A163 /* WalletManagerRequestAdapter.m */; };
+		636EFD8E2046C1F20013C110 /* NewsCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B35130601E49C9930048A28C /* NewsCellModel.m */; };
+		636EFD8F2046C1F20013C110 /* QRCodeViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE8F4A1F13766C00131823 /* QRCodeViewControllerDark.m */; };
+		636EFD902046C1F20013C110 /* ProfileViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F4B31F0FABA00056D042 /* ProfileViewControllerLight.m */; };
+		636EFD912046C1F20013C110 /* TemplateTokenViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF321F2B470D00C80D4E /* TemplateTokenViewControllerDark.m */; };
+		636EFD922046C1F20013C110 /* WalletHeaderCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E79846311F0D2373002A516A /* WalletHeaderCellLight.m */; };
+		636EFD932046C1F20013C110 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73910521DE30BA8008145A8 /* QRCodeViewController.m */; };
+		636EFD942046C1F20013C110 /* InformationPopUpViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC4B1F2F4F9F00F4E2F2 /* InformationPopUpViewControllerLight.m */; };
+		636EFD952046C1F20013C110 /* SpinnerViewLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB3E371F2F513E00AA408F /* SpinnerViewLight.m */; };
+		636EFD962046C1F20013C110 /* TokenDetailInfoLightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF6421F26378D00316953 /* TokenDetailInfoLightCell.m */; };
+		636EFD972046C1F20013C110 /* ChooseAddressReciveCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CD78E71F4DD46300D79363 /* ChooseAddressReciveCellLight.m */; };
+		636EFD982046C1F20013C110 /* FXKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD36591DC7308A00748177 /* FXKeychain.m */; };
+		636EFD992046C1F20013C110 /* QStoreMainScreenCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E7847F781F3B1ACD004A2333 /* QStoreMainScreenCategory.m */; };
+		636EFD9A2046C1F20013C110 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EAF9E1E5EE1EE006125F3 /* NSString+Extension.m */; };
+		636EFD9B2046C1F20013C110 /* WatchContractViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3014D5F1F2A1B8D007EAE7A /* WatchContractViewControllerDark.m */; };
+		636EFD9C2046C1F20013C110 /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7360EC41F1918E7003ED21D /* LibraryViewController.m */; };
+		636EFD9D2046C1F20013C110 /* QStoreContractViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA52F61F45E0A0002FD201 /* QStoreContractViewControllerLight.m */; };
+		636EFD9E2046C1F20013C110 /* ProfileCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F4A91F0FA23D0056D042 /* ProfileCoordinator.m */; };
+		636EFD9F2046C1F20013C110 /* LibraryViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBDF0C1F2A463700C80D4E /* LibraryViewControllerLight.m */; };
+		636EFDA02046C1F20013C110 /* TokenCellSubscribeDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4CB1F29EF7200C2417C /* TokenCellSubscribeDark.m */; };
+		636EFDA12046C1F20013C110 /* TokenDetailsViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF63B1F262B8900316953 /* TokenDetailsViewControllerLight.m */; };
+		636EFDA22046C1F20013C110 /* TokenCellSubscribeLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B32BC4C81F29EF6400C2417C /* TokenCellSubscribeLight.m */; };
+		636EFDA32046C1F20013C110 /* AbiParameterPrimitiveType.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE601F56CC53006A2BF2 /* AbiParameterPrimitiveType.m */; };
+		636EFDA42046C1F20013C110 /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B386F5B41E139CC1004D231B /* ProfileTableViewCell.m */; };
+		636EFDA52046C1F20013C110 /* NSBundle+StyleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B371D87E1E3A1D3B00A13EA3 /* NSBundle+StyleProvider.m */; };
+		636EFDA62046C1F20013C110 /* ConfirmPurchasePopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E703531D1F03FB91004ECCC9 /* ConfirmPurchasePopUpViewController.m */; };
+		636EFDA72046C1F20013C110 /* BackupFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B387AB401EF04474001D2FF1 /* BackupFileManager.m */; };
+		636EFDA82046C1F20013C110 /* DataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B387AB461EF12FDA001D2FF1 /* DataOperation.m */; };
+		636EFDA92046C1F20013C110 /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B326327C1F9602B6001FF038 /* PasswordView.m */; };
+		636EFDAA2046C1F20013C110 /* ChooseReciveAddressViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CD78DC1F4DC24E00D79363 /* ChooseReciveAddressViewControllerLight.m */; };
+		636EFDAB2046C1F20013C110 /* WalletViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E79846231F0D0056002A516A /* WalletViewControllerDark.m */; };
+		636EFDAC2046C1F20013C110 /* TokenFunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3827DE31ECF5E8D00E500DE /* TokenFunctionCell.m */; };
+		636EFDAD2046C1F20013C110 /* AddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7396AFB1DDF19C90002CD47 /* AddressTableViewCell.m */; };
+		636EFDAE2046C1F20013C110 /* TransactionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B342DB611F60440B0052A367 /* TransactionBuilder.m */; };
+		636EFDAF2046C1F20013C110 /* MainTokenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E78903651EDC6F06004243F0 /* MainTokenTableViewCell.m */; };
+		636EFDB02046C1F20013C110 /* NubersTokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E789035F1EDC6769004243F0 /* NubersTokenView.m */; };
+		636EFDB12046C1F20013C110 /* AbiParameterTypeDynamicArrayAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = B369DF2B1F5D5EF6008B81CB /* AbiParameterTypeDynamicArrayAddress.m */; };
+		636EFDB22046C1F20013C110 /* QStoreSearchTableViewCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F1492B1F489BB80032FC63 /* QStoreSearchTableViewCellDark.m */; };
+		636EFDB32046C1F20013C110 /* QTUMImageTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B39220691F99FA9C00E8F7D9 /* QTUMImageTagCell.m */; };
+		636EFDB42046C1F20013C110 /* RestoreWalletViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B35DF6181F1F4A6000316953 /* RestoreWalletViewControllerDark.m */; };
+		636EFDB52046C1F20013C110 /* BTCBlockchainInfo+QtumExplorer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DD00F11DC9E64300FD5335 /* BTCBlockchainInfo+QtumExplorer.m */; };
+		636EFDB62046C1F20013C110 /* InformationPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73CF6CA1EE2CFA40044DF78 /* InformationPopUpViewController.m */; };
+		636EFDB72046C1F20013C110 /* AboutOutputViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3427FCF1F54096100182E95 /* AboutOutputViewControllerLight.m */; };
+		636EFDB82046C1F20013C110 /* NewsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B35130641E49DCBC0048A28C /* NewsTableCell.m */; };
+		636EFDB92046C1F20013C110 /* QStoreListTableViewCellLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA53191F47319D002FD201 /* QStoreListTableViewCellLight.m */; };
+		636EFDBA2046C1F20013C110 /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B35130671E49DF910048A28C /* ImageLoader.m */; };
+		636EFDBB2046C1F20013C110 /* QStoreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E784F8BD1F015CE400A513BF /* QStoreCollectionViewCell.m */; };
+		636EFDBC2046C1F20013C110 /* EnableFingerprintViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B36505A01F14B64400521603 /* EnableFingerprintViewControllerLight.m */; };
+		636EFDBD2046C1F20013C110 /* TokenListViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = E760F49C1F0F89730056D042 /* TokenListViewControllerLight.m */; };
+		636EFDBE2046C1F20013C110 /* TokenFunctionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3827DE91ED2C74900E500DE /* TokenFunctionDetailViewController.m */; };
+		636EFDBF2046C1F20013C110 /* AbiTypesProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE821F56F4BC006A2BF2 /* AbiTypesProcessor.m */; };
+		636EFDC02046C1F20013C110 /* RestoreContractsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E713A4801EEE9FF800A2FA40 /* RestoreContractsViewController.m */; };
+		636EFDC12046C1F20013C110 /* ResultTokenInputsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B32B32CA1ECCC2130081260A /* ResultTokenInputsModel.m */; };
+		636EFDC22046C1F20013C110 /* WalletNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C3CFB1E112A300094C82C /* WalletNavigationController.m */; };
+		636EFDC32046C1F20013C110 /* AbiParameterTypeBool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D5FE5D1F56B7B2006A2BF2 /* AbiParameterTypeBool.m */; };
+		636EFDC42046C1F20013C110 /* ConfirmPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73CF6CD1EE2CFB00044DF78 /* ConfirmPopUpViewController.m */; };
+		636EFDC52046C1F20013C110 /* QTUMHTMLTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C8FAF31F989F9B000168AB /* QTUMHTMLTagItem.m */; };
+		636EFDC62046C1F20013C110 /* LanguageTableViewCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E74857981F13C01800DCF9A6 /* LanguageTableViewCellDark.m */; };
+		636EFDC72046C1F20013C110 /* QStoreTableViewCellDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA53061F46D9CD002FD201 /* QStoreTableViewCellDark.m */; };
+		636EFDC82046C1F20013C110 /* QStoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E784F8C11F023C1800A513BF /* QStoreTableViewCell.m */; };
+		636EFDC92046C1F20013C110 /* AddressBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2B604B2021A3E900F163C3 /* AddressBalance.m */; };
+		636EFDCA2046C1F20013C110 /* TokenAddressControlViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC9D3D1F332399006B2E07 /* TokenAddressControlViewControllerDark.m */; };
+		636EFDCB2046C1F20013C110 /* BaseCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DD27561E6805EC00BB0635 /* BaseCoordinator.m */; };
+		636EFDCC2046C1F20013C110 /* QTUMBigNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = B32805611FA78A8B00748E7E /* QTUMBigNumber.m */; };
+		636EFDCD2046C1F20013C110 /* RPCAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3597DF71E811D4500EBF094 /* RPCAdapter.m */; };
+		636EFDCE2046C1F20013C110 /* TextFieldWithLineDark.m in Sources */ = {isa = PBXBuildFile; fileRef = E74857891F13B25D00DCF9A6 /* TextFieldWithLineDark.m */; };
+		636EFDCF2046C1F20013C110 /* ErrorPopUpViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B36EBC3D1F2F1B6F00F4E2F2 /* ErrorPopUpViewControllerDark.m */; };
+		636EFDD12046C1F20013C110 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B35733331F97B3A700C64AAE /* libxml2.tbd */; };
+		636EFDD22046C1F20013C110 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FD365B1DC7360400748177 /* Security.framework */; };
+		636EFDD32046C1F20013C110 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6310656D203FCAFE0086A866 /* Realm.framework */; };
+		636EFDD42046C1F20013C110 /* libPods-htmlcoin wallet prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3F1ECC5B3C35D4E55B9045 /* libPods-htmlcoin wallet prod.a */; };
+		636EFDD52046C1F20013C110 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07A203FCDC3005520C2 /* Realm.framework */; };
+		636EFDD72046C1F20013C110 /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = B30960BA1F62EACC00BEF9D2 /* Avenir.ttc */; };
+		636EFDD82046C1F20013C110 /* simplonmono-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3EE8F551F13B97B00131823 /* simplonmono-regular.ttf */; };
+		636EFDD92046C1F20013C110 /* AddressTransferPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78DD7661F4C2B6A00B25FB3 /* AddressTransferPopup.storyboard */; };
+		636EFDDA2046C1F20013C110 /* SelectSearchTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD591F1F66BF00230C81 /* SelectSearchTypeView.xib */; };
+		636EFDDB2046C1F20013C110 /* InformationPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD131F1F63F400230C81 /* InformationPopUp.storyboard */; };
+		636EFDDC2046C1F20013C110 /* euclidflexmedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B321F2D91EBB643100C813D0 /* euclidflexmedium.ttf */; };
+		636EFDDD2046C1F20013C110 /* SelectSearchTypeViewLight.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EA53121F471DBF002FD201 /* SelectSearchTypeViewLight.xib */; };
+		636EFDDE2046C1F20013C110 /* simplonmono-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B321F2DA1EBB643100C813D0 /* simplonmono-medium.ttf */; };
+		636EFDDF2046C1F20013C110 /* STYMIEBI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63094EDD20125516006528CA /* STYMIEBI.ttf */; };
+		636EFDE02046C1F20013C110 /* SliderFeeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34228851F73CEAE00C4C381 /* SliderFeeView.xib */; };
+		636EFDE12046C1F20013C110 /* HistoryTableHeaderViewDark.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3487A291E92383500BC66F1 /* HistoryTableHeaderViewDark.xib */; };
+		636EFDE22046C1F20013C110 /* FieldsViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72631231EEAA806005AED8F /* FieldsViews.xib */; };
+		636EFDE32046C1F20013C110 /* PhotoLibraryPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD051F1F63E500230C81 /* PhotoLibraryPopUp.storyboard */; };
+		636EFDE42046C1F20013C110 /* OnlyDesign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFCF71F1F63C500230C81 /* OnlyDesign.storyboard */; };
+		636EFDE52046C1F20013C110 /* ShareTokenPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD441F1F648400230C81 /* ShareTokenPopUp.storyboard */; };
+		636EFDE62046C1F20013C110 /* proximanova-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7881B101F0BB7C700BD6AB2 /* proximanova-bold.otf */; };
+		636EFDE72046C1F20013C110 /* MYRIADPRO-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = B3F06CFF1E698F72006341F7 /* MYRIADPRO-REGULAR.OTF */; };
+		636EFDE82046C1F20013C110 /* SplashLight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7881B0C1F0BB63400BD6AB2 /* SplashLight.storyboard */; };
+		636EFDE92046C1F20013C110 /* QStore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFCFE1F1F63D300230C81 /* QStore.storyboard */; };
+		636EFDEA2046C1F20013C110 /* SF-UI-DISPLAY-THIN.OTF in Resources */ = {isa = PBXBuildFile; fileRef = B386F5DE1E163F2B004D231B /* SF-UI-DISPLAY-THIN.OTF */; };
+		636EFDEC2046C1F20013C110 /* StymieLtBTBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6309EA49201089BB0068AD3E /* StymieLtBTBold.ttf */; };
+		636EFDED2046C1F20013C110 /* StymieLtBTLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6309EA4B201089CB0068AD3E /* StymieLtBTLight.ttf */; };
+		636EFDEE2046C1F20013C110 /* STYMIEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63094EDA20125515006528CA /* STYMIEB.ttf */; };
+		636EFDEF2046C1F20013C110 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC9D1EB356DA00512FED /* Localizable.strings */; };
+		636EFDF02046C1F20013C110 /* ErrorPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD0C1F1F63ED00230C81 /* ErrorPopUp.storyboard */; };
+		636EFDF12046C1F20013C110 /* SourceCodePopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD361F1F647300230C81 /* SourceCodePopUp.storyboard */; };
+		636EFDF22046C1F20013C110 /* proximanova-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7881B131F0BB7C700BD6AB2 /* proximanova-light.otf */; };
+		636EFDF32046C1F20013C110 /* SF-UI-DISPLAY-ULTRALIGHT.OTF in Resources */ = {isa = PBXBuildFile; fileRef = B386F5DF1E163F2B004D231B /* SF-UI-DISPLAY-ULTRALIGHT.OTF */; };
+		636EFDF42046C1F20013C110 /* CheckButtonLight.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DB3E521F2F7F0D00AA408F /* CheckButtonLight.xib */; };
+		636EFDF52046C1F20013C110 /* SF-UI-DISPLAY-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = B386F5E01E163F2B004D231B /* SF-UI-DISPLAY-BOLD.OTF */; };
+		636EFDF62046C1F20013C110 /* SliderViewLight.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34228871F73CF2700C4C381 /* SliderViewLight.xib */; };
+		636EFDF72046C1F20013C110 /* proximanova-regitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E760F4A01F0F8E8F0056D042 /* proximanova-regitalic.otf */; };
+		636EFDF82046C1F20013C110 /* proximanova-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7881B171F0BB7C700BD6AB2 /* proximanova-semibold.otf */; };
+		636EFDF92046C1F20013C110 /* Send.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC681EB3545700512FED /* Send.storyboard */; };
+		636EFDFA2046C1F20013C110 /* Pin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC7C1EB3549300512FED /* Pin.storyboard */; };
+		636EFDFB2046C1F20013C110 /* ConfirmPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD1A1F1F63FB00230C81 /* ConfirmPopUp.storyboard */; };
+		636EFDFC2046C1F20013C110 /* QStoreSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD4B1F1F669D00230C81 /* QStoreSearchTableViewCell.xib */; };
+		636EFDFD2046C1F20013C110 /* STYMIELI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63094EDB20125515006528CA /* STYMIELI.ttf */; };
+		636EFDFE2046C1F20013C110 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73D9C871ECB18A200A09CFE /* Splash.storyboard */; };
+		636EFDFF2046C1F20013C110 /* SecurityPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD281F1F640E00230C81 /* SecurityPopup.storyboard */; };
+		636EFE002046C1F20013C110 /* NoInternetConnectionPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73D9C831ECB0D0D00A09CFE /* NoInternetConnectionPopUp.storyboard */; };
+		636EFE012046C1F20013C110 /* Contracts in Resources */ = {isa = PBXBuildFile; fileRef = B3F76A931EDDB81600108DE9 /* Contracts */; };
+		636EFE022046C1F20013C110 /* STYMIEL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63094EDC20125515006528CA /* STYMIEL.ttf */; };
+		636EFE032046C1F20013C110 /* QStoreSearchTableViewCellLight.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EA53211F473BDF002FD201 /* QStoreSearchTableViewCellLight.xib */; };
+		636EFE042046C1F20013C110 /* LoaderPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71271931EE9AC5B00A130A0 /* LoaderPopUp.storyboard */; };
+		636EFE052046C1F20013C110 /* ContractNameTextFieldLight.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3141E5C1F3099DA0095E3DF /* ContractNameTextFieldLight.xib */; };
+		636EFE062046C1F20013C110 /* HistoryTableHeaderViewLight.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75220451F0E3CBE0028D152 /* HistoryTableHeaderViewLight.xib */; };
+		636EFE072046C1F20013C110 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC721EB3547600512FED /* Profile.storyboard */; };
+		636EFE082046C1F20013C110 /* CreateToken.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC861EB354B100512FED /* CreateToken.storyboard */; };
+		636EFE092046C1F20013C110 /* FieldViewsLight.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3076F331F308AB000FB7D5A /* FieldViewsLight.xib */; };
+		636EFE0A2046C1F20013C110 /* SFUIDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3210D281E00327600365FB6 /* SFUIDisplay-Regular.otf */; };
+		636EFE0B2046C1F20013C110 /* TokenDetailsViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD521F1F66B200230C81 /* TokenDetailsViews.xib */; };
+		636EFE0C2046C1F20013C110 /* Wallet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC771EB3548600512FED /* Wallet.storyboard */; };
+		636EFE0D2046C1F20013C110 /* proximanova-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7881B161F0BB7C700BD6AB2 /* proximanova-regular.otf */; };
+		636EFE0E2046C1F20013C110 /* CheckButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E713A47A1EEE966100A2FA40 /* CheckButton.xib */; };
+		636EFE0F2046C1F20013C110 /* SubscribeToken.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC8B1EB354C000512FED /* SubscribeToken.storyboard */; };
+		636EFE102046C1F20013C110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FD36491DC4D07E00748177 /* LaunchScreen.storyboard */; };
+		636EFE112046C1F20013C110 /* ConfirmPurchasePopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD3D1F1F647A00230C81 /* ConfirmPurchasePopUp.storyboard */; };
+		636EFE122046C1F20013C110 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC6D1EB3546800512FED /* News.storyboard */; };
+		636EFE132046C1F20013C110 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32EEC811EB3549F00512FED /* Start.storyboard */; };
+		636EFE142046C1F20013C110 /* RestoreContractsPopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70CFD211F1F640700230C81 /* RestoreContractsPopUp.storyboard */; };
+		636EFE152046C1F20013C110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7FD36471DC4D07E00748177 /* Assets.xcassets */; };
+		636EFE1C2046C1F20013C110 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07A203FCDC3005520C2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		637016B92047A243006175EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 637016B82047A242006175EB /* GoogleService-Info.plist */; };
 		63898A612043FA06000887AA /* AddressBalanceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63898A5F2043FA05000887AA /* AddressBalanceRealm.m */; };
 		63898A622043FA06000887AA /* AddressBalanceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63898A5F2043FA05000887AA /* AddressBalanceRealm.m */; };
 		63898A632043FA06000887AA /* AddressBalanceRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 63898A5F2043FA05000887AA /* AddressBalanceRealm.m */; };
@@ -1819,6 +2394,27 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		636EFE1A2046C1F20013C110 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636EFE1B2046C1F20013C110 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				636EFE1C2046C1F20013C110 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63B78BEE201ED02D005E7848 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1893,6 +2489,9 @@
 		634BB08C203FFB37005520C2 /* DatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 		634BB09020400DA7005520C2 /* HistoryElementRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryElementRealm.h; sourceTree = "<group>"; };
 		634BB09120400DA7005520C2 /* HistoryElementRealm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryElementRealm.m; sourceTree = "<group>"; };
+		636EFE212046C1F20013C110 /* htmlcoin wallet prod foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet prod foundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		636EFE222046C1F30013C110 /* htmlcoin wallet prod copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "htmlcoin wallet prod copy-Info.plist"; path = "/Users/longpham/Projects/R3/htmlcoin-ios/htmlcoin wallet prod copy-Info.plist"; sourceTree = "<absolute>"; };
+		637016B82047A242006175EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "googleservice_production foundation/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63898A5F2043FA05000887AA /* AddressBalanceRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBalanceRealm.m; sourceTree = "<group>"; };
 		63898A602043FA06000887AA /* AddressBalanceRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBalanceRealm.h; sourceTree = "<group>"; };
 		63B78BF2201ED02E005E7848 /* htmlcoin wallet dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3208,6 +3807,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636EFDD02046C1F20013C110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EFDD12046C1F20013C110 /* libxml2.tbd in Frameworks */,
+				636EFDD22046C1F20013C110 /* Security.framework in Frameworks */,
+				636EFDD32046C1F20013C110 /* Realm.framework in Frameworks */,
+				636EFDD42046C1F20013C110 /* libPods-htmlcoin wallet prod.a in Frameworks */,
+				636EFDD52046C1F20013C110 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5943,9 +6554,11 @@
 				E71AF2431E0177910068595B /* qtum walletTests */,
 				E7FD363A1DC4D07E00748177 /* qtum wallet */,
 				63B78BF3201ED02E005E7848 /* qtum wallet testnet-Info.plist */,
+				637016B82047A242006175EB /* GoogleService-Info.plist */,
 				63B78E38201ED5B3005E7848 /* qtum wallet regtest-Info.plist */,
 				63074234202C571900A98F95 /* GoogleService-Info.plist */,
 				63074232202C570A00A98F95 /* GoogleService-Info.plist */,
+				636EFE222046C1F30013C110 /* htmlcoin wallet prod copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -5959,6 +6572,7 @@
 				B3A4EA591F502E65008115D1 /* qtum walletTests.xctest */,
 				63B78BF2201ED02E005E7848 /* htmlcoin wallet dev.app */,
 				63B78E37201ED5B3005E7848 /* htmlcoin wallet staging.app */,
+				636EFE212046C1F20013C110 /* htmlcoin wallet prod foundation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -6186,6 +6800,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		636EFBD32046C1F20013C110 /* htmlcoin wallet prod foundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636EFE1E2046C1F20013C110 /* Build configuration list for PBXNativeTarget "htmlcoin wallet prod foundation" */;
+			buildPhases = (
+				636EFBD42046C1F20013C110 /* [CP] Check Pods Manifest.lock */,
+				636EFBD52046C1F20013C110 /* Sources */,
+				636EFDD02046C1F20013C110 /* Frameworks */,
+				636EFDD62046C1F20013C110 /* Resources */,
+				636EFE162046C1F20013C110 /* [CP] Embed Pods Frameworks */,
+				636EFE172046C1F20013C110 /* [CP] Copy Pods Resources */,
+				636EFE182046C1F20013C110 /* ShellScript */,
+				636EFE192046C1F20013C110 /* ShellScript */,
+				636EFE1A2046C1F20013C110 /* Embed Watch Content */,
+				636EFE1B2046C1F20013C110 /* Embed Frameworks */,
+				636EFE1D2046C1F20013C110 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "htmlcoin wallet prod foundation";
+			productName = "qtum wallet";
+			productReference = 636EFE212046C1F20013C110 /* htmlcoin wallet prod foundation.app */;
+			productType = "com.apple.product-type.application";
+		};
 		63B789AF201ED02D005E7848 /* htmlcoin wallet dev */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63B78BEF201ED02D005E7848 /* Build configuration list for PBXNativeTarget "htmlcoin wallet dev" */;
@@ -6340,6 +6979,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = QTUM;
 				TargetAttributes = {
+					636EFBD32046C1F20013C110 = {
+						DevelopmentTeam = L9J23KXGMP;
+						ProvisioningStyle = Automatic;
+					};
 					63B789AF201ED02D005E7848 = {
 						DevelopmentTeam = PJC8N7MDSQ;
 						ProvisioningStyle = Automatic;
@@ -6436,6 +7079,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				636EFBD32046C1F20013C110 /* htmlcoin wallet prod foundation */,
 				E7FD36371DC4D07E00748177 /* htmlcoin wallet prod */,
 				63B789AF201ED02D005E7848 /* htmlcoin wallet dev */,
 				63B78BF4201ED5B3005E7848 /* htmlcoin wallet staging */,
@@ -6448,6 +7092,76 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		636EFDD62046C1F20013C110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EFDD72046C1F20013C110 /* Avenir.ttc in Resources */,
+				636EFDD82046C1F20013C110 /* simplonmono-regular.ttf in Resources */,
+				636EFDD92046C1F20013C110 /* AddressTransferPopup.storyboard in Resources */,
+				636EFDDA2046C1F20013C110 /* SelectSearchTypeView.xib in Resources */,
+				636EFDDB2046C1F20013C110 /* InformationPopUp.storyboard in Resources */,
+				636EFDDC2046C1F20013C110 /* euclidflexmedium.ttf in Resources */,
+				636EFDDD2046C1F20013C110 /* SelectSearchTypeViewLight.xib in Resources */,
+				636EFDDE2046C1F20013C110 /* simplonmono-medium.ttf in Resources */,
+				636EFDDF2046C1F20013C110 /* STYMIEBI.ttf in Resources */,
+				636EFDE02046C1F20013C110 /* SliderFeeView.xib in Resources */,
+				636EFDE12046C1F20013C110 /* HistoryTableHeaderViewDark.xib in Resources */,
+				636EFDE22046C1F20013C110 /* FieldsViews.xib in Resources */,
+				636EFDE32046C1F20013C110 /* PhotoLibraryPopUp.storyboard in Resources */,
+				636EFDE42046C1F20013C110 /* OnlyDesign.storyboard in Resources */,
+				636EFDE52046C1F20013C110 /* ShareTokenPopUp.storyboard in Resources */,
+				636EFDE62046C1F20013C110 /* proximanova-bold.otf in Resources */,
+				636EFDE72046C1F20013C110 /* MYRIADPRO-REGULAR.OTF in Resources */,
+				636EFDE82046C1F20013C110 /* SplashLight.storyboard in Resources */,
+				636EFDE92046C1F20013C110 /* QStore.storyboard in Resources */,
+				636EFDEA2046C1F20013C110 /* SF-UI-DISPLAY-THIN.OTF in Resources */,
+				636EFDEC2046C1F20013C110 /* StymieLtBTBold.ttf in Resources */,
+				636EFDED2046C1F20013C110 /* StymieLtBTLight.ttf in Resources */,
+				636EFDEE2046C1F20013C110 /* STYMIEB.ttf in Resources */,
+				636EFDEF2046C1F20013C110 /* Localizable.strings in Resources */,
+				637016B92047A243006175EB /* GoogleService-Info.plist in Resources */,
+				636EFDF02046C1F20013C110 /* ErrorPopUp.storyboard in Resources */,
+				636EFDF12046C1F20013C110 /* SourceCodePopUp.storyboard in Resources */,
+				636EFDF22046C1F20013C110 /* proximanova-light.otf in Resources */,
+				636EFDF32046C1F20013C110 /* SF-UI-DISPLAY-ULTRALIGHT.OTF in Resources */,
+				636EFDF42046C1F20013C110 /* CheckButtonLight.xib in Resources */,
+				636EFDF52046C1F20013C110 /* SF-UI-DISPLAY-BOLD.OTF in Resources */,
+				636EFDF62046C1F20013C110 /* SliderViewLight.xib in Resources */,
+				636EFDF72046C1F20013C110 /* proximanova-regitalic.otf in Resources */,
+				636EFDF82046C1F20013C110 /* proximanova-semibold.otf in Resources */,
+				636EFDF92046C1F20013C110 /* Send.storyboard in Resources */,
+				636EFDFA2046C1F20013C110 /* Pin.storyboard in Resources */,
+				636EFDFB2046C1F20013C110 /* ConfirmPopUp.storyboard in Resources */,
+				636EFDFC2046C1F20013C110 /* QStoreSearchTableViewCell.xib in Resources */,
+				636EFDFD2046C1F20013C110 /* STYMIELI.ttf in Resources */,
+				636EFDFE2046C1F20013C110 /* Splash.storyboard in Resources */,
+				636EFDFF2046C1F20013C110 /* SecurityPopup.storyboard in Resources */,
+				636EFE002046C1F20013C110 /* NoInternetConnectionPopUp.storyboard in Resources */,
+				636EFE012046C1F20013C110 /* Contracts in Resources */,
+				636EFE022046C1F20013C110 /* STYMIEL.ttf in Resources */,
+				636EFE032046C1F20013C110 /* QStoreSearchTableViewCellLight.xib in Resources */,
+				636EFE042046C1F20013C110 /* LoaderPopUp.storyboard in Resources */,
+				636EFE052046C1F20013C110 /* ContractNameTextFieldLight.xib in Resources */,
+				636EFE062046C1F20013C110 /* HistoryTableHeaderViewLight.xib in Resources */,
+				636EFE072046C1F20013C110 /* Profile.storyboard in Resources */,
+				636EFE082046C1F20013C110 /* CreateToken.storyboard in Resources */,
+				636EFE092046C1F20013C110 /* FieldViewsLight.xib in Resources */,
+				636EFE0A2046C1F20013C110 /* SFUIDisplay-Regular.otf in Resources */,
+				636EFE0B2046C1F20013C110 /* TokenDetailsViews.xib in Resources */,
+				636EFE0C2046C1F20013C110 /* Wallet.storyboard in Resources */,
+				636EFE0D2046C1F20013C110 /* proximanova-regular.otf in Resources */,
+				636EFE0E2046C1F20013C110 /* CheckButton.xib in Resources */,
+				636EFE0F2046C1F20013C110 /* SubscribeToken.storyboard in Resources */,
+				636EFE102046C1F20013C110 /* LaunchScreen.storyboard in Resources */,
+				636EFE112046C1F20013C110 /* ConfirmPurchasePopUp.storyboard in Resources */,
+				636EFE122046C1F20013C110 /* News.storyboard in Resources */,
+				636EFE132046C1F20013C110 /* Start.storyboard in Resources */,
+				636EFE142046C1F20013C110 /* RestoreContractsPopUp.storyboard in Resources */,
+				636EFE152046C1F20013C110 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63B78BAB201ED02D005E7848 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -6809,6 +7523,97 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet staging/Pods-htmlcoin wallet staging-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		636EFBD42046C1F20013C110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-htmlcoin wallet prod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		636EFE162046C1F20013C110 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		636EFE172046C1F20013C110 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		636EFE182046C1F20013C110 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SocketIO.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		636EFE192046C1F20013C110 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 41db5a1ea3ca62a26f56f41e07085664e42f9f95 1f0ea4bed2dacc368ad16cd4a824581fd7b8526917f01e88c15e720abc50f45d";
+		};
+		636EFE1D2046C1F20013C110 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ]; then\necho Do something really release-like\nbash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\nfi";
+		};
 		639DE71320442BA600704C13 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -7008,6 +7813,519 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		636EFBD52046C1F20013C110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EFBD62046C1F20013C110 /* tommath.c in Sources */,
+				636EFBD72046C1F20013C110 /* JKBigInteger.m in Sources */,
+				636EFBD82046C1F20013C110 /* JKBigDecimal.m in Sources */,
+				636EFBD92046C1F20013C110 /* TFHppleElement.m in Sources */,
+				636EFBDA2046C1F20013C110 /* JKBigDecimal+Comparison.m in Sources */,
+				636EFBDB2046C1F20013C110 /* XPathQuery.m in Sources */,
+				636EFBDC2046C1F20013C110 /* TFHpple.m in Sources */,
+				636EFBDD2046C1F20013C110 /* SplashViewController.m in Sources */,
+				636EFBDE2046C1F20013C110 /* QTUMAddressTokenView.m in Sources */,
+				636EFBDF2046C1F20013C110 /* SmartContractListItemCell.m in Sources */,
+				636EFBE02046C1F20013C110 /* SplashViewControllerLight.m in Sources */,
+				636EFBE12046C1F20013C110 /* UIView+RoundedCorner.m in Sources */,
+				636EFBE22046C1F20013C110 /* QRCodeManager.m in Sources */,
+				636EFBE32046C1F20013C110 /* TokenListViewControllerDark.m in Sources */,
+				636EFBE42046C1F20013C110 /* TransactionManager.m in Sources */,
+				636EFBE52046C1F20013C110 /* SmartContractMenuViewControllerLight.m in Sources */,
+				636EFBE62046C1F20013C110 /* WordsArray.m in Sources */,
+				636EFBE72046C1F20013C110 /* QRCodeViewControllerLight.m in Sources */,
+				636EFBE82046C1F20013C110 /* AddressTransferPopupViewControllerLight.m in Sources */,
+				636EFBE92046C1F20013C110 /* ChooseTokenPaymentCellLight.m in Sources */,
+				636EFBEA2046C1F20013C110 /* AbiParameterTypeDynamicArrayBool.m in Sources */,
+				636EFBEB2046C1F20013C110 /* SendCoordinator.m in Sources */,
+				636EFBEC2046C1F20013C110 /* TokenListViewController.m in Sources */,
+				636EFBED2046C1F20013C110 /* AbiParameterTypeString.m in Sources */,
+				636EFBEE2046C1F20013C110 /* TokenAddressLibraryCoordinator.m in Sources */,
+				636EFBEF2046C1F20013C110 /* TextFieldWithLineDarkPopup.m in Sources */,
+				636EFBF02046C1F20013C110 /* TokensFactory.m in Sources */,
+				636EFBF12046C1F20013C110 /* TokenDetailsTableView.m in Sources */,
+				636EFBF22046C1F20013C110 /* ChooseAddressReciveCell.m in Sources */,
+				636EFBF32046C1F20013C110 /* HistoryTableViewCell.m in Sources */,
+				636EFBF42046C1F20013C110 /* SmartContractMenuViewControllerDark.m in Sources */,
+				636EFBF52046C1F20013C110 /* AddressControlListViewControllerDark.m in Sources */,
+				636EFBF62046C1F20013C110 /* QStoreTableViewCellLight.m in Sources */,
+				636EFBF72046C1F20013C110 /* AbiParameterTypeDynamicArrayString.m in Sources */,
+				636EFBF82046C1F20013C110 /* LoaderPopUpViewControllerLight.m in Sources */,
+				636EFBF92046C1F20013C110 /* NSObject+Associating.m in Sources */,
+				636EFBFA2046C1F20013C110 /* ChooseReciveAddressViewControllerDark.m in Sources */,
+				636EFBFB2046C1F20013C110 /* AddressListViewController.m in Sources */,
+				636EFBFC2046C1F20013C110 /* ExportWalletBrandKeyViewControllerLight.m in Sources */,
+				636EFBFD2046C1F20013C110 /* ChangePinCoordinator.m in Sources */,
+				636EFBFE2046C1F20013C110 /* TokenTemplateCellDark.m in Sources */,
+				636EFBFF2046C1F20013C110 /* CreatePinViewController.m in Sources */,
+				636EFC002046C1F20013C110 /* EnableFingerprintViewController.m in Sources */,
+				636EFC012046C1F20013C110 /* QStoreListTableSourceLight.m in Sources */,
+				636EFC022046C1F20013C110 /* RestoreContractsPopUpViewControllerLight.m in Sources */,
+				636EFC032046C1F20013C110 /* QStoreViewControllerDark.m in Sources */,
+				636EFC042046C1F20013C110 /* AbiParameterTypeFixedBytes.m in Sources */,
+				636EFC052046C1F20013C110 /* RecieveViewControllerDark.m in Sources */,
+				636EFC062046C1F20013C110 /* NoInternetConnectionPopUpViewControllerLight.m in Sources */,
+				636EFC072046C1F20013C110 /* QStoreListViewControllerDark.m in Sources */,
+				636EFC082046C1F20013C110 /* SpinnerView.m in Sources */,
+				636EFC092046C1F20013C110 /* ContractInterfaceManager.m in Sources */,
+				636EFC0A2046C1F20013C110 /* FavouriteTemplateCollectionViewCellDark.m in Sources */,
+				636EFC0B2046C1F20013C110 /* WatchContractViewController.m in Sources */,
+				636EFC0C2046C1F20013C110 /* LibraryTableSource.m in Sources */,
+				636EFC0D2046C1F20013C110 /* BTCTransactionInput+Extension.m in Sources */,
+				636EFC0E2046C1F20013C110 /* AddressTransferPopupViewControllerDark.m in Sources */,
+				636EFC0F2046C1F20013C110 /* LanguageTableSource.m in Sources */,
+				636EFC102046C1F20013C110 /* SubscribeTokenDataDisplayManagerLight.m in Sources */,
+				636EFC112046C1F20013C110 /* RepeateViewController.m in Sources */,
+				636EFC122046C1F20013C110 /* AbiInterfaceOutput.m in Sources */,
+				636EFC132046C1F20013C110 /* PageControlDark.m in Sources */,
+				636EFC142046C1F20013C110 /* BorderedLabelDark.m in Sources */,
+				636EFC152046C1F20013C110 /* ExportBrainKeyViewControllerDark.m in Sources */,
+				636EFC162046C1F20013C110 /* ShareTokenPopUpViewControllerDark.m in Sources */,
+				636EFC172046C1F20013C110 /* NewsViewControllerDark.m in Sources */,
+				636EFC182046C1F20013C110 /* QStoreSearchTableViewCell.m in Sources */,
+				636EFC192046C1F20013C110 /* InputTextViewLight.m in Sources */,
+				636EFC1A2046C1F20013C110 /* AbiParameterTypeArray.m in Sources */,
+				636EFC1B2046C1F20013C110 /* QStoreListViewController.m in Sources */,
+				636EFC1C2046C1F20013C110 /* AuthNavigationController.m in Sources */,
+				636EFC1D2046C1F20013C110 /* RestoreContractsPopUpViewControllerDark.m in Sources */,
+				636EFC1E2046C1F20013C110 /* CreateTokenFinishViewControllerDark.m in Sources */,
+				636EFC1F2046C1F20013C110 /* LanguageTableViewCellLight.m in Sources */,
+				636EFC202046C1F20013C110 /* HistoryItemAddressCellTableViewCell.m in Sources */,
+				636EFC212046C1F20013C110 /* AboutOutputViewController.m in Sources */,
+				636EFC222046C1F20013C110 /* GradientView.m in Sources */,
+				636EFC232046C1F20013C110 /* NSUserDefaults+Settings.m in Sources */,
+				636EFC242046C1F20013C110 /* ViewWithAnimatedLine.m in Sources */,
+				636EFC252046C1F20013C110 /* SmartContractListItemCellDark.m in Sources */,
+				636EFC262046C1F20013C110 /* SubscribeTokenDataDisplayManagerDark.m in Sources */,
+				636EFC272046C1F20013C110 /* NSObject+Extension.m in Sources */,
+				636EFC282046C1F20013C110 /* ChooseAddressReciveCellDark.m in Sources */,
+				636EFC292046C1F20013C110 /* SocketManager.m in Sources */,
+				636EFC2A2046C1F20013C110 /* TransactionScriptBuilder.m in Sources */,
+				636EFC2B2046C1F20013C110 /* PinController.m in Sources */,
+				636EFC2C2046C1F20013C110 /* LanguageViewControllerLight.m in Sources */,
+				636EFC2D2046C1F20013C110 /* UIViewController+Extension.m in Sources */,
+				636EFC2E2046C1F20013C110 /* WatchTokensViewControllerDark.m in Sources */,
+				636EFC2F2046C1F20013C110 /* AbiParameterTypeDynamicArrayInt.m in Sources */,
+				636EFC302046C1F20013C110 /* AddressControlCell.m in Sources */,
+				636EFC312046C1F20013C110 /* NewsTableCellLight.m in Sources */,
+				636EFC322046C1F20013C110 /* AbiParameterTypeDynamicElementaryArray.m in Sources */,
+				636EFC332046C1F20013C110 /* SmartContractListItemCellLight.m in Sources */,
+				636EFC342046C1F20013C110 /* ConfirmPinForExportViewControllerLight.m in Sources */,
+				636EFC352046C1F20013C110 /* RestoreWalletViewController.m in Sources */,
+				636EFC362046C1F20013C110 /* TokenCellLight.m in Sources */,
+				636EFC372046C1F20013C110 /* NotificationManager.m in Sources */,
+				636EFC382046C1F20013C110 /* AddNewTokensViewController.m in Sources */,
+				636EFC392046C1F20013C110 /* BorderedLabelLight.m in Sources */,
+				636EFC3A2046C1F20013C110 /* QStoreListTableViewCell.m in Sources */,
+				636EFC3B2046C1F20013C110 /* FirstAuthViewController.m in Sources */,
+				636EFC3C2046C1F20013C110 /* NewsController.m in Sources */,
+				636EFC3D2046C1F20013C110 /* RestoreContractsViewControllerLight.m in Sources */,
+				636EFC3E2046C1F20013C110 /* CopyLabel.m in Sources */,
+				636EFC3F2046C1F20013C110 /* PhotoLibraryPopUpViewController.m in Sources */,
+				636EFC402046C1F20013C110 /* TabBarCoordinator.m in Sources */,
+				636EFC412046C1F20013C110 /* AnimatedLabelTableViewCell.m in Sources */,
+				636EFC422046C1F20013C110 /* TokenAddressControlViewController.m in Sources */,
+				636EFC432046C1F20013C110 /* FinishInputCell.m in Sources */,
+				636EFC442046C1F20013C110 /* WalletViewController.m in Sources */,
+				636EFC452046C1F20013C110 /* HistoryItemDelegateDataSource.m in Sources */,
+				636EFC462046C1F20013C110 /* ContractArgumentsInterpretator.m in Sources */,
+				636EFC472046C1F20013C110 /* FirstAuthViewControllerLight.m in Sources */,
+				636EFC482046C1F20013C110 /* PopUpViewController.m in Sources */,
+				636EFC492046C1F20013C110 /* TokenAddressControlViewControllerLight.m in Sources */,
+				636EFC4A2046C1F20013C110 /* CustomSearchBarDark.m in Sources */,
+				636EFC4B2046C1F20013C110 /* PhotoLibraryPopUpViewControllerLight.m in Sources */,
+				636EFC4C2046C1F20013C110 /* NewsDataProvider.m in Sources */,
+				636EFC4D2046C1F20013C110 /* UIColor+fromHex.m in Sources */,
+				636EFC4E2046C1F20013C110 /* TokenPropertyCell.m in Sources */,
+				636EFC4F2046C1F20013C110 /* HistoryItemViewControllerLight.m in Sources */,
+				636EFC502046C1F20013C110 /* TokenCellSubscribe.m in Sources */,
+				636EFC512046C1F20013C110 /* AbiParameterTypeFixedArrayInt.m in Sources */,
+				636EFC522046C1F20013C110 /* TextFieldParameterView.m in Sources */,
+				636EFC532046C1F20013C110 /* PaymentValuesManager.m in Sources */,
+				636EFC542046C1F20013C110 /* RestoreContractsViewControllerDark.m in Sources */,
+				636EFC552046C1F20013C110 /* QTUMImageTagCellLight.m in Sources */,
+				636EFC562046C1F20013C110 /* ConstructorFromAbiViewControllerLight.m in Sources */,
+				636EFC572046C1F20013C110 /* AppSettings.m in Sources */,
+				636EFC582046C1F20013C110 /* RecieveViewControllerLight.m in Sources */,
+				636EFC592046C1F20013C110 /* SmartContractsListViewControllerLight.m in Sources */,
+				636EFC5A2046C1F20013C110 /* QTUMFeedParcer.m in Sources */,
+				636EFC5B2046C1F20013C110 /* NSNumber+Format.m in Sources */,
+				636EFC5C2046C1F20013C110 /* FirstAuthViewControllerDark.m in Sources */,
+				636EFC5D2046C1F20013C110 /* NSData+AES256.m in Sources */,
+				636EFC5E2046C1F20013C110 /* SendNavigationCoordinator.m in Sources */,
+				636EFC5F2046C1F20013C110 /* QStoreContractElement.m in Sources */,
+				636EFC602046C1F20013C110 /* QTUMDefaultTagCellLight.m in Sources */,
+				636EFC612046C1F20013C110 /* LanguageViewControllerDark.m in Sources */,
+				636EFC622046C1F20013C110 /* NewsCoordinator.m in Sources */,
+				636EFC632046C1F20013C110 /* SecurityPopupViewController.m in Sources */,
+				636EFC642046C1F20013C110 /* ContractManager.m in Sources */,
+				636EFC652046C1F20013C110 /* PageControlItemLight.m in Sources */,
+				636EFC662046C1F20013C110 /* ControllersFactory.m in Sources */,
+				636EFC672046C1F20013C110 /* LanguageViewController.m in Sources */,
+				636EFC682046C1F20013C110 /* CreatePinViewControllerDark.m in Sources */,
+				636EFC692046C1F20013C110 /* TokenAddressContolCellLight.m in Sources */,
+				636EFC6A2046C1F20013C110 /* NoInternetConnectionPopUpViewControllerDark.m in Sources */,
+				636EFC6B2046C1F20013C110 /* ConstructorFromAbiViewController.m in Sources */,
+				636EFC6C2046C1F20013C110 /* QStoreTemplateDetailViewControllerLight.m in Sources */,
+				636EFC6D2046C1F20013C110 /* OpenURLManager.m in Sources */,
+				636EFC6E2046C1F20013C110 /* PageControlItemDark.m in Sources */,
+				636EFC6F2046C1F20013C110 /* QStoreListTableSource.m in Sources */,
+				636EFC702046C1F20013C110 /* ContractNameTextField.m in Sources */,
+				636EFC712046C1F20013C110 /* RecieveViewController.m in Sources */,
+				636EFC722046C1F20013C110 /* AbiParameterTypeFixedArrayFixedBytes.m in Sources */,
+				636EFC732046C1F20013C110 /* ChoseTokenPaymentViewController.m in Sources */,
+				636EFC742046C1F20013C110 /* SubscribeTokenViewController.m in Sources */,
+				636EFC752046C1F20013C110 /* TabBarControllerDark.m in Sources */,
+				636EFC762046C1F20013C110 /* HistoryTableViewCellDark.m in Sources */,
+				636EFC772046C1F20013C110 /* TemplateModel.m in Sources */,
+				636EFC782046C1F20013C110 /* ShareTokenPopUpViewController.m in Sources */,
+				636EFC792046C1F20013C110 /* ConfirmPurchasePopUpViewControllerDark.m in Sources */,
+				636EFC7A2046C1F20013C110 /* NSDate+Extension.m in Sources */,
+				636EFC7B2046C1F20013C110 /* AbiParameterTypeBytes.m in Sources */,
+				636EFC7C2046C1F20013C110 /* TokenDetailsTableSource.m in Sources */,
+				636EFC7D2046C1F20013C110 /* WalletHeaderCell.m in Sources */,
+				636EFC7E2046C1F20013C110 /* SmartContractMenuViewController.m in Sources */,
+				636EFC7F2046C1F20013C110 /* RestoreContractsPopUpViewController.m in Sources */,
+				636EFC802046C1F20013C110 /* QStoreContractViewController.m in Sources */,
+				636EFC812046C1F20013C110 /* QStoreCategory.m in Sources */,
+				636EFC822046C1F20013C110 /* TokenDetailsViewController.m in Sources */,
+				636EFC832046C1F20013C110 /* NewPaymentViewController.m in Sources */,
+				636EFC842046C1F20013C110 /* TokenFunctionDetailViewControllerDark.m in Sources */,
+				636EFC852046C1F20013C110 /* QStoreViewControllerLight.m in Sources */,
+				636EFC862046C1F20013C110 /* NewPaymentLightViewController.m in Sources */,
+				636EFC872046C1F20013C110 /* ContractFileManager.m in Sources */,
+				636EFC882046C1F20013C110 /* TokenFunctionViewControllerDark.m in Sources */,
+				636EFC892046C1F20013C110 /* BTCTransactionOutput+Address.m in Sources */,
+				636EFC8A2046C1F20013C110 /* ServerAdapter.m in Sources */,
+				636EFC8B2046C1F20013C110 /* BottomShadowView.m in Sources */,
+				636EFC8C2046C1F20013C110 /* ChoseTokenPaymentViewControllerDark.m in Sources */,
+				636EFC8D2046C1F20013C110 /* WalletNameViewControllerDark.m in Sources */,
+				636EFC8E2046C1F20013C110 /* AbiParameterTypeUInt.m in Sources */,
+				636EFC8F2046C1F20013C110 /* RepeateViewControllerLight.m in Sources */,
+				636EFC902046C1F20013C110 /* CreateTokenFinishViewController.m in Sources */,
+				636EFC912046C1F20013C110 /* Contract.m in Sources */,
+				636EFC922046C1F20013C110 /* SubscribeTokenViewControllerLight.m in Sources */,
+				636EFC932046C1F20013C110 /* AddressControlCellLight.m in Sources */,
+				636EFC942046C1F20013C110 /* TokenDetailLightDisplayDataManager.m in Sources */,
+				636EFC952046C1F20013C110 /* InformationPopUpViewControllerDark.m in Sources */,
+				636EFC962046C1F20013C110 /* AbiinterfaceInput.m in Sources */,
+				636EFC972046C1F20013C110 /* CustomSearchBarLight.m in Sources */,
+				636EFC982046C1F20013C110 /* AbiParameterTypeDynamicArrayFixedBytes.m in Sources */,
+				636EFC992046C1F20013C110 /* PageControl.m in Sources */,
+				636EFC9A2046C1F20013C110 /* CreateTokenFinishViewControllerLight.m in Sources */,
+				636EFC9B2046C1F20013C110 /* BTCTransaction+Extensions.m in Sources */,
+				636EFC9C2046C1F20013C110 /* SliderFeeView.m in Sources */,
+				636EFC9D2046C1F20013C110 /* ApplicationCoordinator.m in Sources */,
+				636EFC9E2046C1F20013C110 /* ChoiseSmartContractCellLight.m in Sources */,
+				636EFC9F2046C1F20013C110 /* QStoreManager.m in Sources */,
+				636EFCA02046C1F20013C110 /* TokenCellDark.m in Sources */,
+				636EFCA12046C1F20013C110 /* LoaderPopUpViewControllerDark.m in Sources */,
+				636EFCA22046C1F20013C110 /* TextFieldWithLineLight.m in Sources */,
+				636EFCA32046C1F20013C110 /* AbiParameterTypeDynamicArray.m in Sources */,
+				636EFCA42046C1F20013C110 /* SmartContractsListViewControllerDark.m in Sources */,
+				636EFCA52046C1F20013C110 /* SubscribeTokenDataDisplayManager.m in Sources */,
+				636EFCA62046C1F20013C110 /* QStoreContractViewControllerDark.m in Sources */,
+				636EFCA72046C1F20013C110 /* ChooseTokenPaymentDelegateDataSourceLight.m in Sources */,
+				636EFCA82046C1F20013C110 /* PageControlLight.m in Sources */,
+				636EFCA92046C1F20013C110 /* NSNull+Catch.m in Sources */,
+				636EFCAA2046C1F20013C110 /* QStoreSearchTableViewCellLight.m in Sources */,
+				636EFCAB2046C1F20013C110 /* TokenFunctionViewControllerLight.m in Sources */,
+				636EFCAC2046C1F20013C110 /* SourceCodePopUpViewControllerLight.m in Sources */,
+				636EFCAD2046C1F20013C110 /* AddressTransferPopupViewController.m in Sources */,
+				636EFCAE2046C1F20013C110 /* BackupContractsViewController.m in Sources */,
+				636EFCAF2046C1F20013C110 /* QStoreDataProvider.m in Sources */,
+				636EFCB02046C1F20013C110 /* CreateTokenNavigationController.m in Sources */,
+				636EFCB12046C1F20013C110 /* WatchContractViewControllerLight.m in Sources */,
+				636EFCB22046C1F20013C110 /* SubscribeTokenViewControllerDark.m in Sources */,
+				636EFCB32046C1F20013C110 /* CreatePinRootController.m in Sources */,
+				636EFCB42046C1F20013C110 /* NubersTokenTableViewCell.m in Sources */,
+				636EFCB52046C1F20013C110 /* SecurityPopupViewControllerDark.m in Sources */,
+				636EFCB62046C1F20013C110 /* BackupContractsViewControllerLight.m in Sources */,
+				636EFCB72046C1F20013C110 /* QStoreTableSource.m in Sources */,
+				636EFCB82046C1F20013C110 /* QTUMNewsItem.m in Sources */,
+				636EFCB92046C1F20013C110 /* CheckboxButton.m in Sources */,
+				636EFCBA2046C1F20013C110 /* AboutOutputViewControllerDark.m in Sources */,
+				636EFCBB2046C1F20013C110 /* AbiinterfaceItem.m in Sources */,
+				636EFCBC2046C1F20013C110 /* WalletNameViewController.m in Sources */,
+				636EFCBD2046C1F20013C110 /* InputTextViewDark.m in Sources */,
+				636EFCBE2046C1F20013C110 /* NewPaymentDarkViewController.m in Sources */,
+				636EFCBF2046C1F20013C110 /* CustomPageControl.m in Sources */,
+				636EFCC02046C1F20013C110 /* AddressesTokenView.m in Sources */,
+				636EFCC12046C1F20013C110 /* TokenFunctionDetailViewControllerLight.m in Sources */,
+				636EFCC22046C1F20013C110 /* QStoreListViewControllerLight.m in Sources */,
+				636EFCC32046C1F20013C110 /* WatchTokensViewControllerLight.m in Sources */,
+				636EFCC42046C1F20013C110 /* PopUpContentGenerator.m in Sources */,
+				636EFCC52046C1F20013C110 /* TokenCell.m in Sources */,
+				636EFCC62046C1F20013C110 /* AbiParameterTypeFixedArrayAddress.m in Sources */,
+				636EFCC72046C1F20013C110 /* ServiceLocator.m in Sources */,
+				636EFCC82046C1F20013C110 /* NewsDetailCellBuilder.m in Sources */,
+				636EFCC92046C1F20013C110 /* InnerShadowView.m in Sources */,
+				636EFCCA2046C1F20013C110 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				636EFCCB2046C1F20013C110 /* HistoryElementValueRealm.m in Sources */,
+				636EFCCC2046C1F20013C110 /* QStoreListTableViewCellDark.m in Sources */,
+				636EFCCD2046C1F20013C110 /* NewsViewControllerLight.m in Sources */,
+				636EFCCE2046C1F20013C110 /* LoginViewController.m in Sources */,
+				636EFCCF2046C1F20013C110 /* NSNumber+Comparison.m in Sources */,
+				636EFCD02046C1F20013C110 /* ConfirmPinForExportViewControllerDark.m in Sources */,
+				636EFCD12046C1F20013C110 /* BackupContractsViewControllerDark.m in Sources */,
+				636EFCD22046C1F20013C110 /* ExportWalletBrandKeyViewControllerDark.m in Sources */,
+				636EFCD32046C1F20013C110 /* PopUpContent.m in Sources */,
+				636EFCD42046C1F20013C110 /* BalancePageViewControllerLight.m in Sources */,
+				636EFCD52046C1F20013C110 /* BalancePageViewControllerDark.m in Sources */,
+				636EFCD62046C1F20013C110 /* FavouriteTemplatesCollectionSource.m in Sources */,
+				636EFCD72046C1F20013C110 /* AbiParameterTypeAddress.m in Sources */,
+				636EFCD82046C1F20013C110 /* ErrorPopUpViewController.m in Sources */,
+				636EFCD92046C1F20013C110 /* AddressesTokenTableViewCell.m in Sources */,
+				636EFCDA2046C1F20013C110 /* NSString+AbiRegex.m in Sources */,
+				636EFCDB2046C1F20013C110 /* JKBigDecimal+Format.m in Sources */,
+				636EFCDC2046C1F20013C110 /* RequestManager.m in Sources */,
+				636EFCDD2046C1F20013C110 /* TextFieldWithLineLightSend.m in Sources */,
+				636EFCDE2046C1F20013C110 /* SwitchParameterView.m in Sources */,
+				636EFCDF2046C1F20013C110 /* TokenFunctionCellLight.m in Sources */,
+				636EFCE02046C1F20013C110 /* FavouriteTemplateCollectionViewCellLight.m in Sources */,
+				636EFCE12046C1F20013C110 /* NSString+AES256.m in Sources */,
+				636EFCE22046C1F20013C110 /* ProfileNavigationCoordinator.m in Sources */,
+				636EFCE32046C1F20013C110 /* LoaderPopUpViewController.m in Sources */,
+				636EFCE42046C1F20013C110 /* AbiParameterTypeDynamicArrayUInt.m in Sources */,
+				636EFCE52046C1F20013C110 /* AbiParameterTypeFixedArray.m in Sources */,
+				636EFCE62046C1F20013C110 /* TokenDetailsViewControllerDark.m in Sources */,
+				636EFCE72046C1F20013C110 /* WalletTableSource.m in Sources */,
+				636EFCE82046C1F20013C110 /* SourceCodePopUpViewControllerDark.m in Sources */,
+				636EFCE92046C1F20013C110 /* HistoryItemViewControllerDark.m in Sources */,
+				636EFCEA2046C1F20013C110 /* AbiParameterTypeFixedArrayBool.m in Sources */,
+				636EFCEB2046C1F20013C110 /* UIImage+Extension.m in Sources */,
+				636EFCEC2046C1F20013C110 /* SelectSearchTypeView.m in Sources */,
+				636EFCED2046C1F20013C110 /* TemplateTokenViewControllerLight.m in Sources */,
+				636EFCEE2046C1F20013C110 /* InterfaceInputFormModel.m in Sources */,
+				636EFCEF2046C1F20013C110 /* TokenAddressContolCell.m in Sources */,
+				636EFCF02046C1F20013C110 /* CreatePinViewControllerLight.m in Sources */,
+				636EFCF12046C1F20013C110 /* GradientViewWithAnimation.m in Sources */,
+				636EFCF22046C1F20013C110 /* KeyViewController.m in Sources */,
+				636EFCF32046C1F20013C110 /* LoginViewControllerDark.m in Sources */,
+				636EFCF42046C1F20013C110 /* SecurityPinView.m in Sources */,
+				636EFCF52046C1F20013C110 /* WalletsFactory.m in Sources */,
+				636EFCF62046C1F20013C110 /* ConfirmPinCoordinator.m in Sources */,
+				636EFCF72046C1F20013C110 /* PinViewControllerDark.m in Sources */,
+				636EFCF82046C1F20013C110 /* BaseViewController.m in Sources */,
+				636EFCF92046C1F20013C110 /* LibraryTableViewCellDark.m in Sources */,
+				636EFCFA2046C1F20013C110 /* AddressControlListViewController.m in Sources */,
+				636EFCFB2046C1F20013C110 /* BalanceTokenTableViewCell.m in Sources */,
+				636EFCFC2046C1F20013C110 /* WatchTokensViewController.m in Sources */,
+				636EFCFD2046C1F20013C110 /* GradientLayer.m in Sources */,
+				636EFCFE2046C1F20013C110 /* CircleGradientView.m in Sources */,
+				636EFCFF2046C1F20013C110 /* ContractPretendent.m in Sources */,
+				636EFD002046C1F20013C110 /* QTUMSwipableCellWithButtons.m in Sources */,
+				636EFD012046C1F20013C110 /* SendInfoItem.m in Sources */,
+				636EFD022046C1F20013C110 /* ChooseTokenPaymentDelegateDataSourceDark.m in Sources */,
+				636EFD032046C1F20013C110 /* SourceCodePopUpViewController.m in Sources */,
+				636EFD042046C1F20013C110 /* AbiTextFieldWithLineLight.m in Sources */,
+				636EFD052046C1F20013C110 /* AbiParameterTypeElementaryArray.m in Sources */,
+				636EFD062046C1F20013C110 /* QTUMParagrafTagCellLight.m in Sources */,
+				636EFD072046C1F20013C110 /* AbiParameterTypeFixedElementaryArray.m in Sources */,
+				636EFD082046C1F20013C110 /* NSData+Extension.m in Sources */,
+				636EFD092046C1F20013C110 /* AuthCoordinator.m in Sources */,
+				636EFD0A2046C1F20013C110 /* BalanceTokenView.m in Sources */,
+				636EFD0B2046C1F20013C110 /* ConfirmPopUpViewControllerLight.m in Sources */,
+				636EFD0C2046C1F20013C110 /* TokenAddressContolCellDark.m in Sources */,
+				636EFD0D2046C1F20013C110 /* TouchIDService.m in Sources */,
+				636EFD0E2046C1F20013C110 /* BalancePageViewController.m in Sources */,
+				636EFD0F2046C1F20013C110 /* TokenFunctionViewController.m in Sources */,
+				636EFD102046C1F20013C110 /* NewsNavigationController.m in Sources */,
+				636EFD112046C1F20013C110 /* LibraryTableViewCell.m in Sources */,
+				636EFD122046C1F20013C110 /* QTUMContractLableWithMargins.m in Sources */,
+				636EFD132046C1F20013C110 /* ViewWithGradientPoints.m in Sources */,
+				636EFD142046C1F20013C110 /* TokenFunctionCellDark.m in Sources */,
+				636EFD152046C1F20013C110 /* LibraryTableViewCellLight.m in Sources */,
+				636EFD162046C1F20013C110 /* ProfileViewController.m in Sources */,
+				636EFD172046C1F20013C110 /* ShareTokenPopUpViewControllerLight.m in Sources */,
+				636EFD182046C1F20013C110 /* ContractCoordinator.m in Sources */,
+				636EFD192046C1F20013C110 /* QStoreCollectionViewSource.m in Sources */,
+				636EFD1A2046C1F20013C110 /* AnimatedLogoImageVIew.m in Sources */,
+				636EFD1B2046C1F20013C110 /* ProfileViewControllerDark.m in Sources */,
+				636EFD1C2046C1F20013C110 /* AbiParameterTypeFixedArrayString.m in Sources */,
+				636EFD1D2046C1F20013C110 /* QStoreTemplateFunctionCell.m in Sources */,
+				636EFD1E2046C1F20013C110 /* InputTextView.m in Sources */,
+				636EFD1F2046C1F20013C110 /* QStoreRequestManager.m in Sources */,
+				636EFD202046C1F20013C110 /* LanguageTableViewCell.m in Sources */,
+				636EFD212046C1F20013C110 /* ChoiseSmartContractCellDark.m in Sources */,
+				636EFD222046C1F20013C110 /* BorderedLabel.m in Sources */,
+				636EFD232046C1F20013C110 /* HistoryDataStorage.m in Sources */,
+				636EFD242046C1F20013C110 /* HistoryElementRealm.m in Sources */,
+				636EFD252046C1F20013C110 /* QTUMFeedItem.m in Sources */,
+				636EFD262046C1F20013C110 /* Appearance.m in Sources */,
+				636EFD272046C1F20013C110 /* TokenDetailTableViewLight.m in Sources */,
+				636EFD282046C1F20013C110 /* ExportBrainKeyViewControllerLight.m in Sources */,
+				636EFD292046C1F20013C110 /* LoginViewControllerLight.m in Sources */,
+				636EFD2A2046C1F20013C110 /* AbiParameterTypeDynamicArrayBytes.m in Sources */,
+				636EFD2B2046C1F20013C110 /* AddressControlListViewControllerLight.m in Sources */,
+				636EFD2C2046C1F20013C110 /* ConfirmPinForExportViewController.m in Sources */,
+				636EFD2D2046C1F20013C110 /* QTUMParagrafTagCell.m in Sources */,
+				636EFD2E2046C1F20013C110 /* TemplateTokenViewController.m in Sources */,
+				636EFD2F2046C1F20013C110 /* AbiParameterTypeInt.m in Sources */,
+				636EFD302046C1F20013C110 /* RestoreWalletViewControllerLight.m in Sources */,
+				636EFD312046C1F20013C110 /* PinViewController.m in Sources */,
+				636EFD322046C1F20013C110 /* NewsDetailViewControllerLight.m in Sources */,
+				636EFD332046C1F20013C110 /* HistoryHeaderVIew.m in Sources */,
+				636EFD342046C1F20013C110 /* QStoreSearchTableSource.m in Sources */,
+				636EFD352046C1F20013C110 /* NewsDetailViewController.m in Sources */,
+				636EFD362046C1F20013C110 /* TableSourcesFactory.m in Sources */,
+				636EFD372046C1F20013C110 /* QTUMAddressTokenTableViewCell.m in Sources */,
+				636EFD382046C1F20013C110 /* AbiParameterTypeFixedArrayUInt.m in Sources */,
+				636EFD392046C1F20013C110 /* AnimatedLogoImageVIewLight.m in Sources */,
+				636EFD3A2046C1F20013C110 /* TokenTemplateCellLight.m in Sources */,
+				636EFD3B2046C1F20013C110 /* SubscribeTokenCoordinator.m in Sources */,
+				636EFD3C2046C1F20013C110 /* AddressLibruaryCoordinator.m in Sources */,
+				636EFD3D2046C1F20013C110 /* LanguageManager.m in Sources */,
+				636EFD3E2046C1F20013C110 /* ChooseTokenPaymentDelegateDataSource.m in Sources */,
+				636EFD3F2046C1F20013C110 /* Utils.m in Sources */,
+				636EFD402046C1F20013C110 /* ExportBrainKeyViewController.m in Sources */,
+				636EFD412046C1F20013C110 /* TokenTemplateCell.m in Sources */,
+				636EFD422046C1F20013C110 /* PinViewControllerLight.m in Sources */,
+				636EFD432046C1F20013C110 /* NetworkingService.m in Sources */,
+				636EFD442046C1F20013C110 /* QTUMTagsAttribute.m in Sources */,
+				636EFD452046C1F20013C110 /* DatabaseManager.m in Sources */,
+				636EFD462046C1F20013C110 /* AbiParameterTypeFixedArrayBytes.m in Sources */,
+				636EFD472046C1F20013C110 /* AbiinterfaceEntries.m in Sources */,
+				636EFD482046C1F20013C110 /* ExportWalletBrandKeyViewController.m in Sources */,
+				636EFD492046C1F20013C110 /* ChoseTokenPaymentViewControllerLight.m in Sources */,
+				636EFD4A2046C1F20013C110 /* PhotoLibraryPopUpViewControllerDark.m in Sources */,
+				636EFD4B2046C1F20013C110 /* UIAlertController+Extensions.m in Sources */,
+				636EFD4C2046C1F20013C110 /* QTUMHtmlParcer.m in Sources */,
+				636EFD4D2046C1F20013C110 /* LibraryViewControllerDark.m in Sources */,
+				636EFD4E2046C1F20013C110 /* CustomTextField.m in Sources */,
+				636EFD4F2046C1F20013C110 /* NewsTableCellDark.m in Sources */,
+				636EFD502046C1F20013C110 /* QTUMDefaultTagCell.m in Sources */,
+				636EFD512046C1F20013C110 /* QStoreBuyRequest.m in Sources */,
+				636EFD522046C1F20013C110 /* WalletViewControllerLight.m in Sources */,
+				636EFD532046C1F20013C110 /* ActivityTokenTableViewCell.m in Sources */,
+				636EFD542046C1F20013C110 /* SplashViewControllerDark.m in Sources */,
+				636EFD552046C1F20013C110 /* QStoreViewController.m in Sources */,
+				636EFD562046C1F20013C110 /* ExportBrandKeyCoordinator.m in Sources */,
+				636EFD572046C1F20013C110 /* ChoseTokenPaymentCell.m in Sources */,
+				636EFD582046C1F20013C110 /* NSString+SHA3.m in Sources */,
+				636EFD592046C1F20013C110 /* keccak.c in Sources */,
+				636EFD5A2046C1F20013C110 /* AppDelegate.m in Sources */,
+				636EFD5B2046C1F20013C110 /* SmartContractsListViewController.m in Sources */,
+				636EFD5C2046C1F20013C110 /* iOSSessionManager.m in Sources */,
+				636EFD5D2046C1F20013C110 /* PopUpsManager.m in Sources */,
+				636EFD5E2046C1F20013C110 /* NSError+NoInternet.m in Sources */,
+				636EFD5F2046C1F20013C110 /* QStoreTemplateDetailViewControllerDark.m in Sources */,
+				636EFD602046C1F20013C110 /* CustomSearchBar.m in Sources */,
+				636EFD612046C1F20013C110 /* Wallet.m in Sources */,
+				636EFD622046C1F20013C110 /* ChoiseSmartContractCell.m in Sources */,
+				636EFD632046C1F20013C110 /* QStoreCoordinator.m in Sources */,
+				636EFD642046C1F20013C110 /* LoginCoordinator.m in Sources */,
+				636EFD652046C1F20013C110 /* NoInternetConnectionPopUpViewController.m in Sources */,
+				636EFD662046C1F20013C110 /* LightBlueGrayBorderView.m in Sources */,
+				636EFD672046C1F20013C110 /* ConstructorFromAbiViewControllerDark.m in Sources */,
+				636EFD682046C1F20013C110 /* BTCAddress+Extension.m in Sources */,
+				636EFD692046C1F20013C110 /* QStoreContractDownloadManager.m in Sources */,
+				636EFD6A2046C1F20013C110 /* WalletTableSourceDark.m in Sources */,
+				636EFD6B2046C1F20013C110 /* TextFieldWithLine.m in Sources */,
+				636EFD6C2046C1F20013C110 /* ChoseTokenPaymentCellDark.m in Sources */,
+				636EFD6D2046C1F20013C110 /* RepeateViewControllerDark.m in Sources */,
+				636EFD6E2046C1F20013C110 /* FavouriteTemplateCollectionViewCell.m in Sources */,
+				636EFD6F2046C1F20013C110 /* WalletManager.m in Sources */,
+				636EFD702046C1F20013C110 /* ChooseReciveAddressViewController.m in Sources */,
+				636EFD712046C1F20013C110 /* ConfirmPopUpViewControllerDark.m in Sources */,
+				636EFD722046C1F20013C110 /* NSBundle+Language.m in Sources */,
+				636EFD732046C1F20013C110 /* HistoryElement.m in Sources */,
+				636EFD742046C1F20013C110 /* QStoreTemplateDetailViewController.m in Sources */,
+				636EFD752046C1F20013C110 /* EnableFingerprintViewControllerDark.m in Sources */,
+				636EFD762046C1F20013C110 /* UIColor+Extension.swift in Sources */,
+				636EFD772046C1F20013C110 /* HistoryTableViewCellLight.m in Sources */,
+				636EFD782046C1F20013C110 /* WalletHeaderCellDark.m in Sources */,
+				636EFD792046C1F20013C110 /* WalletNameViewControllerLight.m in Sources */,
+				636EFD7A2046C1F20013C110 /* AddressBalanceRealm.m in Sources */,
+				636EFD7B2046C1F20013C110 /* AddressControlCellDark.m in Sources */,
+				636EFD7C2046C1F20013C110 /* ErrorPopUpViewControllerLight.m in Sources */,
+				636EFD7D2046C1F20013C110 /* ContentInsetLabel.m in Sources */,
+				636EFD7E2046C1F20013C110 /* CheckboxButtonLight.m in Sources */,
+				636EFD7F2046C1F20013C110 /* NewsDetailViewControllerDark.m in Sources */,
+				636EFD802046C1F20013C110 /* WalletTableSourceLight.m in Sources */,
+				636EFD812046C1F20013C110 /* SecurityPopupViewControllerLight.m in Sources */,
+				636EFD822046C1F20013C110 /* NSDecimalNumber+Comparison.m in Sources */,
+				636EFD832046C1F20013C110 /* DiagramView.m in Sources */,
+				636EFD842046C1F20013C110 /* AbiTextFieldWithLine.m in Sources */,
+				636EFD852046C1F20013C110 /* WalletCoordinator.m in Sources */,
+				636EFD862046C1F20013C110 /* ConfirmPurchasePopUpViewControllerLight.m in Sources */,
+				636EFD872046C1F20013C110 /* TabBarController.m in Sources */,
+				636EFD882046C1F20013C110 /* TemplateManager.m in Sources */,
+				636EFD892046C1F20013C110 /* SecurityCoordinator.m in Sources */,
+				636EFD8A2046C1F20013C110 /* TabBarControllerLight.m in Sources */,
+				636EFD8B2046C1F20013C110 /* HistoryItemViewController.m in Sources */,
+				636EFD8C2046C1F20013C110 /* main.m in Sources */,
+				636EFD8D2046C1F20013C110 /* WalletManagerRequestAdapter.m in Sources */,
+				636EFD8E2046C1F20013C110 /* NewsCellModel.m in Sources */,
+				636EFD8F2046C1F20013C110 /* QRCodeViewControllerDark.m in Sources */,
+				636EFD902046C1F20013C110 /* ProfileViewControllerLight.m in Sources */,
+				636EFD912046C1F20013C110 /* TemplateTokenViewControllerDark.m in Sources */,
+				636EFD922046C1F20013C110 /* WalletHeaderCellLight.m in Sources */,
+				636EFD932046C1F20013C110 /* QRCodeViewController.m in Sources */,
+				636EFD942046C1F20013C110 /* InformationPopUpViewControllerLight.m in Sources */,
+				636EFD952046C1F20013C110 /* SpinnerViewLight.m in Sources */,
+				636EFD962046C1F20013C110 /* TokenDetailInfoLightCell.m in Sources */,
+				636EFD972046C1F20013C110 /* ChooseAddressReciveCellLight.m in Sources */,
+				636EFD982046C1F20013C110 /* FXKeychain.m in Sources */,
+				636EFD992046C1F20013C110 /* QStoreMainScreenCategory.m in Sources */,
+				636EFD9A2046C1F20013C110 /* NSString+Extension.m in Sources */,
+				636EFD9B2046C1F20013C110 /* WatchContractViewControllerDark.m in Sources */,
+				636EFD9C2046C1F20013C110 /* LibraryViewController.m in Sources */,
+				636EFD9D2046C1F20013C110 /* QStoreContractViewControllerLight.m in Sources */,
+				636EFD9E2046C1F20013C110 /* ProfileCoordinator.m in Sources */,
+				636EFD9F2046C1F20013C110 /* LibraryViewControllerLight.m in Sources */,
+				636EFDA02046C1F20013C110 /* TokenCellSubscribeDark.m in Sources */,
+				636EFDA12046C1F20013C110 /* TokenDetailsViewControllerLight.m in Sources */,
+				636EFDA22046C1F20013C110 /* TokenCellSubscribeLight.m in Sources */,
+				636EFDA32046C1F20013C110 /* AbiParameterPrimitiveType.m in Sources */,
+				636EFDA42046C1F20013C110 /* ProfileTableViewCell.m in Sources */,
+				636EFDA52046C1F20013C110 /* NSBundle+StyleProvider.m in Sources */,
+				636EFDA62046C1F20013C110 /* ConfirmPurchasePopUpViewController.m in Sources */,
+				636EFDA72046C1F20013C110 /* BackupFileManager.m in Sources */,
+				636EFDA82046C1F20013C110 /* DataOperation.m in Sources */,
+				636EFDA92046C1F20013C110 /* PasswordView.m in Sources */,
+				636EFDAA2046C1F20013C110 /* ChooseReciveAddressViewControllerLight.m in Sources */,
+				636EFDAB2046C1F20013C110 /* WalletViewControllerDark.m in Sources */,
+				636EFDAC2046C1F20013C110 /* TokenFunctionCell.m in Sources */,
+				636EFDAD2046C1F20013C110 /* AddressTableViewCell.m in Sources */,
+				636EFDAE2046C1F20013C110 /* TransactionBuilder.m in Sources */,
+				636EFDAF2046C1F20013C110 /* MainTokenTableViewCell.m in Sources */,
+				636EFDB02046C1F20013C110 /* NubersTokenView.m in Sources */,
+				636EFDB12046C1F20013C110 /* AbiParameterTypeDynamicArrayAddress.m in Sources */,
+				636EFDB22046C1F20013C110 /* QStoreSearchTableViewCellDark.m in Sources */,
+				636EFDB32046C1F20013C110 /* QTUMImageTagCell.m in Sources */,
+				636EFDB42046C1F20013C110 /* RestoreWalletViewControllerDark.m in Sources */,
+				636EFDB52046C1F20013C110 /* BTCBlockchainInfo+QtumExplorer.m in Sources */,
+				636EFDB62046C1F20013C110 /* InformationPopUpViewController.m in Sources */,
+				636EFDB72046C1F20013C110 /* AboutOutputViewControllerLight.m in Sources */,
+				636EFDB82046C1F20013C110 /* NewsTableCell.m in Sources */,
+				636EFDB92046C1F20013C110 /* QStoreListTableViewCellLight.m in Sources */,
+				636EFDBA2046C1F20013C110 /* ImageLoader.m in Sources */,
+				636EFDBB2046C1F20013C110 /* QStoreCollectionViewCell.m in Sources */,
+				636EFDBC2046C1F20013C110 /* EnableFingerprintViewControllerLight.m in Sources */,
+				636EFDBD2046C1F20013C110 /* TokenListViewControllerLight.m in Sources */,
+				636EFDBE2046C1F20013C110 /* TokenFunctionDetailViewController.m in Sources */,
+				636EFDBF2046C1F20013C110 /* AbiTypesProcessor.m in Sources */,
+				636EFDC02046C1F20013C110 /* RestoreContractsViewController.m in Sources */,
+				636EFDC12046C1F20013C110 /* ResultTokenInputsModel.m in Sources */,
+				636EFDC22046C1F20013C110 /* WalletNavigationController.m in Sources */,
+				636EFDC32046C1F20013C110 /* AbiParameterTypeBool.m in Sources */,
+				636EFDC42046C1F20013C110 /* ConfirmPopUpViewController.m in Sources */,
+				636EFDC52046C1F20013C110 /* QTUMHTMLTagItem.m in Sources */,
+				636EFDC62046C1F20013C110 /* LanguageTableViewCellDark.m in Sources */,
+				636EFDC72046C1F20013C110 /* QStoreTableViewCellDark.m in Sources */,
+				636EFDC82046C1F20013C110 /* QStoreTableViewCell.m in Sources */,
+				636EFDC92046C1F20013C110 /* AddressBalance.m in Sources */,
+				636EFDCA2046C1F20013C110 /* TokenAddressControlViewControllerDark.m in Sources */,
+				636EFDCB2046C1F20013C110 /* BaseCoordinator.m in Sources */,
+				636EFDCC2046C1F20013C110 /* QTUMBigNumber.m in Sources */,
+				636EFDCD2046C1F20013C110 /* RPCAdapter.m in Sources */,
+				636EFDCE2046C1F20013C110 /* TextFieldWithLineDark.m in Sources */,
+				636EFDCF2046C1F20013C110 /* ErrorPopUpViewControllerDark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63B789B1201ED02D005E7848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8898,6 +10216,139 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		636EFE1F2046C1F20013C110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932FF012846189FD7D3E9B01 /* Pods-htmlcoin wallet prod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "htmlcoin wallet prod.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9J23KXGMP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/qtum wallet/Application/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PRODUCTION=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFJSONRPCClient\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CoreBitcoin\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatter\"",
+					"\"${PODS_ROOT}/Headers/Public/MTBBarcodeScanner\"",
+					"\"${PODS_ROOT}/Headers/Public/MWFeedParser\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "htmlcoin wallet prod copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htmlcoin.wallet.app-foundation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "qtum wallet/Application/Helpers/qtum wallet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		636EFE202046C1F20013C110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF76CB84CEC21748630883B /* Pods-htmlcoin wallet prod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "htmlcoin wallet prod.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9J23KXGMP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/qtum wallet/Application/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PRODUCTION=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFJSONRPCClient\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CoreBitcoin\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatter\"",
+					"\"${PODS_ROOT}/Headers/Public/MTBBarcodeScanner\"",
+					"\"${PODS_ROOT}/Headers/Public/MWFeedParser\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "htmlcoin wallet prod copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htmlcoin.wallet.app-foundation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "qtum wallet/Application/Helpers/qtum wallet-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		63B78BF0201ED02D005E7848 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF612F4F200C37400E745D72 /* Pods-htmlcoin wallet dev.debug.xcconfig */;
@@ -9552,6 +11003,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		636EFE1E2046C1F20013C110 /* Build configuration list for PBXNativeTarget "htmlcoin wallet prod foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636EFE1F2046C1F20013C110 /* Debug */,
+				636EFE202046C1F20013C110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		63B78BEF201ED02D005E7848 /* Build configuration list for PBXNativeTarget "htmlcoin wallet dev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

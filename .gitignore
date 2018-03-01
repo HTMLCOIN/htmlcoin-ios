@@ -9,5 +9,6 @@ Carthage
 qtum\ wallet/GoogleService-Info.plist
 googleservice_production
 googleservice_staging
+googleservice_production foundation
 fabricSetup.pl
 /Build
