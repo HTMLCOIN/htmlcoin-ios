@@ -101,8 +101,10 @@
 - (void)setupImportButton {
     
     if ([self.delegate respondsToSelector:@selector(checkWordsString:)]) {
-        self.importButton.alpha = [self.delegate checkWordsString:self.brandKeyTextView.text] ? 1.0f : 0.7f;
-        self.importButton.enabled = [self.delegate checkWordsString:self.brandKeyTextView.text];
+        NSString *passphrase = self.brandKeyTextView.text;
+        passphrase = [passphrase stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        self.importButton.alpha = [self.delegate checkWordsString:passphrase] ? 1.0f : 0.7f;
+        self.importButton.enabled = [self.delegate checkWordsString:passphrase];
     }
 }
 
