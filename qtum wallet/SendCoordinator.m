@@ -167,7 +167,7 @@
 
 -(void)payWithWalletWithAddress:(NSString*) address andAmount:(QTUMBigNumber*) amount andFee:(QTUMBigNumber *)fee{
     
-    if (![self isValidAmount:amount]) {
+    if (![self isValidAmount:amount andFee:fee]) {
         return;
     }
     
@@ -198,7 +198,7 @@
     
     QTUMBigNumber* amounDivByDecimals = [amount numberWithPowerOf10:self.token.decimals];
 
-    if (![self isValidAmount:amounDivByDecimals]) {
+    if (![self isValidAmount:amounDivByDecimals andFee:fee]) {
         return;
     }
     
@@ -281,10 +281,16 @@
     [self showErrorPopUp:NSLocalizedString(errorString, nil)];
 }
 
-- (BOOL)isValidAmount:(QTUMBigNumber *)amount {
+- (BOOL)isValidAmount:(QTUMBigNumber *)amount andFee: (QTUMBigNumber *)fee{
     
     if (![amount  isGreaterThanInt:0]) {
         [self showErrorPopUp:NSLocalizedString(@"Transaction amount can't be zero. Please edit your transaction and try again", nil)];
+        return NO;
+    } else if ([amount isLessThan:[QTUMBigNumber decimalWithString: @"0.00218400"]]) {
+        [self showErrorPopUp:NSLocalizedString(@"Transaction amount is too small. Please edit your transaction and try again", nil)];
+        return NO;
+    } else if ([amount isLessThan: [fee multiply:[QTUMBigNumber decimalWithInteger:3]]]) {
+        [self showErrorPopUp:NSLocalizedString(@"Fee amount can't be larger than 1/3 of transaction amount. Please edit your transaction and try again", nil)];
         return NO;
     }
     
