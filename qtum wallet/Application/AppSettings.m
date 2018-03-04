@@ -50,7 +50,7 @@
     
     if (![NSUserDefaults isNotFirstTimeLaunch]) {
         [NSUserDefaults saveIsDarkSchemeSetting:NO];
-        [NSUserDefaults saveIsNotFirstTimeLaunch:NO];
+        [NSUserDefaults saveIsNotFirstTimeLaunch:YES];
     }
     
     [NSUserDefaults saveCurrentVersion:[[NSBundle mainBundle] infoDictionary][@"CFBundleVersion"]];
