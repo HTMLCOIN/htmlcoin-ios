@@ -80,6 +80,10 @@
 		<string>StymieLtBTBold.ttf</string>
 		<string>STYMIEB.ttf</string>
 		<string>STYMIEL.ttf</string>
+		<string>WorkSans-Bold.ttf</string>
+		<string>WorkSans-Light.ttf</string>
+		<string>WorkSans-Medium.ttf</string>
+		<string>WorkSans-Regular.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
