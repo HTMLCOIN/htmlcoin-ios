@@ -10,6 +10,7 @@
 #import "LoginCoordinator.h"
 #import "LoginViewOutputDelegate.h"
 #import "Presentable.h"
+#import "UIView+RoundedCorner.h"
 
 @interface LoginViewController () <CAAnimationDelegate, Presentable>
 
@@ -30,6 +31,7 @@ static NSInteger textfieldsWithButtonHeight = 250;
     [super viewDidLoad];
     
     self.bottomConstraintForCancelButton.constant = self.view.frame.size.height / 2. - textfieldsWithButtonHeight / 2.;
+    [self.cancelButton roundedWithCorner:4];
     
     [self configPasswordView];
     
@@ -70,7 +72,7 @@ static NSInteger textfieldsWithButtonHeight = 250;
 -(void)keyboardWillShow:(NSNotification *)sender {
     
     CGRect end = [[sender userInfo][UIKeyboardFrameEndUserInfoKey] CGRectValue];
-    self.bottomConstraintForCancelButton.constant = end.size.height;
+    self.bottomConstraintForCancelButton.constant = end.size.height + 10;
     [self.view layoutIfNeeded];
 }
 

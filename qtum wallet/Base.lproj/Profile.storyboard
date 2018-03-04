@@ -16,11 +16,11 @@
         <array key="Avenir.ttc">
             <string>Avenir-Book</string>
         </array>
+        <array key="STYMIEL.ttf">
+            <string>StymieBT-Light</string>
+        </array>
         <array key="StymieLtBTBold.ttf">
             <string>StymieBT-Bold</string>
-        </array>
-        <array key="StymieLtBTLight.ttf">
-            <string>StymieBT-Light</string>
         </array>
         <array key="euclidflexmedium.ttf">
             <string>euclidflexmedium</string>
@@ -1611,7 +1611,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgd-JG-wMS">
-                                <rect key="frame" x="30" y="427" width="315" height="38.5"/>
+                                <rect key="frame" x="30" y="419.5" width="315" height="38.5"/>
                                 <string key="text">© 2017 HTMLCOIN
 Version</string>
                                 <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="16"/>
@@ -1619,7 +1619,7 @@ Version</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="GBu-Su-6fF">
-                                <rect key="frame" x="129.5" y="276" width="115" height="115"/>
+                                <rect key="frame" x="129.5" y="283.5" width="115" height="100"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.36470588240000001" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
@@ -3012,7 +3012,7 @@ AAElzwABJdwAASXhAAEl6QABJewAASXxAAEl+QABJfwAASYOAAEmEQABJhYAAAAAAAAEAQAAAAAAAABZ
 AAAAAAAAAAAAAAAAAAEmGA
 </mutableData>
         </image>
-        <image name="logo" width="115" height="115"/>
+        <image name="logo" width="115" height="100"/>
         <image name="share" width="20" height="21"/>
         <image name="upload" width="25" height="21"/>
     </resources>

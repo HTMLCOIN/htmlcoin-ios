@@ -8,13 +8,14 @@
 
 #import "RestoreWalletViewController.h"
 #import "TextFieldWithLine.h"
+#import "UIView+RoundedCorner.h"
 
 @interface RestoreWalletViewController () <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet TextFieldWithLine *addressTextField;
 @property (weak, nonatomic) IBOutlet UITextView *brandKeyTextView;
 @property (strong,nonatomic) NSString *brainKeyString;
-@property (weak, nonatomic) IBOutlet UIButton *importButton;
+//@property (weak, nonatomic) IBOutlet UIButton *importButton;
 
 - (IBAction)importButtonWasPressed:(id)sender;
 
@@ -38,6 +39,9 @@
     self.brandKeyTextView.layer.borderWidth = 0.5f;
     self.brandKeyTextView.layer.cornerRadius = 4;
     self.brandKeyTextView.layer.borderColor = [[UIColor whiteColor] CGColor];
+    
+    [self.cancelButton roundedWithCorner:self.cancelButton.bounds.size.height/2];
+    [self.importButton roundedWithCorner:self.importButton.bounds.size.height/2];
     /*[self.brandKeyTextView setFont:[UIFont fontWithName:@"StymieLtBTLight" size:18]];
     [self.brandKeyTextView setTextColor:[UIColor whiteColor]];
      */

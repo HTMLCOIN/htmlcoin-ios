@@ -27,14 +27,16 @@
 
 -(void)configurateButtons {
     
+    [self.createButton roundedWithCorner:4];
+    [self.loginButton roundedWithCorner:4];
     if ([ApplicationCoordinator sharedInstance].walletManager.isSignedIn) {
 //        self.createButton.backgroundColor = [UIColor clearColor];
-        [self.createButton setTitleColor:customBlueColor() forState:UIControlStateNormal];
+//        [self.createButton setTitleColor:customBlueColor() forState:UIControlStateNormal];
         self.loginButton.hidden = NO;
         self.invitationTextLabel.text = NSLocalizedString(@"Login to HTMLCOIN \nDon't have a wallet yet?", @"");
     } else {
 //        self.createButton.backgroundColor = customRedColor();
-        [self.createButton roundedWithCorner:4];
+        
         [self.createButton setTitleColor:customBlackColor() forState:UIControlStateNormal];
         self.loginButton.hidden = YES;
         self.invitationTextLabel.text = NSLocalizedString(@"You don’t have a wallet yet.", @"");

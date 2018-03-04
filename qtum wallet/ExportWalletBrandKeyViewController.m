@@ -7,12 +7,11 @@
 //
 
 #import "ExportWalletBrandKeyViewController.h"
-//#import "BorderedLabel.h"
-#import "ContentInsetLabel.h"
+#import "BorderedLabel.h"
 
 @interface ExportWalletBrandKeyViewController () <PopUpViewControllerDelegate>
 
-@property (weak, nonatomic) IBOutlet ContentInsetLabel *brainKeyLabel;
+@property (weak, nonatomic) IBOutlet BorderedLabel *brainKeyLabel;
 
 @end
 
@@ -45,9 +44,6 @@
 #pragma mark - Configuration
 
 -(void)configurationBrainKeyLabel {
-    self.brainKeyLabel.layer.borderWidth = 1;
-    self.brainKeyLabel.layer.cornerRadius = 4;
-    self.brainKeyLabel.layer.borderColor = [[UIColor whiteColor] CGColor];
     self.brainKeyLabel.text = self.brandKey;
     
     // Test

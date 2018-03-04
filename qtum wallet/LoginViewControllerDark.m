@@ -16,8 +16,12 @@
 
 -(void)configPasswordView {
     
-    [self.passwordView setStyle:DarkStyle lenght:[AppSettings sharedInstance].isLongPin ? LongType : ShortType];
+    [self.passwordView setStyle:LightStyle lenght:[AppSettings sharedInstance].isLongPin ? LongType : ShortType];
     self.passwordView.delegate = self;
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 @end

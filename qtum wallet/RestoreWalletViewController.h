@@ -14,5 +14,7 @@
 @interface RestoreWalletViewController : BaseViewController <RestoreWalletOutput, Presentable>
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomForButtonsConstraint;
+@property (weak, nonatomic) IBOutlet UIButton *cancelButton;
+@property (weak, nonatomic) IBOutlet UIButton *importButton;
 
 @end

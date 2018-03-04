@@ -10,22 +10,10 @@
 #import "UIView+RoundedCorner.h"
 
 @interface ExportWalletBrandKeyViewControllerLight ()
-@property (weak, nonatomic) IBOutlet UIButton *leftButton;
-@property (weak, nonatomic) IBOutlet UIButton *rightButton;
 
 
 @end
 
 @implementation ExportWalletBrandKeyViewControllerLight
-
--(void)viewDidLoad {
-    [super viewDidLoad];
-    
-    [_leftButton roundedWithCorner:_leftButton.bounds.size.height/2];
-    [_rightButton roundedWithCorner:_rightButton.bounds.size.height/2];
-    [self.leftButton setTitle:NSLocalizedString(@"Skip", @"") forState: UIControlStateNormal];
-    
-    [self.rightButton setTitle:NSLocalizedString(@"Copy", @"") forState: UIControlStateNormal];
-}
 
 @end

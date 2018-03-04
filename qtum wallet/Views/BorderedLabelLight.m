@@ -18,15 +18,17 @@
 @implementation BorderedLabelLight
 
 - (UIColor *)getBorderColor {
-    return [lightBlackColor78() colorWithAlphaComponent:0.2f];
+//    return [lightBlackColor78() colorWithAlphaComponent:0.2f];
+    return [UIColor whiteColor];
 }
 
 - (UIColor *)getBackroundColor {
-    return [UIColor whiteColor];//lightBorderLabelBackroundColor();
+//    return [UIColor whiteColor];//lightBorderLabelBackroundColor();
+    return [UIColor clearColor];
 }
 
 - (UIView *)getBorderView {
-    return [InnerShadowView new];
+    return [UIView new];
 }
 
 - (CGFloat)getInsets {

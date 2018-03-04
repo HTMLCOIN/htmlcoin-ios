@@ -66,7 +66,7 @@
 #pragma mark - Public
 
 - (UIColor *)getBorderColor {
-    return customBlueColor();
+    return [UIColor whiteColor];//customBlueColor();
 }
 
 - (UIColor *)getBackroundColor{
@@ -74,7 +74,8 @@
 }
 
 - (UIView *)getBorderView {
-    return [UIView new];
+    UIView * v = [UIView new];
+    return v;
 }
 
 - (CGFloat)getInsets {
