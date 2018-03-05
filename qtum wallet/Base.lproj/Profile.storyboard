@@ -1141,7 +1141,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNO-zy-654" customClass="PasswordView">
-                                <rect key="frame" x="67" y="463" width="240" height="100"/>
+                                <rect key="frame" x="67" y="462" width="240" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Q0w-Fx-GEO"/>
@@ -1149,7 +1149,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUc-hH-xZa">
-                                <rect key="frame" x="67.5" y="588" width="240" height="50"/>
+                                <rect key="frame" x="67.5" y="587" width="240" height="50"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="hOm-dp-tGh"/>
@@ -1175,7 +1175,7 @@
                             <constraint firstItem="aUc-hH-xZa" firstAttribute="centerX" secondItem="VoQ-xb-rzT" secondAttribute="centerX" id="RwS-xe-3lV"/>
                             <constraint firstItem="hNO-zy-654" firstAttribute="centerX" secondItem="VoQ-xb-rzT" secondAttribute="centerX" id="UtP-Ip-QA7"/>
                             <constraint firstItem="aUc-hH-xZa" firstAttribute="top" secondItem="hNO-zy-654" secondAttribute="bottom" constant="25" id="bno-WX-THG"/>
-                            <constraint firstItem="VoQ-xb-rzT" firstAttribute="bottom" secondItem="aUc-hH-xZa" secondAttribute="bottom" constant="29" id="ph5-DS-vI9"/>
+                            <constraint firstItem="VoQ-xb-rzT" firstAttribute="bottom" secondItem="aUc-hH-xZa" secondAttribute="bottom" constant="30" id="ph5-DS-vI9"/>
                             <constraint firstItem="cMu-AN-tU6" firstAttribute="centerY" secondItem="VoQ-xb-rzT" secondAttribute="centerY" multiplier="1:3" id="tdg-Rq-U06"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VoQ-xb-rzT"/>
@@ -1360,7 +1360,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qFp-H5-myh" customClass="PasswordView">
-                                        <rect key="frame" x="67" y="472" width="240" height="100"/>
+                                        <rect key="frame" x="67" y="462" width="240" height="100"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="5tk-Fs-B1I"/>
@@ -1368,7 +1368,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tos-Vx-bkj">
-                                        <rect key="frame" x="67.5" y="597" width="240" height="50"/>
+                                        <rect key="frame" x="67.5" y="587" width="240" height="50"/>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="pIZ-VV-bm9"/>
@@ -1418,7 +1418,7 @@
                                     <constraint firstAttribute="bottom" secondItem="uFd-UP-UUH" secondAttribute="bottom" id="Psl-0B-3H7"/>
                                     <constraint firstItem="tos-Vx-bkj" firstAttribute="centerX" secondItem="nJJ-XF-0hv" secondAttribute="centerX" id="fUO-e9-HEI"/>
                                     <constraint firstAttribute="bottom" secondItem="LtY-dY-DPc" secondAttribute="bottom" id="wO1-wy-gpC"/>
-                                    <constraint firstAttribute="bottom" secondItem="tos-Vx-bkj" secondAttribute="bottom" constant="20" id="wbw-ON-E5x"/>
+                                    <constraint firstAttribute="bottom" secondItem="tos-Vx-bkj" secondAttribute="bottom" constant="30" id="wbw-ON-E5x"/>
                                     <constraint firstAttribute="trailing" secondItem="uFd-UP-UUH" secondAttribute="trailing" id="xzf-b9-Vzl"/>
                                     <constraint firstItem="zLG-Z8-e8u" firstAttribute="centerX" secondItem="nJJ-XF-0hv" secondAttribute="centerX" id="zBZ-Hi-uzi"/>
                                 </constraints>
@@ -1580,7 +1580,7 @@ Version</string>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="30" id="eqv-vP-TOO"/>
                                                 </constraints>
-                                                <color key="tintColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="back">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>

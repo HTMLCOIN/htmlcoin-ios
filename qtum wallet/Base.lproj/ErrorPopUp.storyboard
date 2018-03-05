@@ -13,11 +13,11 @@
         <array key="STYMIEB.ttf">
             <string>StymieBT-Bold</string>
         </array>
-        <array key="STYMIEL.ttf">
-            <string>StymieBT-Light</string>
+        <array key="WorkSans-Medium.ttf">
+            <string>WorkSans-Medium</string>
         </array>
-        <array key="proximanova-semibold.otf">
-            <string>ProximaNova-Semibold</string>
+        <array key="WorkSans-Regular.ttf">
+            <string>WorkSans-Regular</string>
         </array>
         <array key="simplonmono-medium.ttf">
             <string>simplonmono-medium</string>
@@ -168,10 +168,10 @@
                                 <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mmE-Iw-0ao">
-                                <rect key="frame" x="56.5" y="147" width="262" height="174"/>
+                                <rect key="frame" x="56.5" y="142.5" width="262" height="181.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieg-mF-6fQ">
-                                        <rect key="frame" x="140" y="118" width="107" height="42"/>
+                                        <rect key="frame" x="140" y="124.5" width="107" height="42"/>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="ETb-0g-67m"/>
@@ -192,22 +192,22 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oops" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OyJ-Yr-ahm">
-                                        <rect key="frame" x="109.5" y="34" width="44" height="18"/>
-                                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="18"/>
+                                        <rect key="frame" x="109" y="33" width="45" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="18"/>
                                         <color key="textColor" red="0.99215686274509807" green="0.47450980392156861" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-error-popup" translatesAutoresizingMaskIntoConstraints="NO" id="4zl-qd-Ca8">
-                                        <rect key="frame" x="84.5" y="32" width="18" height="18"/>
+                                        <rect key="frame" x="84" y="33" width="18" height="18"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOi-zg-3Ig">
-                                        <rect key="frame" x="15" y="118" width="107" height="42"/>
+                                        <rect key="frame" x="15" y="124.5" width="107" height="42"/>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="2Gq-eJ-Lmq"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="107" id="d5n-BF-aCb"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="18"/>
                                         <state key="normal" title="CANCEL">
                                             <color key="titleColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -222,13 +222,13 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDm-ac-lR1">
-                                        <rect key="frame" x="55.5" y="118" width="150" height="42"/>
+                                        <rect key="frame" x="55.5" y="124.5" width="150" height="42"/>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="4kO-F1-1Y2"/>
                                             <constraint firstAttribute="height" constant="42" id="nv5-HY-cvS"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="18"/>
                                         <state key="normal" title="CANCEL">
                                             <color key="titleColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -243,8 +243,8 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Something went wrong" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1A-4V-RIp">
-                                        <rect key="frame" x="10" y="67" width="242" height="16"/>
-                                        <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie" pointSize="13"/>
+                                        <rect key="frame" x="10" y="69.5" width="242" height="20"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="17"/>
                                         <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
