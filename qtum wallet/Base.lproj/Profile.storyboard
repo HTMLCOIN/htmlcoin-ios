@@ -16,20 +16,17 @@
         <array key="Avenir.ttc">
             <string>Avenir-Book</string>
         </array>
-        <array key="STYMIEL.ttf">
-            <string>StymieBT-Light</string>
+        <array key="WorkSans-Light.ttf">
+            <string>WorkSans-Light</string>
         </array>
-        <array key="StymieLtBTBold.ttf">
-            <string>StymieBT-Bold</string>
+        <array key="WorkSans-Medium.ttf">
+            <string>WorkSans-Medium</string>
+        </array>
+        <array key="WorkSans-Regular.ttf">
+            <string>WorkSans-Regular</string>
         </array>
         <array key="euclidflexmedium.ttf">
             <string>euclidflexmedium</string>
-        </array>
-        <array key="proximanova-regular.otf">
-            <string>ProximaNova-Regular</string>
-        </array>
-        <array key="proximanova-semibold.otf">
-            <string>ProximaNova-Semibold</string>
         </array>
         <array key="simplonmono-regular.ttf">
             <string>simplonmono-regular</string>
@@ -651,8 +648,8 @@
                                         <rect key="frame" x="0.0" y="40" width="375" height="44"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pR-ij-UuP">
-                                                <rect key="frame" x="157" y="10" width="61" height="24"/>
-                                                <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie Lt BT" pointSize="20"/>
+                                                <rect key="frame" x="156" y="10" width="64" height="24"/>
+                                                <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -688,8 +685,8 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qv-39-6Bu">
-                                                    <rect key="frame" x="58" y="12" width="44" height="22"/>
-                                                    <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie Lt BT" pointSize="18"/>
+                                                    <rect key="frame" x="58" y="12" width="48.5" height="22"/>
+                                                    <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="18"/>
                                                     <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -734,9 +731,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ks-d1-V9m">
-                                                    <rect key="frame" x="58" y="15" width="38" height="16"/>
-                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
-                                                    <color key="textColor" red="0.30588235289999999" green="0.36470588240000001" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <rect key="frame" x="58" y="11.5" width="48.5" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="18"/>
+                                                    <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-arrow_light" translatesAutoresizingMaskIntoConstraints="NO" id="1JM-PT-GZn">
@@ -788,9 +785,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIT-Fy-FUy">
-                                                    <rect key="frame" x="58" y="15" width="38" height="16"/>
-                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
-                                                    <color key="textColor" red="0.30588235289999999" green="0.36470588240000001" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <rect key="frame" x="58" y="11.5" width="48.5" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="18"/>
+                                                    <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="GLR-G2-e8U">
@@ -886,9 +883,9 @@
                                         <rect key="frame" x="0.0" y="40" width="375" height="44"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THB-N4-PvW">
-                                                <rect key="frame" x="141.5" y="10" width="93" height="24"/>
+                                                <rect key="frame" x="141.5" y="10" width="93.5" height="24"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie Lt BT" pointSize="20"/>
+                                                <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -952,9 +949,9 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiT-lo-3mY">
-                                                    <rect key="frame" x="10" y="14.5" width="38" height="16"/>
-                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
-                                                    <color key="textColor" red="0.30588235294117649" green="0.36470588235294116" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <rect key="frame" x="10" y="12" width="48.5" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="18"/>
+                                                    <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1027,8 +1024,8 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Export Passphrase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9D-ch-yU0">
-                                                <rect key="frame" x="111" y="11" width="154.5" height="22"/>
-                                                <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie Lt BT" pointSize="18"/>
+                                                <rect key="frame" x="96" y="10.5" width="183" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1069,9 +1066,9 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" asdasd asdasd asdasd asfd asdf gsdf hgja aqt rejdf цуквапы" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUA-BL-gt5" customClass="BorderedLabelLight">
-                                <rect key="frame" x="44" y="108" width="287" height="43.5"/>
+                                <rect key="frame" x="44" y="108" width="287" height="42.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie Lt BT" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="WorkSans-Light" family="Work Sans" pointSize="18"/>
                                 <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1081,7 +1078,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Bq1-lE-bDT"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie Lt BT" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="18"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="COPY PASSPHRASE">
                                     <color key="titleColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1096,8 +1093,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copy the passphase to restore your wallet on another device" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9w-TB-oOB">
-                                <rect key="frame" x="30" y="251.5" width="315" height="43.5"/>
-                                <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie Lt BT" pointSize="18"/>
+                                <rect key="frame" x="30" y="250.5" width="315" height="42.5"/>
+                                <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="18"/>
                                 <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1137,69 +1134,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M45-TA-3gb">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Old PIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMu-AN-tU6">
-                                        <rect key="frame" x="130.5" y="100" width="115.5" height="22"/>
-                                        <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="18"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNO-zy-654" customClass="PasswordView">
-                                        <rect key="frame" x="67" y="170" width="240" height="100"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="Q0w-Fx-GEO"/>
-                                            <constraint firstAttribute="width" constant="240" id="kSk-cb-5UR"/>
-                                        </constraints>
-                                    </view>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jq6-eK-ofj">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
-                                        <color key="backgroundColor" red="0.2470588235" green="0.22352941179999999" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="64" id="Gvz-X5-dfm"/>
-                                        </constraints>
-                                    </view>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g4R-rM-wSo">
-                                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKz-8G-IGE">
-                                                <rect key="frame" x="3" y="0.0" width="30" height="44"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="30" id="Zmp-wf-RJM"/>
-                                                </constraints>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" image="back">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <state key="highlighted" image="back"/>
-                                                <connections>
-                                                    <action selector="actionBack:" destination="UxO-Me-LJ8" eventType="touchUpInside" id="iEq-Zb-7bZ"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.24705882352941178" green="0.22352941176470587" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="qKz-8G-IGE" firstAttribute="top" secondItem="g4R-rM-wSo" secondAttribute="top" id="MTd-Aj-L6c"/>
-                                            <constraint firstAttribute="height" constant="44" id="YCN-ui-pYX"/>
-                                            <constraint firstAttribute="bottom" secondItem="qKz-8G-IGE" secondAttribute="bottom" id="il8-x1-cjb"/>
-                                            <constraint firstItem="qKz-8G-IGE" firstAttribute="leading" secondItem="g4R-rM-wSo" secondAttribute="leading" constant="3" id="ksg-8Y-HEb"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Old PIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMu-AN-tU6">
+                                <rect key="frame" x="121" y="102.5" width="133" height="24"/>
+                                <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNO-zy-654" customClass="PasswordView">
+                                <rect key="frame" x="67" y="463" width="240" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="hNO-zy-654" firstAttribute="centerX" secondItem="M45-TA-3gb" secondAttribute="centerX" id="5Dx-Yd-grd"/>
-                                    <constraint firstAttribute="trailing" secondItem="Jq6-eK-ofj" secondAttribute="trailing" id="6Bc-Df-ljk"/>
-                                    <constraint firstItem="cMu-AN-tU6" firstAttribute="centerX" secondItem="M45-TA-3gb" secondAttribute="centerX" id="IIa-54-92W"/>
-                                    <constraint firstItem="Jq6-eK-ofj" firstAttribute="top" secondItem="M45-TA-3gb" secondAttribute="top" id="MSM-8r-XMF"/>
-                                    <constraint firstItem="g4R-rM-wSo" firstAttribute="leading" secondItem="M45-TA-3gb" secondAttribute="leading" id="bqd-CD-SUM"/>
-                                    <constraint firstAttribute="trailing" secondItem="g4R-rM-wSo" secondAttribute="trailing" id="d1C-WH-DBg"/>
-                                    <constraint firstItem="Jq6-eK-ofj" firstAttribute="leading" secondItem="M45-TA-3gb" secondAttribute="leading" id="dGs-r7-a8p"/>
-                                    <constraint firstItem="g4R-rM-wSo" firstAttribute="top" secondItem="M45-TA-3gb" secondAttribute="top" constant="20" id="f83-gX-rdg"/>
-                                    <constraint firstAttribute="bottom" secondItem="hNO-zy-654" secondAttribute="bottom" constant="30" id="gx7-7z-muz"/>
-                                    <constraint firstAttribute="height" constant="300" id="swZ-xf-sgJ"/>
+                                    <constraint firstAttribute="height" constant="100" id="Q0w-Fx-GEO"/>
+                                    <constraint firstAttribute="width" constant="240" id="kSk-cb-5UR"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUc-hH-xZa">
@@ -1209,7 +1155,7 @@
                                     <constraint firstAttribute="height" constant="50" id="hOm-dp-tGh"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="omd-W2-43a"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="18"/>
                                 <state key="normal" title="CANCEL">
                                     <color key="titleColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -1223,14 +1169,14 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="M45-TA-3gb" firstAttribute="leading" secondItem="VoQ-xb-rzT" secondAttribute="leading" id="1mk-0B-m4g"/>
+                            <constraint firstItem="cMu-AN-tU6" firstAttribute="centerX" secondItem="VoQ-xb-rzT" secondAttribute="centerX" id="B76-u4-6yz"/>
                             <constraint firstItem="aUc-hH-xZa" firstAttribute="centerX" secondItem="VoQ-xb-rzT" secondAttribute="centerX" id="RwS-xe-3lV"/>
-                            <constraint firstItem="VoQ-xb-rzT" firstAttribute="trailing" secondItem="M45-TA-3gb" secondAttribute="trailing" id="SX3-yo-uhM"/>
-                            <constraint firstItem="cMu-AN-tU6" firstAttribute="centerY" secondItem="ZMS-PD-h3m" secondAttribute="centerY" multiplier="1:3" id="Ybs-j7-T91"/>
-                            <constraint firstItem="M45-TA-3gb" firstAttribute="top" secondItem="ZMS-PD-h3m" secondAttribute="top" id="hty-p1-p9h"/>
+                            <constraint firstItem="hNO-zy-654" firstAttribute="centerX" secondItem="VoQ-xb-rzT" secondAttribute="centerX" id="UtP-Ip-QA7"/>
+                            <constraint firstItem="aUc-hH-xZa" firstAttribute="top" secondItem="hNO-zy-654" secondAttribute="bottom" constant="25" id="bno-WX-THG"/>
                             <constraint firstItem="VoQ-xb-rzT" firstAttribute="bottom" secondItem="aUc-hH-xZa" secondAttribute="bottom" constant="29" id="ph5-DS-vI9"/>
+                            <constraint firstItem="cMu-AN-tU6" firstAttribute="centerY" secondItem="VoQ-xb-rzT" secondAttribute="centerY" multiplier="1:3" id="tdg-Rq-U06"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VoQ-xb-rzT"/>
                     </view>
@@ -1400,16 +1346,16 @@
         <scene sceneID="hcQ-iY-Ne2">
             <objects>
                 <viewController storyboardIdentifier="ConfirmPinForExportViewControllerLight" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="87E-o5-3ez" customClass="ConfirmPinForExportViewControllerLight" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="640-gF-zql">
+                    <view key="view" contentMode="scaleToFill" id="640-gF-zql" customClass="GradientView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJJ-XF-0hv" customClass="GradientView">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJJ-XF-0hv">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm PIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLG-Z8-e8u">
-                                        <rect key="frame" x="129.5" y="99.5" width="116" height="24"/>
-                                        <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="20"/>
+                                        <rect key="frame" x="128" y="99.5" width="119" height="24"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1428,7 +1374,7 @@
                                             <constraint firstAttribute="height" constant="50" id="pIZ-VV-bm9"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="xUj-t9-oAA"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="18"/>
                                         <state key="normal" title="CANCEL">
                                             <color key="titleColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -1442,35 +1388,6 @@
                                             <segue destination="jZ2-ef-ECU" kind="unwind" unwindAction="unwingToStart:" id="aVJ-4d-8dt"/>
                                         </connections>
                                     </button>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H1b-oh-8cZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xua-nB-zur">
-                                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm PIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfe-W7-9Pa">
-                                                        <rect key="frame" x="142" y="14" width="92" height="17"/>
-                                                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="17"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <constraints>
-                                                    <constraint firstItem="Hfe-W7-9Pa" firstAttribute="centerX" secondItem="Xua-nB-zur" secondAttribute="centerX" id="2J4-06-R2F"/>
-                                                    <constraint firstItem="Hfe-W7-9Pa" firstAttribute="centerY" secondItem="Xua-nB-zur" secondAttribute="centerY" id="W9j-Bz-S9b"/>
-                                                    <constraint firstAttribute="height" constant="44" id="sQW-g2-UFk"/>
-                                                </constraints>
-                                            </view>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.21063089369999999" green="0.33473819490000001" blue="0.78443151710000003" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="Xua-nB-zur" firstAttribute="leading" secondItem="H1b-oh-8cZ" secondAttribute="leading" id="1hj-x6-bKe"/>
-                                            <constraint firstAttribute="trailing" secondItem="Xua-nB-zur" secondAttribute="trailing" id="GgG-i1-8As"/>
-                                            <constraint firstAttribute="bottom" secondItem="Xua-nB-zur" secondAttribute="bottom" id="TaO-lF-2bt"/>
-                                            <constraint firstAttribute="height" constant="64" id="TjL-WU-Pgp"/>
-                                        </constraints>
-                                    </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uFd-UP-UUH" customClass="DiagramView">
                                         <rect key="frame" x="0.0" y="453" width="375" height="214"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1489,7 +1406,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="LtY-dY-DPc" firstAttribute="leading" secondItem="nJJ-XF-0hv" secondAttribute="leading" id="0AY-Ke-7xd"/>
@@ -1499,13 +1416,10 @@
                                     <constraint firstItem="tos-Vx-bkj" firstAttribute="top" secondItem="qFp-H5-myh" secondAttribute="bottom" constant="25" id="J9S-xu-hol"/>
                                     <constraint firstItem="zLG-Z8-e8u" firstAttribute="centerY" secondItem="nJJ-XF-0hv" secondAttribute="centerY" multiplier="1:3" id="OoA-K2-rds"/>
                                     <constraint firstAttribute="bottom" secondItem="uFd-UP-UUH" secondAttribute="bottom" id="Psl-0B-3H7"/>
-                                    <constraint firstItem="H1b-oh-8cZ" firstAttribute="leading" secondItem="nJJ-XF-0hv" secondAttribute="leading" id="QiH-Zv-jMb"/>
-                                    <constraint firstItem="H1b-oh-8cZ" firstAttribute="top" secondItem="nJJ-XF-0hv" secondAttribute="top" id="YGP-Xt-L3O"/>
                                     <constraint firstItem="tos-Vx-bkj" firstAttribute="centerX" secondItem="nJJ-XF-0hv" secondAttribute="centerX" id="fUO-e9-HEI"/>
                                     <constraint firstAttribute="bottom" secondItem="LtY-dY-DPc" secondAttribute="bottom" id="wO1-wy-gpC"/>
                                     <constraint firstAttribute="bottom" secondItem="tos-Vx-bkj" secondAttribute="bottom" constant="20" id="wbw-ON-E5x"/>
                                     <constraint firstAttribute="trailing" secondItem="uFd-UP-UUH" secondAttribute="trailing" id="xzf-b9-Vzl"/>
-                                    <constraint firstAttribute="trailing" secondItem="H1b-oh-8cZ" secondAttribute="trailing" id="yuc-nN-arD"/>
                                     <constraint firstItem="zLG-Z8-e8u" firstAttribute="centerX" secondItem="nJJ-XF-0hv" secondAttribute="centerX" id="zBZ-Hi-uzi"/>
                                 </constraints>
                                 <connections>
@@ -1520,7 +1434,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ypw-pK-08i" firstAttribute="trailing" secondItem="nJJ-XF-0hv" secondAttribute="trailing" id="4Tf-r4-O1g"/>
                             <constraint firstItem="nJJ-XF-0hv" firstAttribute="top" secondItem="640-gF-zql" secondAttribute="top" id="MYW-qO-nYg"/>
@@ -1585,8 +1499,8 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAz-V6-WxF">
-                                                <rect key="frame" x="160" y="10" width="56" height="24"/>
-                                                <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="20"/>
+                                                <rect key="frame" x="158" y="10" width="59" height="24"/>
+                                                <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1611,15 +1525,15 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgd-JG-wMS">
-                                <rect key="frame" x="30" y="419.5" width="315" height="38.5"/>
+                                <rect key="frame" x="30" y="427" width="315" height="38"/>
                                 <string key="text">© 2017 HTMLCOIN
 Version</string>
-                                <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="16"/>
                                 <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="GBu-Su-6fF">
-                                <rect key="frame" x="129.5" y="283.5" width="115" height="100"/>
+                                <rect key="frame" x="129.5" y="276" width="115" height="115"/>
                                 <color key="tintColor" red="0.30588235289999999" green="0.36470588240000001" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
@@ -3012,7 +2926,7 @@ AAElzwABJdwAASXhAAEl6QABJewAASXxAAEl+QABJfwAASYOAAEmEQABJhYAAAAAAAAEAQAAAAAAAABZ
 AAAAAAAAAAAAAAAAAAEmGA
 </mutableData>
         </image>
-        <image name="logo" width="115" height="100"/>
+        <image name="logo" width="115" height="115"/>
         <image name="share" width="20" height="21"/>
         <image name="upload" width="25" height="21"/>
     </resources>

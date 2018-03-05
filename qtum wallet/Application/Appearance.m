@@ -100,9 +100,8 @@
     [[SVProgressHUD appearance] setMinimumDismissTimeInterval:1];
     [[SVProgressHUD appearance] setCornerRadius:5];
     
-    //StymieBT-Bold
     [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName : lightGrayColor(),
-                                                         NSFontAttributeName:[UIFont fontWithName:@"StymieBT-Bold" size:10]}
+                                                         NSFontAttributeName:[UIFont fontWithName:@"WorkSans-Medium" size:14]}
                                              forState:UIControlStateNormal];
     [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName : [UIColor blackColor]/*lightDarkGrayColor()*/,
                                                          NSFontAttributeName:[UIFont fontWithName:@"StymieBT-Bold" size:10]}

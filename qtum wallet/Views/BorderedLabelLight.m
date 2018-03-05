@@ -9,6 +9,7 @@
 #import "BorderedLabelLight.h"
 #import "InnerShadowView.h"
 
+
 @interface BorderedLabelLight()
 
 @property (nonatomic) CALayer *shadowLayer;
@@ -19,7 +20,7 @@
 
 - (UIColor *)getBorderColor {
 //    return [lightBlackColor78() colorWithAlphaComponent:0.2f];
-    return [UIColor whiteColor];
+    return customBlueColor();
 }
 
 - (UIColor *)getBackroundColor {

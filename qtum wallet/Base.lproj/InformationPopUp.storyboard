@@ -10,17 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="StymieLtBTBold.ttf">
-            <string>StymieBT-Bold</string>
+        <array key="WorkSans-Medium.ttf">
+            <string>WorkSans-Medium</string>
         </array>
-        <array key="StymieLtBTLight.ttf">
-            <string>StymieBT-Light</string>
-        </array>
-        <array key="simplonmono-medium.ttf">
-            <string>simplonmono-medium</string>
-        </array>
-        <array key="simplonmono-regular.ttf">
-            <string>simplonmono-regular</string>
+        <array key="WorkSans-Regular.ttf">
+            <string>WorkSans-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -41,19 +35,24 @@
                                 <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dkd-Oz-HuN">
-                                <rect key="frame" x="30" y="148" width="315" height="171"/>
+                                <rect key="frame" x="30" y="140.5" width="315" height="187"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIx-mx-xNr">
-                                        <rect key="frame" x="20" y="53" width="275" height="36"/>
+                                        <rect key="frame" x="20" y="53" width="275" height="40"/>
                                         <string key="text">Your balance was 
 updated</string>
-                                        <fontDescription key="fontDescription" name="simplonmono-medium" family="simplonmono" pointSize="15"/>
-                                        <color key="textColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="17"/>
+                                        <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0m-pd-y8j">
-                                        <rect key="frame" x="142.5" y="119" width="30" height="32"/>
-                                        <fontDescription key="fontDescription" name="simplonmono-regular" family="simplonmono" pointSize="16"/>
+                                        <rect key="frame" x="82.5" y="123" width="150" height="44"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="WJd-Rn-VhI"/>
+                                            <constraint firstAttribute="width" constant="150" id="eXt-eZ-zgj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="18"/>
                                         <state key="normal" title="OK">
                                             <color key="titleColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -65,7 +64,7 @@ updated</string>
                                         <rect key="frame" x="147" y="17" width="21" height="21"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.18039215689999999" green="0.60392156860000001" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="eIx-mx-xNr" firstAttribute="leading" secondItem="Dkd-Oz-HuN" secondAttribute="leading" constant="20" id="2Kf-DT-X9b"/>
                                     <constraint firstItem="eIx-mx-xNr" firstAttribute="top" secondItem="YYN-Pn-8N7" secondAttribute="bottom" constant="15" id="MbM-H4-dYa"/>
@@ -120,13 +119,13 @@ updated</string>
                                 <rect key="frame" x="57" y="148.5" width="262" height="170"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxx-RQ-wP2">
-                                        <rect key="frame" x="55.5" y="103" width="150" height="42"/>
+                                        <rect key="frame" x="55.5" y="101" width="150" height="44"/>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="150" id="Swq-k7-Jfe"/>
-                                            <constraint firstAttribute="height" constant="42" id="uX1-l0-omZ"/>
+                                            <constraint firstAttribute="height" constant="44" id="uX1-l0-omZ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="StymieBT-Bold" family="Stymie Lt BT" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Medium" family="Work Sans" pointSize="18"/>
                                         <state key="normal" title="OK">
                                             <color key="titleColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -141,14 +140,14 @@ updated</string>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-confirmed" translatesAutoresizingMaskIntoConstraints="NO" id="qhx-Mh-bfB">
-                                        <rect key="frame" x="45" y="31" width="13" height="13"/>
+                                        <rect key="frame" x="35" y="31" width="13" height="13"/>
                                         <color key="tintColor" red="0.30588235289999999" green="0.36470588240000001" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imb-Hs-18b">
-                                        <rect key="frame" x="61" y="30" width="140" height="43.5"/>
+                                        <rect key="frame" x="51" y="30" width="160" height="42.5"/>
                                         <string key="text">Your balance was 
 updated</string>
-                                        <fontDescription key="fontDescription" name="StymieBT-Light" family="Stymie Lt BT" pointSize="18"/>
+                                        <fontDescription key="fontDescription" name="WorkSans-Regular" family="Work Sans" pointSize="18"/>
                                         <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
