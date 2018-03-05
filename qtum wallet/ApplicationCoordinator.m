@@ -384,7 +384,7 @@
         return;
     }
     
-    [[ApplicationCoordinator sharedInstance].requestManager updateDeviceTokenWithParam:@{@"addresses":[addresses allKeys],@"deviceToken":token} withSuccessHandler:^(id responseObject) {
+    [[ApplicationCoordinator sharedInstance].requestManager updateDeviceTokenWithParam:@{@"addresses":[addresses allKeys],@"deviceToken":token,@"platform":@"ios"} withSuccessHandler:^(id responseObject) {
         
     } andFailureHandler:^(NSString *message) {
         
