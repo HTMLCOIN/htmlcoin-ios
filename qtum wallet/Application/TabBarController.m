@@ -48,9 +48,11 @@
     
     CGRect f = self.tabBar.frame;
     NSLog(@"Tabbar: %f", f.size.height);
-    f.size.height = 64;
-    f.origin.y = [UIScreen mainScreen].bounds.size.height - 64;
-    self.tabBar.frame = f;
+    if (f.size.height < 64) {
+        f.size.height = 64;
+        f.origin.y = [UIScreen mainScreen].bounds.size.height - 64;
+        self.tabBar.frame = f;
+    }
 }
 
 #pragma mark - Configuration
