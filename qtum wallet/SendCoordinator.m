@@ -64,7 +64,7 @@
     __weak __typeof(self)weakSelf = self;
     [[TransactionManager sharedInstance] getFeePerKbWithHandler:^(QTUMBigNumber *feePerKb) {
         
-        QTUMBigNumber* minFee = feePerKb;
+        QTUMBigNumber* minFee = [[QTUMBigNumber alloc] initWithString:@"0.1"]; // feePerKb;
         QTUMBigNumber* maxFee = [PaymentValuesManager sharedInstance].maxFee;
         
         [weakSelf.paymentOutput setMinFee:minFee andMaxFee: maxFee];

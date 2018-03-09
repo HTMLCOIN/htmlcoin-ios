@@ -297,8 +297,8 @@ static NSInteger hidedGasTopForSend = -40;
               andUnconfimrmedBalance:(QTUMBigNumber*) walletUnconfirmedBalance {
     
     //updating constraints and activity info
-    self.residueValueLabel.text = [NSString stringWithFormat:@"%@", [walletBalance.decimalNumber roundedNumberWithScale:3]];
-    self.unconfirmedBalance.text = [NSString stringWithFormat:@"%@", [walletUnconfirmedBalance.decimalNumber roundedNumberWithScale:3]];
+    self.residueValueLabel.text = [NSString stringWithFormat:@"%@", [walletBalance.decimalNumber roundedNumberWithScale:8]];
+    self.unconfirmedBalance.text = [NSString stringWithFormat:@"%@", [walletUnconfirmedBalance.decimalNumber roundedNumberWithScale:8]];
 
     BOOL isTokensExists = isExist;
     self.tokenTextField.hidden =
