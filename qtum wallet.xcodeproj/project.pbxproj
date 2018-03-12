@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		12213378F7D9F231C86C3D80 /* libPods-htmlcoin wallet prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3F1ECC5B3C35D4E55B9045 /* libPods-htmlcoin wallet prod.a */; };
-		513CF19DCEA07C5902F4BBA3 /* libPods-QTUM Watch Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D13E8DC1F063838D72A8F /* libPods-QTUM Watch Extension.a */; };
 		63074233202C570A00A98F95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63074232202C570A00A98F95 /* GoogleService-Info.plist */; };
 		63074236202C571B00A98F95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63074234202C571900A98F95 /* GoogleService-Info.plist */; };
 		63094EDE20125516006528CA /* STYMIEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63094EDA20125515006528CA /* STYMIEB.ttf */; };
@@ -541,7 +540,6 @@
 		636EFDD12046C1F20013C110 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B35733331F97B3A700C64AAE /* libxml2.tbd */; };
 		636EFDD22046C1F20013C110 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FD365B1DC7360400748177 /* Security.framework */; };
 		636EFDD32046C1F20013C110 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6310656D203FCAFE0086A866 /* Realm.framework */; };
-		636EFDD42046C1F20013C110 /* libPods-htmlcoin wallet prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3F1ECC5B3C35D4E55B9045 /* libPods-htmlcoin wallet prod.a */; };
 		636EFDD52046C1F20013C110 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07A203FCDC3005520C2 /* Realm.framework */; };
 		636EFDD72046C1F20013C110 /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = B30960BA1F62EACC00BEF9D2 /* Avenir.ttc */; };
 		636EFDD82046C1F20013C110 /* simplonmono-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3EE8F551F13B97B00131823 /* simplonmono-regular.ttf */; };
@@ -1766,6 +1764,7 @@
 		63BC1986204C09E4000D5D51 /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63BC196B204C09D8000D5D51 /* WorkSans-Thin.ttf */; };
 		63D032362015D8E200470705 /* ContentInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D032352015D8E200470705 /* ContentInsetLabel.m */; };
 		AA02EC51675EF0D61CD260D4 /* libPods-htmlcoin wallet staging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD6F69206DD5B607F1D756C /* libPods-htmlcoin wallet staging.a */; };
+		AAE2CA48516096E333BE7626 /* libPods-htmlcoin wallet prod foundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB38FB3D42AE280D2BCE884F /* libPods-htmlcoin wallet prod foundation.a */; };
 		B3014D601F2A1B8D007EAE7A /* WatchContractViewControllerDark.m in Sources */ = {isa = PBXBuildFile; fileRef = B3014D5F1F2A1B8D007EAE7A /* WatchContractViewControllerDark.m */; };
 		B3014D631F2A1B9E007EAE7A /* WatchContractViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3014D621F2A1B9E007EAE7A /* WatchContractViewControllerLight.m */; };
 		B3014D661F2A1BBB007EAE7A /* WatchTokensViewControllerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = B3014D651F2A1BBB007EAE7A /* WatchTokensViewControllerLight.m */; };
@@ -2171,6 +2170,7 @@
 		D09F83991F7BB2DB002F3098 /* CopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F83981F7BB2DB002F3098 /* CopyLabel.m */; };
 		D09F839C1F7BF308002F3098 /* QStoreCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F839B1F7BF308002F3098 /* QStoreCategory.m */; };
 		D124729EB3ED6097CF6CB511 /* libPods-htmlcoin wallet dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CB8B908A6B15ABD1BB61C4 /* libPods-htmlcoin wallet dev.a */; };
+		E12CEA2088218BAF4E906D1B /* libPods-htmlcoin wallet prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3F1ECC5B3C35D4E55B9045 /* libPods-htmlcoin wallet prod.a */; };
 		E703530A1F039297004ECCC9 /* QStoreSearchTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E70353091F039297004ECCC9 /* QStoreSearchTableSource.m */; };
 		E703530F1F03AC41004ECCC9 /* QStoreListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E703530E1F03AC41004ECCC9 /* QStoreListViewController.m */; };
 		E70353121F03AC59004ECCC9 /* QStoreListTableSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E70353111F03AC59004ECCC9 /* QStoreListTableSource.m */; };
@@ -2488,8 +2488,7 @@
 		19CB8B908A6B15ABD1BB61C4 /* libPods-htmlcoin wallet dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-htmlcoin wallet dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2601E5D944F526E1947C2A50 /* libPods-qtum walletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qtum walletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2FBBBBB5655C103D193E92 /* libPods-QTUM Watch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTUM Watch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BF76CB84CEC21748630883B /* Pods-htmlcoin wallet prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet prod.release.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod.release.xcconfig"; sourceTree = "<group>"; };
-		4DCA96264341BA8A5D0C98FD /* Pods-QTUM Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTUM Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-QTUM Watch Extension/Pods-QTUM Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		504DEF6E3E3493A8A28DCBC1 /* Pods-htmlcoin wallet prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet prod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod.debug.xcconfig"; sourceTree = "<group>"; };
 		519546849A39853435BC09D5 /* Pods-htmlcoin wallet dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet dev/Pods-htmlcoin wallet dev.release.xcconfig"; sourceTree = "<group>"; };
 		536D13E8DC1F063838D72A8F /* libPods-QTUM Watch Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTUM Watch Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63074232202C570A00A98F95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "googleservice_production/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -2533,7 +2532,8 @@
 		63D8E4952020284B000BA4BD /* htmlcoin wallet prod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "htmlcoin wallet prod.entitlements"; sourceTree = "<group>"; };
 		63D8E49620202893000BA4BD /* htmlcoin wallet staging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "htmlcoin wallet staging.entitlements"; sourceTree = "<group>"; };
 		7A3F1ECC5B3C35D4E55B9045 /* libPods-htmlcoin wallet prod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-htmlcoin wallet prod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		932FF012846189FD7D3E9B01 /* Pods-htmlcoin wallet prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet prod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod.debug.xcconfig"; sourceTree = "<group>"; };
+		7A4B5EAB68026F7909D36812 /* Pods-htmlcoin wallet prod foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet prod foundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet prod foundation/Pods-htmlcoin wallet prod foundation.debug.xcconfig"; sourceTree = "<group>"; };
+		AB38FB3D42AE280D2BCE884F /* libPods-htmlcoin wallet prod foundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-htmlcoin wallet prod foundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3014D5C1F29FD63007EAE7A /* WatchContractOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchContractOutput.h; sourceTree = "<group>"; };
 		B3014D5D1F29FD7C007EAE7A /* WatchContractOutputDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchContractOutputDelegate.h; sourceTree = "<group>"; };
 		B3014D5E1F2A1B8D007EAE7A /* WatchContractViewControllerDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchContractViewControllerDark.h; sourceTree = "<group>"; };
@@ -3276,7 +3276,6 @@
 		B3E8B78E1F4B2AC400DD7904 /* ConfirmPurchasePopUpViewControllerLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmPurchasePopUpViewControllerLight.m; sourceTree = "<group>"; };
 		B3E8B7901F4B2AD300DD7904 /* ConfirmPurchasePopUpViewControllerDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmPurchasePopUpViewControllerDark.h; sourceTree = "<group>"; };
 		B3E8B7911F4B2AD300DD7904 /* ConfirmPurchasePopUpViewControllerDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmPurchasePopUpViewControllerDark.m; sourceTree = "<group>"; };
-		B3E96B8E4986BB8AF3BD6A7F /* Pods-QTUM Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTUM Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QTUM Watch Extension/Pods-QTUM Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		B3EA52F21F45E087002FD201 /* QStoreContractViewControllerDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QStoreContractViewControllerDark.h; sourceTree = "<group>"; };
 		B3EA52F31F45E087002FD201 /* QStoreContractViewControllerDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QStoreContractViewControllerDark.m; sourceTree = "<group>"; };
 		B3EA52F51F45E0A0002FD201 /* QStoreContractViewControllerLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QStoreContractViewControllerLight.h; sourceTree = "<group>"; };
@@ -3385,6 +3384,7 @@
 		B3F76A7B1EDDABBE00108DE9 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		B3F76A7C1EDDABBE00108DE9 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		B3F76A931EDDB81600108DE9 /* Contracts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Contracts; sourceTree = "<group>"; };
+		B6E17A23D9219B6569EEFA84 /* Pods-htmlcoin wallet prod foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet prod foundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet prod foundation/Pods-htmlcoin wallet prod foundation.release.xcconfig"; sourceTree = "<group>"; };
 		C2691AB8BF93DE0B85D6BCC8 /* Pods-htmlcoin wallet staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet staging/Pods-htmlcoin wallet staging.release.xcconfig"; sourceTree = "<group>"; };
 		D059BE791F84E4A70045ABA0 /* PaymentValuesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentValuesManager.h; sourceTree = "<group>"; };
 		D059BE7A1F84E4A70045ABA0 /* PaymentValuesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentValuesManager.m; sourceTree = "<group>"; };
@@ -3396,6 +3396,7 @@
 		D09F83981F7BB2DB002F3098 /* CopyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyLabel.m; sourceTree = "<group>"; };
 		D09F839A1F7BF308002F3098 /* QStoreCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QStoreCategory.h; sourceTree = "<group>"; };
 		D09F839B1F7BF308002F3098 /* QStoreCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QStoreCategory.m; sourceTree = "<group>"; };
+		E606646883F1D5998E2EFCBD /* Pods-htmlcoin wallet prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet prod.release.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod.release.xcconfig"; sourceTree = "<group>"; };
 		E70353081F039297004ECCC9 /* QStoreSearchTableSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QStoreSearchTableSource.h; sourceTree = "<group>"; };
 		E70353091F039297004ECCC9 /* QStoreSearchTableSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QStoreSearchTableSource.m; sourceTree = "<group>"; };
 		E703530D1F03AC41004ECCC9 /* QStoreListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QStoreListViewController.h; sourceTree = "<group>"; };
@@ -3847,8 +3848,8 @@
 				636EFDD12046C1F20013C110 /* libxml2.tbd in Frameworks */,
 				636EFDD22046C1F20013C110 /* Security.framework in Frameworks */,
 				636EFDD32046C1F20013C110 /* Realm.framework in Frameworks */,
-				636EFDD42046C1F20013C110 /* libPods-htmlcoin wallet prod.a in Frameworks */,
 				636EFDD52046C1F20013C110 /* Realm.framework in Frameworks */,
+				AAE2CA48516096E333BE7626 /* libPods-htmlcoin wallet prod foundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3893,7 +3894,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				513CF19DCEA07C5902F4BBA3 /* libPods-QTUM Watch Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3906,6 +3906,7 @@
 				6310656F203FCB110086A866 /* Realm.framework in Frameworks */,
 				12213378F7D9F231C86C3D80 /* libPods-htmlcoin wallet prod.a in Frameworks */,
 				634BB07B203FCDC3005520C2 /* Realm.framework in Frameworks */,
+				E12CEA2088218BAF4E906D1B /* libPods-htmlcoin wallet prod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3981,14 +3982,14 @@
 		94DECCBC55E0AE7D7EF532E6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B3E96B8E4986BB8AF3BD6A7F /* Pods-QTUM Watch Extension.debug.xcconfig */,
-				4DCA96264341BA8A5D0C98FD /* Pods-QTUM Watch Extension.release.xcconfig */,
-				932FF012846189FD7D3E9B01 /* Pods-htmlcoin wallet prod.debug.xcconfig */,
-				4BF76CB84CEC21748630883B /* Pods-htmlcoin wallet prod.release.xcconfig */,
 				EF612F4F200C37400E745D72 /* Pods-htmlcoin wallet dev.debug.xcconfig */,
 				519546849A39853435BC09D5 /* Pods-htmlcoin wallet dev.release.xcconfig */,
 				096F91C08DBC3FBC4CA452A4 /* Pods-htmlcoin wallet staging.debug.xcconfig */,
 				C2691AB8BF93DE0B85D6BCC8 /* Pods-htmlcoin wallet staging.release.xcconfig */,
+				504DEF6E3E3493A8A28DCBC1 /* Pods-htmlcoin wallet prod.debug.xcconfig */,
+				E606646883F1D5998E2EFCBD /* Pods-htmlcoin wallet prod.release.xcconfig */,
+				7A4B5EAB68026F7909D36812 /* Pods-htmlcoin wallet prod foundation.debug.xcconfig */,
+				B6E17A23D9219B6569EEFA84 /* Pods-htmlcoin wallet prod foundation.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -6829,6 +6830,7 @@
 				7A3F1ECC5B3C35D4E55B9045 /* libPods-htmlcoin wallet prod.a */,
 				19CB8B908A6B15ABD1BB61C4 /* libPods-htmlcoin wallet dev.a */,
 				EFD6F69206DD5B607F1D756C /* libPods-htmlcoin wallet staging.a */,
+				AB38FB3D42AE280D2BCE884F /* libPods-htmlcoin wallet prod foundation.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -6840,17 +6842,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 636EFE1E2046C1F20013C110 /* Build configuration list for PBXNativeTarget "htmlcoin wallet prod foundation" */;
 			buildPhases = (
-				636EFBD42046C1F20013C110 /* [CP] Check Pods Manifest.lock */,
+				9F8C0002936822B15C6698AC /* [CP] Check Pods Manifest.lock */,
 				636EFBD52046C1F20013C110 /* Sources */,
 				636EFDD02046C1F20013C110 /* Frameworks */,
 				636EFDD62046C1F20013C110 /* Resources */,
-				636EFE162046C1F20013C110 /* [CP] Embed Pods Frameworks */,
-				636EFE172046C1F20013C110 /* [CP] Copy Pods Resources */,
 				636EFE182046C1F20013C110 /* ShellScript */,
-				636EFE192046C1F20013C110 /* ShellScript */,
 				636EFE1A2046C1F20013C110 /* Embed Watch Content */,
 				636EFE1B2046C1F20013C110 /* Embed Frameworks */,
 				636EFE1D2046C1F20013C110 /* ShellScript */,
+				ACA92194E19080E0B4F73E34 /* [CP] Embed Pods Frameworks */,
+				88353F5F8BC4AB58445B11F2 /* [CP] Copy Pods Resources */,
+				630260F02052F71300A38CF5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -6965,12 +6967,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E730AB7D1EE6A5D200132711 /* Build configuration list for PBXNativeTarget "QTUM Watch Extension" */;
 			buildPhases = (
-				89BC4DFE66310CB728A32FF3 /* [CP] Check Pods Manifest.lock */,
 				E730AB5C1EE6A5D100132711 /* Sources */,
 				E730AB5D1EE6A5D100132711 /* Frameworks */,
 				E730AB5E1EE6A5D100132711 /* Resources */,
-				C88B65B85B6E62E33BD6E667 /* [CP] Embed Pods Frameworks */,
-				15CEF20E879ACBFC8916FCE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -7115,10 +7114,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				636EFBD32046C1F20013C110 /* htmlcoin wallet prod foundation */,
 				E7FD36371DC4D07E00748177 /* htmlcoin wallet prod */,
 				63B789AF201ED02D005E7848 /* htmlcoin wallet dev */,
 				63B78BF4201ED5B3005E7848 /* htmlcoin wallet staging */,
+				636EFBD32046C1F20013C110 /* htmlcoin wallet prod foundation */,
 				B33EAF871E5EC262006125F3 /* iMessageExtension */,
 				E730AB531EE6A5D100132711 /* QTUM Watch */,
 				E730AB5F1EE6A5D100132711 /* QTUM Watch Extension */,
@@ -7499,21 +7498,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		15CEF20E879ACBFC8916FCE6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTUM Watch Extension/Pods-QTUM Watch Extension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		30F604EC4F05719877BF6939 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -7583,56 +7567,18 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet staging/Pods-htmlcoin wallet staging-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		636EFBD42046C1F20013C110 /* [CP] Check Pods Manifest.lock */ = {
+		630260F02052F71300A38CF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-htmlcoin wallet prod-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		636EFE162046C1F20013C110 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		636EFE172046C1F20013C110 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod-resources.sh",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "#\"${PODS_ROOT}/Fabric/iOS/Fabric.framework/run\"\n\"${PODS_ROOT}/Fabric/run\"";
 		};
 		636EFE182046C1F20013C110 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -7647,19 +7593,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-		636EFE192046C1F20013C110 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 41db5a1ea3ca62a26f56f41e07085664e42f9f95 1f0ea4bed2dacc368ad16cd4a824581fd7b8526917f01e88c15e720abc50f45d";
 		};
 		636EFE1D2046C1F20013C110 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -7756,7 +7689,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet staging/Pods-htmlcoin wallet staging-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		89BC4DFE66310CB728A32FF3 /* [CP] Check Pods Manifest.lock */ = {
+		88353F5F8BC4AB58445B11F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod foundation/Pods-htmlcoin wallet prod foundation-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod foundation/Pods-htmlcoin wallet prod foundation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F8C0002936822B15C6698AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -7767,11 +7718,26 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QTUM Watch Extension-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-htmlcoin wallet prod foundation-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA92194E19080E0B4F73E34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod foundation/Pods-htmlcoin wallet prod foundation-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B3C4553C1E8958D900420D7C /* ShellScript */ = {
@@ -7804,21 +7770,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C88B65B85B6E62E33BD6E667 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QTUM Watch Extension/Pods-QTUM Watch Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E78D0C9A1ED2F02800CB91FF /* ShellScript */ = {
@@ -10278,7 +10229,7 @@
 /* Begin XCBuildConfiguration section */
 		636EFE1F2046C1F20013C110 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 932FF012846189FD7D3E9B01 /* Pods-htmlcoin wallet prod.debug.xcconfig */;
+			baseConfigurationReference = 7A4B5EAB68026F7909D36812 /* Pods-htmlcoin wallet prod foundation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -10286,6 +10237,7 @@
 				CODE_SIGN_ENTITLEMENTS = "htmlcoin wallet prod.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = L9J23KXGMP;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -10345,7 +10297,7 @@
 		};
 		636EFE202046C1F20013C110 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BF76CB84CEC21748630883B /* Pods-htmlcoin wallet prod.release.xcconfig */;
+			baseConfigurationReference = B6E17A23D9219B6569EEFA84 /* Pods-htmlcoin wallet prod foundation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -10771,7 +10723,6 @@
 		};
 		E730AB7B1EE6A5D200132711 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3E96B8E4986BB8AF3BD6A7F /* Pods-QTUM Watch Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -10795,7 +10746,6 @@
 		};
 		E730AB7C1EE6A5D200132711 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DCA96264341BA8A5D0C98FD /* Pods-QTUM Watch Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -10929,7 +10879,7 @@
 		};
 		E7FD36501DC4D07E00748177 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 932FF012846189FD7D3E9B01 /* Pods-htmlcoin wallet prod.debug.xcconfig */;
+			baseConfigurationReference = 504DEF6E3E3493A8A28DCBC1 /* Pods-htmlcoin wallet prod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -10996,7 +10946,7 @@
 		};
 		E7FD36511DC4D07E00748177 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BF76CB84CEC21748630883B /* Pods-htmlcoin wallet prod.release.xcconfig */;
+			baseConfigurationReference = E606646883F1D5998E2EFCBD /* Pods-htmlcoin wallet prod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;

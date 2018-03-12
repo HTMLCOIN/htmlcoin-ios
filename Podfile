@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '8.0'
+ platform :ios, '9.0'
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
@@ -21,6 +21,9 @@ def shared_pods
 #    end
 end
 
+target 'htmlcoin wallet prod foundation' do
+    shared_pods
+end
 
 target 'htmlcoin wallet prod' do
     shared_pods
@@ -34,7 +37,7 @@ target 'htmlcoin wallet staging' do
     shared_pods
 end
 
-target 'QTUM Watch Extension' do
-    pod 'NKWatchActivityIndicator'
-end
+#target 'QTUM Watch Extension' do
+#    pod 'NKWatchActivityIndicator'
+#end
 

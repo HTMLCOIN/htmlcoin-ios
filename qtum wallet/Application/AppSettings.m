@@ -69,7 +69,7 @@
 }
 
 -(void)setupFabric{
-    [Fabric with:@[[Crashlytics class]]];
+//    [Fabric with:@[[Crashlytics class]]];
 }
 
 -(void)setupFingerpring {
