@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>htmlcoindev</string>
+	<string>htmlcoin testnet</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -29,20 +29,6 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>93</string>
-	<key>Fabric</key>
-	<dict>
-		<key>APIKey</key>
-		<string>41db5a1ea3ca62a26f56f41e07085664e42f9f95</string>
-		<key>Kits</key>
-		<array>
-			<dict>
-				<key>KitInfo</key>
-				<dict/>
-				<key>KitName</key>
-				<string>Crashlytics</string>
-			</dict>
-		</array>
-	</dict>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
 	<key>ITSAppUsesNonExemptEncryption</key>

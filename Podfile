@@ -29,7 +29,7 @@ target 'htmlcoin wallet prod' do
     shared_pods
 end
 
-target 'htmlcoin wallet dev' do
+target 'htmlcoin wallet testnet' do
     shared_pods
 end
 

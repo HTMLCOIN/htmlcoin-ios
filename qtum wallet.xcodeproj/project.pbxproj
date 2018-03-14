@@ -1762,6 +1762,9 @@
 		63BC1984204C09E4000D5D51 /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63BC196E204C09DA000D5D51 /* WorkSans-Medium.ttf */; };
 		63BC1985204C09E4000D5D51 /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63BC196A204C09D7000D5D51 /* WorkSans-Regular.ttf */; };
 		63BC1986204C09E4000D5D51 /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63BC196B204C09D8000D5D51 /* WorkSans-Thin.ttf */; };
+		63C5C89B2058DF13004C4E17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C5C8992058DEDE004C4E17 /* GoogleService-Info.plist */; };
+		63C5C89E2058E7C0004C4E17 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07A203FCDC3005520C2 /* Realm.framework */; };
+		63C5C89F2058E7C0004C4E17 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 634BB07A203FCDC3005520C2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		63D032362015D8E200470705 /* ContentInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D032352015D8E200470705 /* ContentInsetLabel.m */; };
 		AA02EC51675EF0D61CD260D4 /* libPods-htmlcoin wallet staging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD6F69206DD5B607F1D756C /* libPods-htmlcoin wallet staging.a */; };
 		AAE2CA48516096E333BE7626 /* libPods-htmlcoin wallet prod foundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB38FB3D42AE280D2BCE884F /* libPods-htmlcoin wallet prod foundation.a */; };
@@ -2376,6 +2379,7 @@
 		EC7C9F3B204402640098553D /* HistoryElementValueRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */; };
 		EC7C9F3C204402640098553D /* HistoryElementValueRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */; };
 		EC7C9F3D204402640098553D /* HistoryElementValueRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7C9F3A204402630098553D /* HistoryElementValueRealm.m */; };
+		FAB1D263771F1C9B16E0E9C4 /* libPods-htmlcoin wallet testnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B66B99CF380078B36EDE36 /* libPods-htmlcoin wallet testnet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2459,6 +2463,17 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63C5C8A02058E7C0004C4E17 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63C5C89F2058E7C0004C4E17 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E730AB7E1EE6A5D200132711 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2485,8 +2500,10 @@
 /* Begin PBXFileReference section */
 		0903654DC429CD9C31C04908 /* libPods-qtum wallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qtum wallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		096F91C08DBC3FBC4CA452A4 /* Pods-htmlcoin wallet staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet staging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet staging/Pods-htmlcoin wallet staging.debug.xcconfig"; sourceTree = "<group>"; };
+		12B66B99CF380078B36EDE36 /* libPods-htmlcoin wallet testnet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-htmlcoin wallet testnet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CB8B908A6B15ABD1BB61C4 /* libPods-htmlcoin wallet dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-htmlcoin wallet dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2601E5D944F526E1947C2A50 /* libPods-qtum walletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qtum walletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F9E0893DE1EA47A9551443 /* Pods-htmlcoin wallet testnet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet testnet.release.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet testnet/Pods-htmlcoin wallet testnet.release.xcconfig"; sourceTree = "<group>"; };
 		4B2FBBBBB5655C103D193E92 /* libPods-QTUM Watch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTUM Watch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		504DEF6E3E3493A8A28DCBC1 /* Pods-htmlcoin wallet prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet prod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod.debug.xcconfig"; sourceTree = "<group>"; };
 		519546849A39853435BC09D5 /* Pods-htmlcoin wallet dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet dev/Pods-htmlcoin wallet dev.release.xcconfig"; sourceTree = "<group>"; };
@@ -2517,7 +2534,7 @@
 		637016B82047A242006175EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "googleservice_production foundation/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63898A5F2043FA05000887AA /* AddressBalanceRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBalanceRealm.m; sourceTree = "<group>"; };
 		63898A602043FA06000887AA /* AddressBalanceRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBalanceRealm.h; sourceTree = "<group>"; };
-		63B78BF2201ED02E005E7848 /* htmlcoin wallet dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B78BF2201ED02E005E7848 /* htmlcoin wallet testnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet testnet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B78BF3201ED02E005E7848 /* qtum wallet testnet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "qtum wallet testnet-Info.plist"; path = "/Users/longpham/Projects/R3/htmlcoin-ios/qtum wallet testnet-Info.plist"; sourceTree = "<absolute>"; };
 		63B78E37201ED5B3005E7848 /* htmlcoin wallet staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "htmlcoin wallet staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B78E38201ED5B3005E7848 /* qtum wallet regtest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "qtum wallet regtest-Info.plist"; path = "/Users/longpham/Projects/R3/htmlcoin-ios/qtum wallet regtest-Info.plist"; sourceTree = "<absolute>"; };
@@ -2527,6 +2544,8 @@
 		63BC196C204C09D8000D5D51 /* WorkSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.ttf"; sourceTree = SOURCE_ROOT; };
 		63BC196D204C09D9000D5D51 /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = SOURCE_ROOT; };
 		63BC196E204C09DA000D5D51 /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.ttf"; sourceTree = SOURCE_ROOT; };
+		63C5C8992058DEDE004C4E17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "googleservice_testnet/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		63C5C89D2058E628004C4E17 /* htmlcoin wallet testnet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "htmlcoin wallet testnet.entitlements"; sourceTree = "<group>"; };
 		63D032342015D8E200470705 /* ContentInsetLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentInsetLabel.h; sourceTree = "<group>"; };
 		63D032352015D8E200470705 /* ContentInsetLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentInsetLabel.m; sourceTree = "<group>"; };
 		63D8E4952020284B000BA4BD /* htmlcoin wallet prod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "htmlcoin wallet prod.entitlements"; sourceTree = "<group>"; };
@@ -3396,6 +3415,7 @@
 		D09F83981F7BB2DB002F3098 /* CopyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyLabel.m; sourceTree = "<group>"; };
 		D09F839A1F7BF308002F3098 /* QStoreCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QStoreCategory.h; sourceTree = "<group>"; };
 		D09F839B1F7BF308002F3098 /* QStoreCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QStoreCategory.m; sourceTree = "<group>"; };
+		D1C0080C73D188E76AE57C45 /* Pods-htmlcoin wallet testnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet testnet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet testnet/Pods-htmlcoin wallet testnet.debug.xcconfig"; sourceTree = "<group>"; };
 		E606646883F1D5998E2EFCBD /* Pods-htmlcoin wallet prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htmlcoin wallet prod.release.xcconfig"; path = "Pods/Target Support Files/Pods-htmlcoin wallet prod/Pods-htmlcoin wallet prod.release.xcconfig"; sourceTree = "<group>"; };
 		E70353081F039297004ECCC9 /* QStoreSearchTableSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QStoreSearchTableSource.h; sourceTree = "<group>"; };
 		E70353091F039297004ECCC9 /* QStoreSearchTableSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QStoreSearchTableSource.m; sourceTree = "<group>"; };
@@ -3860,6 +3880,8 @@
 				63B78BA8201ED02D005E7848 /* libxml2.tbd in Frameworks */,
 				63B78BA9201ED02D005E7848 /* Security.framework in Frameworks */,
 				D124729EB3ED6097CF6CB511 /* libPods-htmlcoin wallet dev.a in Frameworks */,
+				FAB1D263771F1C9B16E0E9C4 /* libPods-htmlcoin wallet testnet.a in Frameworks */,
+				63C5C89E2058E7C0004C4E17 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3990,6 +4012,8 @@
 				E606646883F1D5998E2EFCBD /* Pods-htmlcoin wallet prod.release.xcconfig */,
 				7A4B5EAB68026F7909D36812 /* Pods-htmlcoin wallet prod foundation.debug.xcconfig */,
 				B6E17A23D9219B6569EEFA84 /* Pods-htmlcoin wallet prod foundation.release.xcconfig */,
+				D1C0080C73D188E76AE57C45 /* Pods-htmlcoin wallet testnet.debug.xcconfig */,
+				34F9E0893DE1EA47A9551443 /* Pods-htmlcoin wallet testnet.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -6577,6 +6601,7 @@
 		E7FD362F1DC4D07E00748177 = {
 			isa = PBXGroup;
 			children = (
+				63C5C89D2058E628004C4E17 /* htmlcoin wallet testnet.entitlements */,
 				634BB07A203FCDC3005520C2 /* Realm.framework */,
 				634BB07E203FCDDF005520C2 /* Realm.framework */,
 				63D8E49620202893000BA4BD /* htmlcoin wallet staging.entitlements */,
@@ -6596,6 +6621,7 @@
 				63074234202C571900A98F95 /* GoogleService-Info.plist */,
 				63074232202C570A00A98F95 /* GoogleService-Info.plist */,
 				636EFE222046C1F30013C110 /* htmlcoin wallet prod copy-Info.plist */,
+				63C5C8992058DEDE004C4E17 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -6607,7 +6633,7 @@
 				E730AB541EE6A5D100132711 /* QTUM Watch.app */,
 				E730AB601EE6A5D100132711 /* QTUM Watch Extension.appex */,
 				B3A4EA591F502E65008115D1 /* qtum walletTests.xctest */,
-				63B78BF2201ED02E005E7848 /* htmlcoin wallet dev.app */,
+				63B78BF2201ED02E005E7848 /* htmlcoin wallet testnet.app */,
 				63B78E37201ED5B3005E7848 /* htmlcoin wallet staging.app */,
 				636EFE212046C1F20013C110 /* htmlcoin wallet prod foundation.app */,
 			);
@@ -6831,6 +6857,7 @@
 				19CB8B908A6B15ABD1BB61C4 /* libPods-htmlcoin wallet dev.a */,
 				EFD6F69206DD5B607F1D756C /* libPods-htmlcoin wallet staging.a */,
 				AB38FB3D42AE280D2BCE884F /* libPods-htmlcoin wallet prod foundation.a */,
+				12B66B99CF380078B36EDE36 /* libPods-htmlcoin wallet testnet.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -6863,27 +6890,28 @@
 			productReference = 636EFE212046C1F20013C110 /* htmlcoin wallet prod foundation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63B789AF201ED02D005E7848 /* htmlcoin wallet dev */ = {
+		63B789AF201ED02D005E7848 /* htmlcoin wallet testnet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63B78BEF201ED02D005E7848 /* Build configuration list for PBXNativeTarget "htmlcoin wallet dev" */;
+			buildConfigurationList = 63B78BEF201ED02D005E7848 /* Build configuration list for PBXNativeTarget "htmlcoin wallet testnet" */;
 			buildPhases = (
 				499B43E66ED592E1801B1EC8 /* [CP] Check Pods Manifest.lock */,
 				63B789B1201ED02D005E7848 /* Sources */,
 				63B78BA7201ED02D005E7848 /* Frameworks */,
 				63B78BAB201ED02D005E7848 /* Resources */,
 				63B78BEC201ED02D005E7848 /* ShellScript */,
-				63B78BED201ED02D005E7848 /* ShellScript */,
 				63B78BEE201ED02D005E7848 /* Embed Watch Content */,
 				30F604EC4F05719877BF6939 /* [CP] Embed Pods Frameworks */,
 				3F738E41647105947FBBD4CA /* [CP] Copy Pods Resources */,
+				63C5C89C2058E359004C4E17 /* ShellScript */,
+				63C5C8A02058E7C0004C4E17 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "htmlcoin wallet dev";
+			name = "htmlcoin wallet testnet";
 			productName = "qtum wallet";
-			productReference = 63B78BF2201ED02E005E7848 /* htmlcoin wallet dev.app */;
+			productReference = 63B78BF2201ED02E005E7848 /* htmlcoin wallet testnet.app */;
 			productType = "com.apple.product-type.application";
 		};
 		63B78BF4201ED5B3005E7848 /* htmlcoin wallet staging */ = {
@@ -7019,8 +7047,19 @@
 						ProvisioningStyle = Automatic;
 					};
 					63B789AF201ED02D005E7848 = {
-						DevelopmentTeam = PJC8N7MDSQ;
+						DevelopmentTeam = L9J23KXGMP;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					63B78BF4201ED5B3005E7848 = {
 						DevelopmentTeam = PJC8N7MDSQ;
@@ -7115,7 +7154,7 @@
 			projectRoot = "";
 			targets = (
 				E7FD36371DC4D07E00748177 /* htmlcoin wallet prod */,
-				63B789AF201ED02D005E7848 /* htmlcoin wallet dev */,
+				63B789AF201ED02D005E7848 /* htmlcoin wallet testnet */,
 				63B78BF4201ED5B3005E7848 /* htmlcoin wallet staging */,
 				636EFBD32046C1F20013C110 /* htmlcoin wallet prod foundation */,
 				B33EAF871E5EC262006125F3 /* iMessageExtension */,
@@ -7272,6 +7311,7 @@
 				63B78BE4201ED02D005E7848 /* LaunchScreen.storyboard in Resources */,
 				63B78BE5201ED02D005E7848 /* ConfirmPurchasePopUp.storyboard in Resources */,
 				63B78BE6201ED02D005E7848 /* News.storyboard in Resources */,
+				63C5C89B2058DF13004C4E17 /* GoogleService-Info.plist in Resources */,
 				63B78BE7201ED02D005E7848 /* Start.storyboard in Resources */,
 				63B78BE8201ED02D005E7848 /* RestoreContractsPopUp.storyboard in Resources */,
 				63B78BE9201ED02D005E7848 /* Assets.xcassets in Resources */,
@@ -7510,7 +7550,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet dev/Pods-htmlcoin wallet dev-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet testnet/Pods-htmlcoin wallet testnet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3F738E41647105947FBBD4CA /* [CP] Copy Pods Resources */ = {
@@ -7519,7 +7559,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet dev/Pods-htmlcoin wallet dev-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet testnet/Pods-htmlcoin wallet testnet-resources.sh",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -7528,7 +7568,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet dev/Pods-htmlcoin wallet dev-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-htmlcoin wallet testnet/Pods-htmlcoin wallet testnet-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		499B43E66ED592E1801B1EC8 /* [CP] Check Pods Manifest.lock */ = {
@@ -7542,7 +7582,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-htmlcoin wallet dev-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-htmlcoin wallet testnet-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -7634,19 +7674,6 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
-		63B78BED201ED02D005E7848 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 41db5a1ea3ca62a26f56f41e07085664e42f9f95 1f0ea4bed2dacc368ad16cd4a824581fd7b8526917f01e88c15e720abc50f45d";
-		};
 		63B78E31201ED5B3005E7848 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -7673,6 +7700,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 41db5a1ea3ca62a26f56f41e07085664e42f9f95 1f0ea4bed2dacc368ad16cd4a824581fd7b8526917f01e88c15e720abc50f45d";
+		};
+		63C5C89C2058E359004C4E17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"";
 		};
 		73E4FDB8D5301FB444270EA7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -10363,14 +10403,15 @@
 		};
 		63B78BF0201ED02D005E7848 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF612F4F200C37400E745D72 /* Pods-htmlcoin wallet dev.debug.xcconfig */;
+			baseConfigurationReference = D1C0080C73D188E76AE57C45 /* Pods-htmlcoin wallet testnet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "htmlcoin wallet testnet.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PJC8N7MDSQ;
+				DEVELOPMENT_TEAM = L9J23KXGMP;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -10419,14 +10460,15 @@
 		};
 		63B78BF1201ED02D005E7848 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519546849A39853435BC09D5 /* Pods-htmlcoin wallet dev.release.xcconfig */;
+			baseConfigurationReference = 34F9E0893DE1EA47A9551443 /* Pods-htmlcoin wallet testnet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "htmlcoin wallet testnet.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PJC8N7MDSQ;
+				DEVELOPMENT_TEAM = L9J23KXGMP;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -11022,7 +11064,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63B78BEF201ED02D005E7848 /* Build configuration list for PBXNativeTarget "htmlcoin wallet dev" */ = {
+		63B78BEF201ED02D005E7848 /* Build configuration list for PBXNativeTarget "htmlcoin wallet testnet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63B78BF0201ED02D005E7848 /* Debug */,
