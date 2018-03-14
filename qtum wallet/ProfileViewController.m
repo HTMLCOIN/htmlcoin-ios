@@ -119,8 +119,10 @@
             text = NSLocalizedString(@"Themes", "");
             
             // TODO: Disable switch to dark theme because we don't have any design for it.
-//            cell.userInteractionEnabled = NO;
-//            cell.contentView.alpha = 0.3f;
+#if PRODUCTION
+            cell.userInteractionEnabled = NO;
+            cell.contentView.alpha = 0.3f;
+#endif
         }else if (indexPath.row == 2) {
             
             image = [UIImage imageNamed:@"ic-logout"];
