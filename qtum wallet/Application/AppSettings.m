@@ -58,6 +58,8 @@
     
 #if PRODUCTION
     [NSUserDefaults saveIsMainnetSetting:YES];
+#elif TESTNET
+    [NSUserDefaults saveIsMainnetSetting:YES];
 #else
     [NSUserDefaults saveIsMainnetSetting:NO];
 #endif
