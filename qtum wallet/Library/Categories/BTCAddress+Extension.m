@@ -19,6 +19,16 @@ enum
     CustomBTCPrivateKeyAddressVersionTestnet = 239,
     CustomBTCScriptHashAddressVersionTestnet = 110,
 };
+#elif TESTNET
+enum
+{
+    CustomBTCPublicKeyAddressVersion         = 100,
+    CustomBTCPrivateKeyAddressVersion        = 228,
+    CustomBTCScriptHashAddressVersion        = 110,
+    CustomBTCPublicKeyAddressVersionTestnet  = 120,
+    CustomBTCPrivateKeyAddressVersionTestnet = 239,
+    CustomBTCScriptHashAddressVersionTestnet = 110,
+};
 #else // STAGING
 enum
 {

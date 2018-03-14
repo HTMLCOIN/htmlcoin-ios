@@ -6902,8 +6902,8 @@
 				63B78BEE201ED02D005E7848 /* Embed Watch Content */,
 				30F604EC4F05719877BF6939 /* [CP] Embed Pods Frameworks */,
 				3F738E41647105947FBBD4CA /* [CP] Copy Pods Resources */,
-				63C5C89C2058E359004C4E17 /* ShellScript */,
 				63C5C8A02058E7C0004C4E17 /* Embed Frameworks */,
+				63C5C89C2058E359004C4E17 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -10419,6 +10419,16 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/qtum wallet/Application/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"TESTNET=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"${PODS_ROOT}/Firebase/Core/Sources",
@@ -10476,6 +10486,16 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/qtum wallet/Application/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"TESTNET=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"${PODS_ROOT}/Firebase/Core/Sources",
