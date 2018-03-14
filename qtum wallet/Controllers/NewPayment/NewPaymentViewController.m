@@ -169,7 +169,7 @@ static NSInteger hidedGasTopForSend = -40;
 -(void)configFee {
     
     [self.feeTextField setEnablePast:NO];
-    self.feeSlider.minimumValue = 0.001f;
+    self.feeSlider.minimumValue = 0.1f;
     self.feeSlider.maximumValue = 0.2f;
     self.feeSlider.value = 0.1;
     self.FEE = [QTUMBigNumber decimalWithString:@"0.1"];
