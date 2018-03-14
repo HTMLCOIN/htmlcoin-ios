@@ -128,7 +128,7 @@
 #elif STAGING
     return @"http://35.198.235.246:3001";
 #else
-    return @"http:testnet-api.htmlcoin.com";
+    return @"http://testnet-api.htmlcoin.com";
 #endif
 //    NSString* baseUrl = @"http://api.htmlcoin.com";
 //    return baseUrl;
