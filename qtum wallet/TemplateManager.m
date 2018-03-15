@@ -69,14 +69,14 @@ static NSString* crowdsaleUuid = @"crowdsale-identifire";
 
 -(TemplateModel*)standartTokenTemplate {
     
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"templateName == %@ && path == %@",@"QRC20 Standard Token",@"QRC20TokenStandard"];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"templateName == %@ && path == %@",@"HRC20 Standard Token",@"HRC20TokenStandard"];
     NSArray* tepmlates = [self.templates filteredArrayUsingPredicate:predicate];
     return tepmlates.firstObject;
 }
 
 -(NSArray<TemplateModel*>*)standartPackOfTemplates {
     
-    TemplateModel* qrc20 = [[TemplateModel alloc] initWithTemplateName:@"QRC20 Standard Token" andType:TokenType withuuid:qrc20TokenUuid path:@"QRC20TokenStandard" isFull:YES];
+    TemplateModel* qrc20 = [[TemplateModel alloc] initWithTemplateName:@"HRC20 Standard Token" andType:TokenType withuuid:qrc20TokenUuid path:@"HRC20TokenStandard" isFull:YES];
     TemplateModel* human = [[TemplateModel alloc] initWithTemplateName:@"Human Standard Token" andType:TokenType withuuid:humanTokenUuid path:@"HumanStandardToken" isFull:YES];
     
     TemplateModel* crowdsale = [[TemplateModel alloc] initWithTemplateName:@"Crowdsale" andType:TokenType withuuid:crowdsaleUuid path:@"Crowdsale" isFull:YES];

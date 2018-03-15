@@ -408,10 +408,10 @@ NSString *const kLocalContractName = @"kLocalContractName";
     }
     
     InterfaceInputFormModel* interfaceInput = [[InterfaceInputFormModel alloc] initWithAbi:[SLocator.contractInterfaceManager arrayFromAbiString:abiStr]];
-    InterfaceInputFormModel* qrc20interfaceInput = [SLocator.contractInterfaceManager tokenQRC20Interface];
+    InterfaceInputFormModel* qrc20interfaceInput = [SLocator.contractInterfaceManager tokenHRC20Interface];
     
     if (![interfaceInput contains:qrc20interfaceInput]) {
-        *errorString = NSLocalizedString(@"ABI doesn't match QRC20 standard", nil);
+        *errorString = NSLocalizedString(@"ABI doesn't match HRC20 standard", nil);
         return NO;
     }
     

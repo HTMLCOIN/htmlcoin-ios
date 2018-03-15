@@ -279,7 +279,7 @@
 "Requested Token not found" = "Requested Token not found";
 
 /* No comment provided by engineer. */
-"ABI doesn't match QRC20 standard" = "ABI doesn't match QRC20 standard";
+"ABI doesn't match HRC20 standard" = "ABI doesn't match HRC20 standard";
 
 /* No comment provided by engineer. */
 "Contract was added to your wallet" = "Contract was added to your wallet";

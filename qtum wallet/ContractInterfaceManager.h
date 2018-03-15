@@ -15,7 +15,7 @@
 @interface ContractInterfaceManager : NSObject
 
 - (InterfaceInputFormModel*)tokenInterfaceWithTemplate:(NSString*)templateName;
-- (InterfaceInputFormModel*)tokenQRC20Interface;
+- (InterfaceInputFormModel*)tokenHRC20Interface;
 - (NSData*)tokenBitecodeWithTemplate:(NSString*)templateName andParam:(NSDictionary*) args;
 - (NSData*)tokenBitecodeWithTemplate:(NSString*)templateName andArray:(NSArray*) args;
 - (NSString*)stringHashOfFunction:(AbiinterfaceItem*) fuctionItem;
@@ -33,6 +33,6 @@
 
 - (BOOL)isERCTokenStandartInterface:(NSArray*) interface;
 - (BOOL)isERCTokenStandartAbiString:(NSString*) abiString;
-- (BOOL)isInterfaceArray:(NSArray*)intefaceArray equalQRC20InterfaceArray:(NSArray*)qrc20;
+- (BOOL)isInterfaceArray:(NSArray*)intefaceArray equalHRC20InterfaceArray:(NSArray*)qrc20;
 
 @end

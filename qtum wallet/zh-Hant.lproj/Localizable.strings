@@ -279,7 +279,7 @@
 "Requested Token not found" = "未找到Token";
 
 /* No comment provided by engineer. */
-"ABI doesn't match QRC20 standard" = "ABI不符合QRC20标准";
+"ABI doesn't match HRC20 standard" = "ABI不符合HRC20标准";
 
 /* No comment provided by engineer. */
 "Contract was added to your wallet" = "合约已添加到钱包";
