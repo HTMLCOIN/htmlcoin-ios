@@ -46,7 +46,8 @@
             return [AppSettings sharedInstance].isFingerprintAllowed ? 3 : 2;
             break;
         case 2:
-            return 2;
+//            return 2;
+            return 0;
             break;
         case 3:
             return 3;
@@ -98,14 +99,14 @@
         if (indexPath.row == 0) {
             image = [UIImage imageNamed:@"ic-smartContract"];
             text = NSLocalizedString(@"Smart Contracts", "");
-            
+
             cell.userInteractionEnabled = NO;
             cell.contentView.alpha = 0.3f;
         } else if (indexPath.row == 1) {
-            
+
             image = [UIImage imageNamed:@"ic-token-subscribe"];
             text = NSLocalizedString(@"Token Subscriptions", "");
-            
+
             cell.userInteractionEnabled = NO;
             cell.contentView.alpha = 0.3f;
         }
@@ -119,10 +120,10 @@
             text = NSLocalizedString(@"Themes", "");
             
             // TODO: Disable switch to dark theme because we don't have any design for it.
-#if PRODUCTION
-            cell.userInteractionEnabled = NO;
-            cell.contentView.alpha = 0.3f;
-#endif
+//#if PRODUCTION
+//            cell.userInteractionEnabled = NO;
+//            cell.contentView.alpha = 0.3f;
+//#endif
         }else if (indexPath.row == 2) {
             
             image = [UIImage imageNamed:@"ic-logout"];

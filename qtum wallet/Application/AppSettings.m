@@ -126,7 +126,8 @@
 -(NSString*)baseURL {
     
 #ifdef PRODUCTION
-    return @"https://api.htmlcoin.com";
+//    return @"https://api.htmlcoin.com";
+    return @"https://explorer.htmlcoin.com";
 #elif STAGING
     return @"http://35.198.235.246:3001";
 #else
